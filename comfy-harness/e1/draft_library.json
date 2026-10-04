@@ -1,0 +1,113 @@
+{
+ "library": [
+  {
+   "id": "s1-flux2sched-v038-wiring",
+   "type": "procedural",
+   "importance": 3,
+   "keywords": [
+    "Flux2Scheduler",
+    "v0.38",
+    "wiring",
+    "schema",
+    "接口变更"
+   ],
+   "content": "{\"c\": \"v0.38 的 Flux2Scheduler 只收 [steps,width,height],接 model/denoise 预检必拒(v0.34 习惯 wiring 在新版失效)。\", \"a\": \"2026-10-02 route2_run.py 首跑:装配预检逮到 sched.model/sched.denoise 两个非法输入,修正后预检通过、26s 出图成功。\", \"d\": \"适用:v0.3x 全系;换版本须重查 object_info。\"}",
+   "status": "draft",
+   "evidence": {
+    "artifact": "comfy-agent连接调研/api-research/(Temp)/route2_run.py 首跑预检输出",
+    "quote": "sched.model 不在本机 Flux2Scheduler 的输入里",
+    "recalc": "GET /object_info/Flux2Scheduler -> required keys"
+   },
+   "created_at": "2026-10-02"
+  },
+  {
+   "id": "s2-uv-venv-move-trampoline",
+   "type": "procedural",
+   "importance": 2,
+   "keywords": [
+    "uv",
+    "venv",
+    "搬移",
+    "trampoline",
+    "exe"
+   ],
+   "content": "{\"c\": \"uv 建的 venv 搬移目录后 Scripts/*.exe 蹦床内嵌旧绝对路径失效,python.exe 仍可用;修复=重装入口点。\", \"a\": \"2026-10-02 D:/comfy→comfy-agent连接调研 搬移实测:comfy.exe/comfy-mcp.exe 报 'uv trampoline failed to canonicalize script path'。\", \"d\": \"应急:python.exe -m comfy_cli 模块方式调用。\"}",
+   "status": "draft",
+   "evidence": {
+    "artifact": "venv 体检记录(调研-卷十二批1A 装配段)",
+    "quote": "uv trampoline failed to canonicalize script path",
+    "recalc": "运行 Scripts/comfy.exe 观察报错"
+   },
+   "tombstone": true,
+   "created_at": "2026-10-02"
+  },
+  {
+   "id": "s3-objectinfo-cache",
+   "type": "semantic",
+   "importance": 2,
+   "keywords": [
+    "object_info",
+    "缓存",
+    "964",
+    "schema"
+   ],
+   "content": "{\"c\": \"/object_info 全量 964 节点类仅 0.7s,每会话拉一次缓存即可;其余按需 /object_info/{class} 单查。\", \"a\": \"2026-10-02 实测全量 0.7s;单类查询远小于全量,重复全量拉取浪费。\", \"d\": \"缓存文件放会话临时目录。\"}",
+   "status": "draft",
+   "evidence": {
+    "artifact": "route2_demo.py object_info_cache.json",
+    "quote": "GET /object_info -> 964 个节点类, 0.7s, 已缓存",
+    "recalc": "重复 GET /object_info 计时"
+   },
+   "created_at": "2026-10-02"
+  }
+ ],
+ "runs": [
+  {
+   "arm": "empty",
+   "tid": "T1",
+   "prompt_id": "c8cf7624-1de4-4b8a-b9a3-7fdf233b3304",
+   "status": "success",
+   "sec": 0.3
+  },
+  {
+   "arm": "empty",
+   "tid": "T2",
+   "prompt_id": "81715041-0025-4881-a3a8-d4ea6c738f60",
+   "status": "success",
+   "sec": 0.0
+  },
+  {
+   "arm": "empty",
+   "tid": "T3",
+   "prompt_id": "2a3de589-edaf-4fa0-9ad6-c2b157de83a0",
+   "status": "success",
+   "sec": 0.5
+  },
+  {
+   "arm": "candidate",
+   "tid": "T1",
+   "prompt_id": "0d5caf81-c519-4d53-8ec3-3183b7f6ba18",
+   "status": "success",
+   "sec": 0.5
+  },
+  {
+   "arm": "candidate",
+   "tid": "T2",
+   "prompt_id": "fbf2352a-6861-45d1-9c94-0f8090edf101",
+   "status": "success",
+   "sec": 0.0
+  },
+  {
+   "arm": "candidate",
+   "tid": "T3",
+   "prompt_id": "26a34e90-0fe0-44d5-a9bc-1576cb51cca5",
+   "status": "success",
+   "sec": 0.5
+  }
+ ],
+ "placeholder": {
+  "empty": 3,
+  "candidate": 3
+ },
+ "delta": 0
+}

@@ -1,0 +1,241 @@
+{
+ "_meta": {
+  "saved_at": "2026-10-05T02:21:36",
+  "schema": "precedent-store/1"
+ },
+ "entries": [
+  {
+   "id": "E2-DSK-A-正序",
+   "type": "episodic",
+   "importance": 3,
+   "keywords": [
+    "E-2",
+    "正式考",
+    "deepseek",
+    "异族判官",
+    "img_A.png",
+    "正序"
+   ],
+   "content": {
+    "c": "判官=deepseek-v4-flash(异族)对img_A.png(正序)判读 {'红方块': 1, '木桌': 1, '黄鸭': 1, '影棚光效': 1};理由:图中可见红色立方体、木质桌面、黄色橡皮鸭，且背景干净、光线均匀柔和，符合影棚光效。",
+    "a": "E-2正式考2026-10-03;判据件v1.0 schema;机械锚随判据下发;时延3.5s/914tok",
+    "d": "判读沿构念判定基准(存在/可辨分开,默认严格读法);img_C②木纹不可辨判0=跨族复现C1-E1'构念分歧"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/e2/e2_results.json+调研-卷十二-C1站2-沙盒/mapping.json",
+    "quote": "图中可见红色立方体、木质桌面、黄色橡皮鸭，且背景干净、光线均匀柔和，符合影棚光效。",
+    "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
+   },
+   "owner": "",
+   "gov": "draft",
+   "_added_by": "ai:卷十二线(W-C E-2)",
+   "_added_at": "2026-10-03T02:17:08"
+  },
+  {
+   "id": "E2-DSK-B-正序",
+   "type": "episodic",
+   "importance": 3,
+   "keywords": [
+    "E-2",
+    "正式考",
+    "deepseek",
+    "异族判官",
+    "img_B.png",
+    "正序"
+   ],
+   "content": {
+    "c": "判官=deepseek-v4-flash(异族)对img_B.png(正序)判读 {'红方块': 1, '木桌': 1, '黄鸭': 1, '影棚光效': 1};理由:图中清晰可见红色立方体、黄色橡皮鸭置于木纹桌面上，灰色背景与柔和布光呈影棚效果。",
+    "a": "E-2正式考2026-10-03;判据件v1.0 schema;机械锚随判据下发;时延10.4s/2248tok",
+    "d": "判读沿构念判定基准(存在/可辨分开,默认严格读法);img_C②木纹不可辨判0=跨族复现C1-E1'构念分歧"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/e2/e2_results.json+调研-卷十二-C1站2-沙盒/mapping.json",
+    "quote": "图中清晰可见红色立方体、黄色橡皮鸭置于木纹桌面上，灰色背景与柔和布光呈影棚效果。",
+    "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
+   },
+   "owner": "",
+   "gov": "draft",
+   "_added_by": "ai:卷十二线(W-C E-2)",
+   "_added_at": "2026-10-03T02:17:08"
+  },
+  {
+   "id": "E2-DSK-C-正序",
+   "type": "episodic",
+   "importance": 3,
+   "keywords": [
+    "E-2",
+    "正式考",
+    "deepseek",
+    "异族判官",
+    "img_C.png",
+    "正序"
+   ],
+   "content": {
+    "c": "判官=deepseek-v4-flash(异族)对img_C.png(正序)判读 {'红方块': 1, '木桌': 0, '黄鸭': 1, '影棚光效': 1};理由:红方块和黄鸭清晰可辨，桌面木材质因模糊不可辨，光线柔和均匀呈影棚效果。",
+    "a": "E-2正式考2026-10-03;判据件v1.0 schema;机械锚随判据下发;时延7.3s/1689tok",
+    "d": "判读沿构念判定基准(存在/可辨分开,默认严格读法);img_C②木纹不可辨判0=跨族复现C1-E1'构念分歧"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/e2/e2_results.json+调研-卷十二-C1站2-沙盒/mapping.json",
+    "quote": "红方块和黄鸭清晰可辨，桌面木材质因模糊不可辨，光线柔和均匀呈影棚效果。",
+    "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
+   },
+   "owner": "",
+   "gov": "draft",
+   "_added_by": "ai:卷十二线(W-C E-2)",
+   "_added_at": "2026-10-03T02:17:08"
+  },
+  {
+   "id": "E2-DSK-D-正序",
+   "type": "episodic",
+   "importance": 3,
+   "keywords": [
+    "E-2",
+    "正式考",
+    "deepseek",
+    "异族判官",
+    "img_D.png",
+    "正序"
+   ],
+   "content": {
+    "c": "判官=deepseek-v4-flash(异族)对img_D.png(正序)判读 {'红方块': 0, '木桌': 1, '黄鸭': 0, '影棚光效': 1};理由:图像为灰度，立方体和橡皮鸭存在但颜色不可辨；木纹桌面与柔光背景/阴影可见，呈影棚光效。",
+    "a": "E-2正式考2026-10-03;判据件v1.0 schema;机械锚随判据下发;时延2.3s/830tok",
+    "d": "判读沿构念判定基准(存在/可辨分开,默认严格读法);img_C②木纹不可辨判0=跨族复现C1-E1'构念分歧"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/e2/e2_results.json+调研-卷十二-C1站2-沙盒/mapping.json",
+    "quote": "图像为灰度，立方体和橡皮鸭存在但颜色不可辨；木纹桌面与柔光背景/阴影可见，呈影棚光效。",
+    "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
+   },
+   "owner": "",
+   "gov": "draft",
+   "_added_by": "ai:卷十二线(W-C E-2)",
+   "_added_at": "2026-10-03T02:17:08"
+  },
+  {
+   "id": "E2-DSK-E2-正序",
+   "type": "episodic",
+   "importance": 3,
+   "keywords": [
+    "E-2",
+    "正式考",
+    "deepseek",
+    "异族判官",
+    "img_E2.png",
+    "正序"
+   ],
+   "content": {
+    "c": "判官=deepseek-v4-flash(异族)对img_E2.png(正序)判读 {'红方块': 1, '木桌': 1, '黄鸭': 0, '影棚光效': 1};理由:画面中可见红色立方体置于木纹桌面，光线均匀且背景干净，呈现影棚布光效果，但无黄色橡皮鸭。",
+    "a": "E-2正式考2026-10-03;判据件v1.0 schema;机械锚随判据下发;时延2.7s/801tok",
+    "d": "判读沿构念判定基准(存在/可辨分开,默认严格读法);img_C②木纹不可辨判0=跨族复现C1-E1'构念分歧"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/e2/e2_results.json+调研-卷十二-C1站2-沙盒/mapping.json",
+    "quote": "画面中可见红色立方体置于木纹桌面，光线均匀且背景干净，呈现影棚布光效果，但无黄色橡皮鸭。",
+    "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
+   },
+   "owner": "",
+   "gov": "draft",
+   "_added_by": "ai:卷十二线(W-C E-2)",
+   "_added_at": "2026-10-03T02:17:08"
+  },
+  {
+   "id": "E2-DSK-C-逆序",
+   "type": "episodic",
+   "importance": 3,
+   "keywords": [
+    "E-2",
+    "正式考",
+    "deepseek",
+    "异族判官",
+    "img_C.png",
+    "逆序"
+   ],
+   "content": {
+    "c": "判官=deepseek-v4-flash(异族)对img_C.png(逆序)判读 {'红方块': 1, '木桌': 0, '黄鸭': 1, '影棚光效': 1};理由:红方块与黄鸭可辨，灰色无缝背景和柔光阴影呈影棚效果；木桌仅见浅色台面，木纹因模糊不可确证。",
+    "a": "E-2正式考2026-10-03;判据件v1.0 schema;机械锚随判据下发;时延9.0s/2076tok",
+    "d": "判读沿构念判定基准(存在/可辨分开,默认严格读法);img_C②木纹不可辨判0=跨族复现C1-E1'构念分歧"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/e2/e2_results.json+调研-卷十二-C1站2-沙盒/mapping.json",
+    "quote": "红方块与黄鸭可辨，灰色无缝背景和柔光阴影呈影棚效果；木桌仅见浅色台面，木纹因模糊不可确证。",
+    "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
+   },
+   "owner": "",
+   "gov": "draft",
+   "_added_by": "ai:卷十二线(W-C E-2)",
+   "_added_at": "2026-10-03T02:17:08"
+  },
+  {
+   "id": "P-field-wiring-flux2-klein",
+   "type": "procedural",
+   "importance": 3,
+   "keywords": [
+    "flux2",
+    "klein",
+    "布线",
+    "field",
+    "SamplerCustom",
+    "sigmas"
+   ],
+   "content": {
+    "c": "flux2 klein 4B 的 API 直连知情布线=UNETLoader+CLIPLoader(type=flux2,qwen_3_4b)+VAELoader(flux2-vae)+CLIPTextEncode×2→FluxGuidance→Flux2Scheduler(steps,width,height)出sigmas→KSamplerSelect(euler)→SamplerCustom(cfg=1.0,sigmas接线)+EmptyFlux2LatentImage→VAEDecode→SaveImage;4步蒸馏,1024²,单卡12G可跑。",
+    "a": "20261005 field_wiring_run 实测:活体 schema 预检零非法键,POST 成功出图。",
+    "d": "适用 v0.38 flux2/klein;Flux2Scheduler 宽高直接传像素(非latent尺寸),steps=4 对应蒸馏版。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/field_receipt.json",
+    "quote": "s1-flux2sched-v038-wiring 判例 [steps,width,height] 对活体逐字命中=True",
+    "recalc": "复跑 comfy-harness/field/field_wiring_run.py"
+   },
+   "owner": "",
+   "gov": "draft",
+   "_added_by": "ai:卷十二线(field)",
+   "_added_at": "2026-10-05T02:21:36"
+  }
+ ],
+ "gov_events": [
+  {
+   "kind": "add",
+   "id": "E2-DSK-A-正序",
+   "actor": "ai:卷十二线(W-C E-2)",
+   "at": "2026-10-03T02:17:08"
+  },
+  {
+   "kind": "add",
+   "id": "E2-DSK-B-正序",
+   "actor": "ai:卷十二线(W-C E-2)",
+   "at": "2026-10-03T02:17:08"
+  },
+  {
+   "kind": "add",
+   "id": "E2-DSK-C-正序",
+   "actor": "ai:卷十二线(W-C E-2)",
+   "at": "2026-10-03T02:17:08"
+  },
+  {
+   "kind": "add",
+   "id": "E2-DSK-D-正序",
+   "actor": "ai:卷十二线(W-C E-2)",
+   "at": "2026-10-03T02:17:08"
+  },
+  {
+   "kind": "add",
+   "id": "E2-DSK-E2-正序",
+   "actor": "ai:卷十二线(W-C E-2)",
+   "at": "2026-10-03T02:17:08"
+  },
+  {
+   "kind": "add",
+   "id": "E2-DSK-C-逆序",
+   "actor": "ai:卷十二线(W-C E-2)",
+   "at": "2026-10-03T02:17:08"
+  },
+  {
+   "kind": "add",
+   "id": "P-field-wiring-flux2-klein",
+   "actor": "ai:卷十二线(field)",
+   "at": "2026-10-05T02:21:36"
+  }
+ ]
+}

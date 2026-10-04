@@ -1,0 +1,41 @@
+{
+ "log": [
+  {
+   "tag": "0.server",
+   "ok": true,
+   "detail": "v0.38.0"
+  },
+  {
+   "tag": "1.schema-facts-reuse",
+   "ok": true,
+   "detail": "s1-flux2sched-v038-wiring 判例 [steps,width,height] 对活体逐字命中=True"
+  },
+  {
+   "tag": "3.preflight-wiring",
+   "ok": true,
+   "detail": "12 节点×输入键对活体 schema 预检: 全过(朴素布线在 s1 场景会带 sched.model/sched.denoise 被拒——知情布线零非法键)"
+  },
+  {
+   "tag": "4.generate",
+   "ok": true,
+   "detail": "prompt_id=d17662a7… status=success sec=42.7"
+  },
+  {
+   "tag": "5.image-verify",
+   "ok": true,
+   "detail": "field_wiring_00001_.png 尺寸=(1024, 1024) 灰度mean=83.5 std=57.9(>10=非空白)"
+  }
+ ],
+ "image": {
+  "file": "comfy-harness/field/out/field_wiring_20261005.png",
+  "size": [
+   1024,
+   1024
+  ],
+  "mean": 83.5,
+  "std": 57.9
+ },
+ "verdict": "咬合",
+ "prompt_id": "d17662a7-8f28-409e-9dcc-35b068d3028d",
+ "seed": 20261005
+}

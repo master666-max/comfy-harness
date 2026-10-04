@@ -1,0 +1,170 @@
+[
+ {
+  "arm": "正序",
+  "image": "img_A.png",
+  "raw": "{\"红方块\":1,\"木桌\":1,\"黄鸭\":1,\"影棚光效\":1,\"一句话理由\":\"图中可见红色立方体、木质桌面、黄色橡皮鸭，且背景干净、光线均匀柔和，符合影棚光效。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "图中可见红色立方体、木质桌面、黄色橡皮鸭，且背景干净、光线均匀柔和，符合影棚光效。"
+  },
+  "finish_reason": "stop",
+  "reasoning_head": "我们需要回答用户。需要作为图像交付质检员，逐条核验判据，独立给1或0。判定基准以图内可见证据能否确证属性为准；存在与可辨分开判——对象存在但属性不可辨时，该属性判0。需要只输出一行JSON。需要判断图片：有一个红色立方体，木桌？黄色橡皮鸭？",
+  "latency_s": 3.5,
+  "usage": {
+   "prompt_tokens": 390,
+   "completion_tokens": 524,
+   "total_tokens": 914,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 469
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 134
+  }
+ },
+ {
+  "arm": "正序",
+  "image": "img_B.png",
+  "raw": "{\"红方块\":1,\"木桌\":1,\"黄鸭\":1,\"影棚光效\":1,\"一句话理由\":\"图中清晰可见红色立方体、黄色橡皮鸭置于木纹桌面上，灰色背景与柔和布光呈影棚效果。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "图中清晰可见红色立方体、黄色橡皮鸭置于木纹桌面上，灰色背景与柔和布光呈影棚效果。"
+  },
+  "finish_reason": "stop",
+  "reasoning_head": "我们需要回答用户。需要作为图像交付质检员，逐条核验判据，对每条独立给1/0。基准以图内可见证据能否确证属性；存在与可辨分开判——对象存在但属性不可辨时属性判0。机械锚读数供参照。只输出一行 JSON。需要根据提供的图像判断。\n\n图像内容：一",
+  "latency_s": 10.4,
+  "usage": {
+   "prompt_tokens": 390,
+   "completion_tokens": 1858,
+   "total_tokens": 2248,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1803
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 134
+  }
+ },
+ {
+  "arm": "正序",
+  "image": "img_C.png",
+  "raw": "{\"红方块\":1,\"木桌\":0,\"黄鸭\":1,\"影棚光效\":1,\"一句话理由\":\"红方块和黄鸭清晰可辨，桌面木材质因模糊不可辨，光线柔和均匀呈影棚效果。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 0,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "红方块和黄鸭清晰可辨，桌面木材质因模糊不可辨，光线柔和均匀呈影棚效果。"
+  },
+  "finish_reason": "stop",
+  "reasoning_head": "We need answer only JSON. Need inspect image. Need determine each criterion.\n\nImage blurred. Visible: red cube? Yes red ",
+  "latency_s": 7.3,
+  "usage": {
+   "prompt_tokens": 390,
+   "completion_tokens": 1299,
+   "total_tokens": 1689,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1247
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 134
+  }
+ },
+ {
+  "arm": "正序",
+  "image": "img_D.png",
+  "raw": "{\"红方块\":0,\"木桌\":1,\"黄鸭\":0,\"影棚光效\":1,\"一句话理由\":\"图像为灰度，立方体和橡皮鸭存在但颜色不可辨；木纹桌面与柔光背景/阴影可见，呈影棚光效。\"}",
+  "parsed": {
+   "红方块": 0,
+   "木桌": 1,
+   "黄鸭": 0,
+   "影棚光效": 1,
+   "一句话理由": "图像为灰度，立方体和橡皮鸭存在但颜色不可辨；木纹桌面与柔光背景/阴影可见，呈影棚光效。"
+  },
+  "finish_reason": "stop",
+  "reasoning_head": "我们需要回答用户。需要作为图像交付质检员，逐条核验验收判据，对每条独立给1或0。判定基准：以图内可见证据能否确证该判据所述属性为准；存在与可辨分开判——对象存在但属性不可辨时，该属性判0。机械锚读数：饱和度均值=0.00，colorfuln",
+  "latency_s": 2.3,
+  "usage": {
+   "prompt_tokens": 382,
+   "completion_tokens": 448,
+   "total_tokens": 830,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 389
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 254
+  }
+ },
+ {
+  "arm": "正序",
+  "image": "img_E2.png",
+  "raw": "{\"红方块\":1,\"木桌\":1,\"黄鸭\":0,\"影棚光效\":1,\"一句话理由\":\"画面中可见红色立方体置于木纹桌面，光线均匀且背景干净，呈现影棚布光效果，但无黄色橡皮鸭。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 0,
+   "影棚光效": 1,
+   "一句话理由": "画面中可见红色立方体置于木纹桌面，光线均匀且背景干净，呈现影棚布光效果，但无黄色橡皮鸭。"
+  },
+  "finish_reason": "stop",
+  "reasoning_head": "我们需要回答用户。需要作为图像交付质检员逐条核验验收判据，对每条独立给1或0。基准：以图内可见证据能否确证属性；存在与可辨分开判——对象存在但属性不可辨时，该属性判0。需要只输出一行 JSON 包含红方块、木桌、黄鸭、影棚光效、一句话理由。",
+  "latency_s": 2.7,
+  "usage": {
+   "prompt_tokens": 382,
+   "completion_tokens": 419,
+   "total_tokens": 801,
+   "prompt_tokens_details": {
+    "cached_tokens": 128
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 361
+   },
+   "prompt_cache_hit_tokens": 128,
+   "prompt_cache_miss_tokens": 254
+  }
+ },
+ {
+  "arm": "逆序",
+  "image": "img_C.png",
+  "raw": "{\"红方块\":1,\"木桌\":0,\"黄鸭\":1,\"影棚光效\":1,\"一句话理由\":\"红方块与黄鸭可辨，灰色无缝背景和柔光阴影呈影棚效果；木桌仅见浅色台面，木纹因模糊不可确证。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 0,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "红方块与黄鸭可辨，灰色无缝背景和柔光阴影呈影棚效果；木桌仅见浅色台面，木纹因模糊不可确证。"
+  },
+  "finish_reason": "stop",
+  "reasoning_head": "我们需要回答用户。需要作为图像交付质检员，逐条核验验收判据，对每条独立给1/0。判定基准：以图内可见证据能否确证该判据所述属性为准；存在与可辨分开判——对象存在但属性不可辨时，该属性判0。判据：④ 图像呈现影棚光效；③ 图像中存在黄色橡皮鸭",
+  "latency_s": 9.0,
+  "usage": {
+   "prompt_tokens": 390,
+   "completion_tokens": 1686,
+   "total_tokens": 2076,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1621
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 134
+  }
+ }
+]
