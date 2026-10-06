@@ -1,0 +1,14 @@
+{
+ "seed": 26100503,
+ "pos": "1girl, solo, white hair, long hair, hair between eyes, blue eyes, hair ornament, frills, white dress, looking at viewer, upper body, outdoors, night, starry sky, moonlight, masterpiece, best quality, very aesthetic, absurdres",
+ "arms": {
+  "base": {
+   "status": "ok",
+   "sec": 0.8
+  },
+  "lora": {
+   "status": "ok",
+   "sec": 18.4
+  }
+ }
+}

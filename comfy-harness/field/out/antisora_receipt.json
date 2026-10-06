@@ -1,0 +1,21 @@
+{
+ "log": [
+  {
+   "tag": "0.server",
+   "ok": true,
+   "detail": "v0.38.0 VRAM free 10.5G"
+  },
+  {
+   "tag": "1.preflight",
+   "ok": true,
+   "detail": "11 节点对活体 schema: 全过"
+  },
+  {
+   "tag": "2.generate",
+   "ok": false,
+   "detail": "sec=1814.7 status=timeout oom=0"
+  }
+ ],
+ "verdict": "不咬合",
+ "oom_hits": 0
+}

@@ -1,0 +1,50 @@
+{
+ "log": [
+  {
+   "tag": "0.server",
+   "ok": true,
+   "detail": "v0.38.0"
+  },
+  {
+   "tag": "1.mint",
+   "ok": true,
+   "detail": "P-field-wiring-facts 已铸（facts 槽位+证据三件套）"
+  },
+  {
+   "tag": "2.machine-verify",
+   "ok": true,
+   "detail": "gov=verified actor=machine:卷十二线-field receipt=field_receipt.json(verdict=咬合)"
+  },
+  {
+   "tag": "3.supply",
+   "ok": true,
+   "detail": "facts_source=recall facts={'Flux2Scheduler': ['steps', 'width', 'height']} skipped_no_facts=4(散文教训跳过计数)"
+  },
+  {
+   "tag": "4.empty-arm",
+   "ok": true,
+   "detail": "朴素先验键 ['denoise', 'height', 'model', 'steps', 'width'] → 活体拒: ['denoise', 'model']"
+  },
+  {
+   "tag": "5.supplied-arm",
+   "ok": true,
+   "detail": "facts 键 ['height', 'steps', 'width'] → 非法键 无"
+  },
+  {
+   "tag": "6.e2e-generate",
+   "ok": true,
+   "detail": "sec=38.1 std=52.4（轴注入 sched 键 ['height', 'steps', 'width']）"
+  },
+  {
+   "tag": "7.outcome",
+   "ok": true,
+   "detail": "首滴油量：facts 判例被轴消费且承重成功"
+  }
+ ],
+ "verdict": "咬合",
+ "e2e": {
+  "ok": true,
+  "std": 52.4,
+  "seed": 26100505
+ }
+}

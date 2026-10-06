@@ -1,0 +1,9 @@
+{
+ "_meta": {"说明": "wiki 重定向惯例：别名→扩展词。查询前展开（expand_query）。数据与治理分离（D-1 裁定）。", "updated": "2026-10-05"},
+ "aliases": {
+  "klein": ["flux2"],
+  "FLUX.2": ["flux2"],
+  "黄鸭图": ["验收", "duck"],
+  "视频线": ["anisora", "wan22"]
+ }
+}

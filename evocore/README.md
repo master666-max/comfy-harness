@@ -69,3 +69,16 @@ cd evocore/tests && py -X utf8 -m unittest        # 111 项（20261002 实跑读
      canonical JSON sha 比对）差异 0 / 空转对 0 · **PASS**（含 filter_zero 判力探针）。
 - 被移出侧（`memsys/`）同步：README/docs 路径更新、`tests/test_bridge.py` 改引本包、
   `audit-kit/{tools_crosscheck.py,conformance.py}` 的宿主面断言随迁（`evocore` 入隔离禁用符号面）。
+
+## 分层宪章 · 开放字段面（2026-10-05 · 候裁件④收口）
+
+**宿主富字段，内核最小面。** facts / applicability / outcomes 类宿主层扩展字段
+（precedent_gov 的 `facts` 槽位、blender 线 B1 `schema_facts`/B2 `applicability`）
+**属宿主层约定，不进本包条目契约**：
+
+- `validate_entry` 对未知字段**宽容**——这是宿主层富字段的存身前提，由
+  `tests/test_entry_open_surface.py` 契约锁钉死（含"未知字段不得影响 content_hash"红线：
+  内容寻址面只锚 content 的 c/a/d 三叶，宿主字段永不进哈希）；
+- 给 `validate_entry` 加严格字段白名单 = 破坏分层宪章 = 该锁会响亮报红；
+- 跨线窗口结论（候裁件④，维护者裁 2026-10-05）：两线各自在宿主层落地富字段
+  （机制同源、各自落地），内核契约不动、冻结时钟互不污染。

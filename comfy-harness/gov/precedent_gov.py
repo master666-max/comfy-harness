@@ -13,6 +13,7 @@ AI 可 append 草稿判例（add），但一切裁决动效必须人签——本
 """
 from __future__ import annotations
 import datetime
+import glob
 import json
 import os
 from evocore import entry as ec_entry
@@ -21,6 +22,14 @@ from evocore import retrieval as ec_ret
 
 class GovernanceRefusal(PermissionError):
     """治理动效缺 human:* 签署时响亮拒绝。"""
+
+
+# 状态机合法迁移表（单一事实源——seed_gov_gate 检查8 引用同源，禁双实现漂移，F5）
+GOV_TRANSITIONS = {
+    "draft": {"verified", "approved"},
+    "verified": {"approved"},
+    "approved": set(),
+}
 
 
 def _now() -> str:
@@ -42,8 +51,17 @@ class PrecedentStore:
         self.gov_events: list[dict] = []
 
     # ---- 写入侧 ----
-    def add(self, entry: dict, actor: str = "ai:unknown") -> dict:
-        """追加草稿判例。AI 可写（draft 性质），不进人闸；validate 用 evocore。"""
+    def add(self, entry: dict, actor: str = "ai:unknown", facts: dict | None = None) -> dict:
+        """追加草稿判例。AI 可写（draft 性质），不进人闸；validate 用 evocore。
+        facts=机器可执行槽位（可选）：必须可 JSON 化的 dict——散文教训不可程序消费。"""
+        if facts is not None:
+            if not isinstance(facts, dict):
+                raise ValueError(f"facts 须为 dict，收到 {type(facts).__name__}")
+            try:
+                json.dumps(facts)
+            except (TypeError, ValueError) as err:
+                raise ValueError(f"facts 不可 JSON 化（{err}）") from err
+            entry["facts"] = facts
         ec_entry.validate_entry(entry)
         entry.setdefault("owner", "")          # 无主=默认不可召回（防毒缺省）
         entry.setdefault("gov", "draft")
@@ -64,6 +82,88 @@ class PrecedentStore:
         ev = {"kind": "promote", "id": eid, "actor": actor, "at": _now()}
         self.gov_events.append(ev)
         return ev
+
+    # ---- 机器层（批一：draft→verified 机器通道，verified 可被 recall_tier 供血）----
+    @staticmethod
+    def _default_whitelist() -> list[str]:
+        """回执白名单目录：comfy-harness/ 全域 + 工作区调研卷沙盒目录。"""
+        gov_dir = os.path.dirname(os.path.abspath(__file__))
+        ch = os.path.dirname(gov_dir)
+        ws = os.path.dirname(ch)
+        return [ch] + sorted(glob.glob(os.path.join(ws, "调研-卷十二-*")))
+
+    def verify(self, eid: str, actor: str, receipt: str,
+               whitelist: list[str] | None = None) -> dict:
+        """draft→verified 机器通道（非对称写权的机器侧升格）。
+        准入判据硬编码：actor 限 machine:* 命名空间；回执路径归一化后必须落于白名单
+        目录内、文件在盘、JSON 内 verdict=咬合——缺一响亮拒绝（伪回执/仓外路径防伪）。"""
+        if not (isinstance(actor, str) and actor.startswith("machine:") and len(actor) > len("machine:")):
+            raise GovernanceRefusal(
+                f"verify({eid}) 拒绝：机器层只认 machine:* 命名空间，收到 {actor!r}"
+                f"——human 走 promote 闸，machine 冒名与越权同罪")
+        e = self._get(eid)
+        if e.get("gov") != "draft":
+            raise GovernanceRefusal(
+                f"verify({eid}) 拒绝：仅 draft 可机器验证，当前 gov={e.get('gov')!r}")
+        rp = os.path.realpath(receipt)
+        wl = [os.path.realpath(w) for w in (whitelist if whitelist is not None
+                                            else self._default_whitelist())]
+        contained = False
+        for w in wl:
+            try:
+                if os.path.commonpath([rp, w]) == w:
+                    contained = True
+                    break
+            except ValueError:
+                continue
+        if not contained:
+            raise ValueError(f"verify({eid}) 拒绝：回执 {rp} 不在白名单目录内（防仓外伪证）")
+        if not os.path.isfile(rp):
+            raise ValueError(f"verify({eid}) 拒绝：回执文件不在盘 {rp}")
+        try:
+            with open(rp, encoding="utf-8") as fh:
+                data = json.load(fh)
+        except (json.JSONDecodeError, OSError) as err:
+            raise ValueError(f"verify({eid}) 拒绝：回执不可读（{err}）") from err
+        if not (isinstance(data, dict) and data.get("verdict") == "咬合"):
+            raise ValueError(f"verify({eid}) 拒绝：回执 verdict≠咬合（机器升格只认承重实证）")
+        e["gov"] = "verified"
+        try:    # 回执路径存仓内相对形式（F4 教训：绝对路径泄本机拓扑且不可移植）
+            _root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+            receipt_rec = os.path.relpath(rp, _root).replace("\\", "/")
+        except ValueError:
+            receipt_rec = rp
+        ev = {"kind": "verify", "id": eid, "actor": actor, "receipt": receipt_rec, "at": _now()}
+        self.gov_events.append(ev)
+        return ev
+
+    def recall_tier(self, query: str, k: int = 5, now=None) -> list[dict]:
+        """传动轴供血面：verified+approved 双层召回（tier 标注入，approved 优先）。
+        与 recall() 的差别：不受 owner 闸（机器 verified 件 owner 天然空——防毒由
+        verify 硬判据承担），draft 永不供血。消费侧对无 facts 条目跳过并计数。"""
+        pool = [e for e in self.entries
+                if not e.get("tombstone") and e.get("gov") in ("approved", "verified")]
+        ranked = ec_ret.retrieve(pool, query, k=k, now=now)
+        approved = [(s, e) for s, e in ranked if e.get("gov") == "approved"]
+        verified = [(s, e) for s, e in ranked if e.get("gov") == "verified"]
+        out = []
+        for s, e in approved + verified:
+            e["_tier"] = e["gov"]
+            if e.get("deprecated"):
+                e["_gov_flag"] = "deprecated"
+            out.append((s, e))
+        return out
+
+    def record_outcome(self, eid: str, result: str, context: str,
+                       actor: str = "machine:unknown") -> dict:
+        """油量计：成败战绩追加到条目内 outcomes（append-only，权威轴不动）。
+        域归纳燃料（批四）与自动降旗触发器（批三）的数据源。"""
+        if result not in ("success", "failure"):
+            raise ValueError(f"result 须为 success|failure，收到 {result!r}")
+        e = self._get(eid)
+        rec = {"result": result, "context": str(context)[:200], "actor": actor, "at": _now()}
+        e.setdefault("outcomes", []).append(rec)
+        return rec
 
     def deprecate(self, eid: str, actor: str, reason: str = "") -> dict:
         """退场通道①：标记不删——仍可召回但检索结果带 deprecated 旗。"""

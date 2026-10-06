@@ -21,6 +21,9 @@ _ROOT = os.path.dirname(os.path.dirname(_HERE))
 sys.path.insert(0, _ROOT)
 sys.path.insert(0, os.path.join(_ROOT, "comfy-harness", "gov"))
 from precedent_gov import PrecedentStore  # noqa: E402
+from run_outcome import record_run_outcome  # noqa: E402
+
+MINTED_EID = "P-field-wiring-flux2-klein"
 
 BASE = "http://127.0.0.1:8188"
 DIR = os.path.dirname(os.path.abspath(__file__))
@@ -149,6 +152,7 @@ bite = all(c["ok"] for c in R["log"])
 R["verdict"] = "咬合" if bite else "不咬合"
 R["prompt_id"] = pid
 R["seed"] = SEED
+R["eids"] = [MINTED_EID]
 os.makedirs(OUT, exist_ok=True)
 json.dump(R, open(os.path.join(OUT, "field_receipt.json"), "w", encoding="utf-8"),
           ensure_ascii=False, indent=1)
@@ -169,5 +173,6 @@ if bite:
     store.save(SEED_PATH)
     print(f"\n[判例] P-field-wiring-flux2-klein 已追加 draft（owner 空，候人 promote）并原子落盘回 seed")
 
+record_run_outcome(MINTED_EID, R["verdict"], "FIELD-WIRING")   # 批二埋点常开
 print(f"\n=== 飞轮实地读数:{R['verdict']} ===")
 sys.exit(0 if bite else 1)

@@ -1,0 +1,52 @@
+{
+ "log": [
+  {
+   "tag": "0.server",
+   "ok": true,
+   "detail": "v0.38.0"
+  },
+  {
+   "tag": "1.preflight",
+   "ok": true,
+   "detail": "双臂预检: 全过"
+  },
+  {
+   "tag": "2.base",
+   "ok": true,
+   "detail": "sec=15.5 file=noobai_base_00002_.png"
+  },
+  {
+   "tag": "2.lora",
+   "ok": true,
+   "detail": "sec=16.8 file=noobai_lora_00002_.png"
+  },
+  {
+   "tag": "3.mech-diff",
+   "ok": true,
+   "detail": "基线 S_mean=170.61 colorfulness=32.45 | LoRA臂 S_mean=151.85 colorfulness=23.61 | S_mean差=18.76"
+  }
+ ],
+ "verdict": "咬合",
+ "arms": {
+  "base": {
+   "status": "ok",
+   "file": "noobai_base_00002_.png",
+   "sec": 15.5
+  },
+  "lora": {
+   "status": "ok",
+   "file": "noobai_lora_00002_.png",
+   "sec": 16.8
+  }
+ },
+ "mech": {
+  "base": [
+   170.61,
+   32.45
+  ],
+  "lora": [
+   151.85,
+   23.61
+  ]
+ }
+}

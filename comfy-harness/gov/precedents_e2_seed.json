@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "saved_at": "2026-10-05T02:21:36",
+  "saved_at": "2026-10-05T23:07:26",
   "schema": "precedent-store/1"
  },
  "entries": [
@@ -26,10 +26,11 @@
     "quote": "图中可见红色立方体、木质桌面、黄色橡皮鸭，且背景干净、光线均匀柔和，符合影棚光效。",
     "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
    },
-   "owner": "",
-   "gov": "draft",
+   "owner": "human:master666-max",
+   "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
-   "_added_at": "2026-10-03T02:17:08"
+   "_added_at": "2026-10-03T02:17:08",
+   "_tier": "approved"
   },
   {
    "id": "E2-DSK-B-正序",
@@ -53,10 +54,11 @@
     "quote": "图中清晰可见红色立方体、黄色橡皮鸭置于木纹桌面上，灰色背景与柔和布光呈影棚效果。",
     "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
    },
-   "owner": "",
-   "gov": "draft",
+   "owner": "human:master666-max",
+   "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
-   "_added_at": "2026-10-03T02:17:08"
+   "_added_at": "2026-10-03T02:17:08",
+   "_tier": "approved"
   },
   {
    "id": "E2-DSK-C-正序",
@@ -80,10 +82,11 @@
     "quote": "红方块和黄鸭清晰可辨，桌面木材质因模糊不可辨，光线柔和均匀呈影棚效果。",
     "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
    },
-   "owner": "",
-   "gov": "draft",
+   "owner": "human:master666-max",
+   "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
-   "_added_at": "2026-10-03T02:17:08"
+   "_added_at": "2026-10-03T02:17:08",
+   "_tier": "approved"
   },
   {
    "id": "E2-DSK-D-正序",
@@ -107,8 +110,8 @@
     "quote": "图像为灰度，立方体和橡皮鸭存在但颜色不可辨；木纹桌面与柔光背景/阴影可见，呈影棚光效。",
     "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
    },
-   "owner": "",
-   "gov": "draft",
+   "owner": "human:master666-max",
+   "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
    "_added_at": "2026-10-03T02:17:08"
   },
@@ -134,8 +137,8 @@
     "quote": "画面中可见红色立方体置于木纹桌面，光线均匀且背景干净，呈现影棚布光效果，但无黄色橡皮鸭。",
     "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
    },
-   "owner": "",
-   "gov": "draft",
+   "owner": "human:master666-max",
+   "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
    "_added_at": "2026-10-03T02:17:08"
   },
@@ -161,8 +164,8 @@
     "quote": "红方块与黄鸭可辨，灰色无缝背景和柔光阴影呈影棚效果；木桌仅见浅色台面，木纹因模糊不可确证。",
     "recalc": "复跑 comfy-harness/e2/e2_deepseek_exam.py"
    },
-   "owner": "",
-   "gov": "draft",
+   "owner": "human:master666-max",
+   "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
    "_added_at": "2026-10-03T02:17:08"
   },
@@ -188,10 +191,104 @@
     "quote": "s1-flux2sched-v038-wiring 判例 [steps,width,height] 对活体逐字命中=True",
     "recalc": "复跑 comfy-harness/field/field_wiring_run.py"
    },
-   "owner": "",
-   "gov": "draft",
+   "owner": "human:master666-max",
+   "gov": "approved",
    "_added_by": "ai:卷十二线(field)",
-   "_added_at": "2026-10-05T02:21:36"
+   "_added_at": "2026-10-05T02:21:36",
+   "_tier": "approved"
+  },
+  {
+   "id": "P-noobai-vpred-autodetect",
+   "type": "semantic",
+   "importance": 3,
+   "keywords": [
+    "NoobAI",
+    "v-prediction",
+    "自动识别",
+    "ComfyUI-0.38",
+    "过时教训"
+   ],
+   "content": {
+    "c": "ComfyUI 0.38.0 对 NoobAI-XL Vpred v1.0 自动识别 v_prediction+zsnr——朴素直载即正确姿势;显式中插 ModelSamplingDiscrete(v_prediction,zsnr=True) 为等价操作(同seed像素级全同)。v0.34 时代「必须手动 v-pred 处置」的老教训在 0.38 已过时,勿再照搬。",
+    "a": "20261005 双臂同seed实测:朴素/知情两臂 HSV S_mean 与 colorfulness 分毫不差,PIL 像素 md5 7f598ee4… 全同(PNG 差异仅内嵌 prompt 元数据)。",
+    "d": "适用:NoobAI 系/SDXL v-pred 在 0.38+;旧版本(0.3x早期)仍可能需手动处置,跨版本须重验。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/noobai_receipt.json",
+    "quote": "像素级全同: True (md5 7f598ee45e3d13182fda622e83d9959a)",
+    "recalc": "复跑 comfy-harness/field/noobai_vpred_run.py + out 两图像素哈希"
+   },
+   "owner": "human:master666-max",
+   "gov": "approved",
+   "_added_by": "ai:卷十二线(field)",
+   "_added_at": "2026-10-05T02:46:11"
+  },
+  {
+   "id": "P-noobai-vp1-detailer-lora",
+   "type": "procedural",
+   "importance": 2,
+   "keywords": [
+    "NoobAI",
+    "LoRA",
+    "细节增强",
+    "风格组件",
+    "LoraLoader"
+   ],
+   "content": {
+    "c": "NoobAI-XL Vpred 配 NOOB_vp1_detailer_by_volnovik_v1(strength 1.0/1.0, model+clip 全链)为即插风格组件——LoraLoader 中插于 Checkpoint 与 KSampler/CLIPTextEncode 之间即可,同 seed 构图保持、细节走向改变。",
+    "a": "20261005 A/B 实测: 基线 vs LoRA臂机械读数分离, 图见 field/out/noobai_{base,lora}.png。",
+    "d": "strength>1.2 易过雕塑感;与 EasyNegative LoRA 组合未测。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/noobai_receipt.json",
+    "quote": "基线 S_mean=170.61 vs LoRA臂 S_mean=151.85",
+    "recalc": "复跑 comfy-harness/field/noobai_lora_style.py"
+   },
+   "owner": "human:master666-max",
+   "gov": "approved",
+   "_added_by": "ai:卷十二线(field)",
+   "_added_at": "2026-10-05T02:55:26"
+  },
+  {
+   "id": "P-field-wiring-facts",
+   "type": "procedural",
+   "importance": 3,
+   "keywords": [
+    "flux2",
+    "布线",
+    "schema",
+    "机器事实"
+   ],
+   "content": {
+    "c": "flux2 klein 0.38 活体的 Flux2Scheduler 机器事实：合法输入键=steps/width/height（sched.model/sched.denoise 已废除,朴素先验必被活体 schema 拒）。",
+    "a": "20261005 field_wiring_run 实测 12 节点零非法键+承重实验空库臂预检拒（同件回执）。",
+    "d": "适用 v0.38 flux2/klein 系；换版本须重查 object_info。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/field_receipt.json",
+    "quote": "12 节点×输入键对活体 schema 预检: 全过",
+    "recalc": "复跑 comfy-harness/field/field_wiring_run.py"
+   },
+   "owner": "",
+   "facts": {
+    "Flux2Scheduler": [
+     "steps",
+     "width",
+     "height"
+    ]
+   },
+   "gov": "verified",
+   "_added_by": "ai:卷十二线(shaft)",
+   "_added_at": "2026-10-05T23:06:48",
+   "_tier": "verified",
+   "outcomes": [
+    {
+     "result": "success",
+     "context": "SHAFT-BEARING-1-3",
+     "actor": "machine:卷十二线-field",
+     "at": "2026-10-05T23:07:26"
+    }
+   ]
   }
  ],
  "gov_events": [
@@ -236,6 +333,85 @@
    "id": "P-field-wiring-flux2-klein",
    "actor": "ai:卷十二线(field)",
    "at": "2026-10-05T02:21:36"
+  },
+  {
+   "kind": "add",
+   "id": "P-noobai-vpred-autodetect",
+   "actor": "ai:卷十二线(field)",
+   "at": "2026-10-05T02:46:11"
+  },
+  {
+   "kind": "add",
+   "id": "P-noobai-vp1-detailer-lora",
+   "actor": "ai:卷十二线(field)",
+   "at": "2026-10-05T02:55:26"
+  },
+  {
+   "kind": "promote",
+   "id": "E2-DSK-A-正序",
+   "actor": "human:master666-max",
+   "at": "2026-10-05T10:22:25"
+  },
+  {
+   "kind": "promote",
+   "id": "E2-DSK-B-正序",
+   "actor": "human:master666-max",
+   "at": "2026-10-05T10:22:25"
+  },
+  {
+   "kind": "promote",
+   "id": "E2-DSK-C-正序",
+   "actor": "human:master666-max",
+   "at": "2026-10-05T10:22:25"
+  },
+  {
+   "kind": "promote",
+   "id": "E2-DSK-D-正序",
+   "actor": "human:master666-max",
+   "at": "2026-10-05T10:22:25"
+  },
+  {
+   "kind": "promote",
+   "id": "E2-DSK-E2-正序",
+   "actor": "human:master666-max",
+   "at": "2026-10-05T10:22:25"
+  },
+  {
+   "kind": "promote",
+   "id": "E2-DSK-C-逆序",
+   "actor": "human:master666-max",
+   "at": "2026-10-05T10:22:25"
+  },
+  {
+   "kind": "promote",
+   "id": "P-field-wiring-flux2-klein",
+   "actor": "human:master666-max",
+   "at": "2026-10-05T10:22:25"
+  },
+  {
+   "kind": "promote",
+   "id": "P-noobai-vpred-autodetect",
+   "actor": "human:master666-max",
+   "at": "2026-10-05T10:22:25"
+  },
+  {
+   "kind": "promote",
+   "id": "P-noobai-vp1-detailer-lora",
+   "actor": "human:master666-max",
+   "at": "2026-10-05T10:22:25"
+  },
+  {
+   "kind": "add",
+   "id": "P-field-wiring-facts",
+   "actor": "ai:卷十二线(shaft)",
+   "at": "2026-10-05T23:06:48"
+  },
+  {
+   "kind": "verify",
+   "id": "P-field-wiring-facts",
+   "actor": "machine:卷十二线-field",
+   "receipt": "comfy-harness\\field\\out\\field_receipt.json",
+   "at": "2026-10-05T23:06:48"
   }
  ]
 }

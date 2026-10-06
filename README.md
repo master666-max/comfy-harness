@@ -38,6 +38,24 @@ E-2 判官考试复现说明：`e2_deepseek_exam.py` 运行时从 `~/.zcode/v2/p
 读 DeepSeek 兼容端点配置（key 绝不入仓），考题图像需自备同尺寸沙盒图，机械锚读数
 按你自己的图用 PIL 实测后替换 `ANCHORS` 表。
 
+## 经验飞轮 · 形态路线（2026-10-05 定稿）
+
+**现在**：经验以**判例库**形态落地（`gov/precedents_e2_seed.json`，JSON 数据 +
+`precedent_gov.py` 治理状态机）——数据形态归检索消费（`recall_tier`，机器可执行
+facts 槽位），不做成 skill：几百条经验的 description 常驻成本会吃掉注意力，
+且 SKILL.md 无状态机无人闸，承载不了防毒治理。
+
+**未来（结晶路线）**：同族判例积累稳定后，提炼成 **skill 形态的方法论文本**
+（渐进式披露，人手审）——skill 是经验的**结晶形态**，库是**储存形态**：
+
+```
+判例库积累(数据,检索消费) → 同族模式稳定 → 提炼 skill(方法论,人审)
+                                          → skill 细节回查 recall_tier
+```
+
+例：十余条 ComfyUI 布线判例沉淀出「布线通则」稳定方法论之日，即
+「ComfyUI 布线通则」skill 成型之时。
+
 ## 安全模型
 
 - 治理动效（promote/deprecate/tombstone/supersede）一律强制 `human:*` 签名，AI 缺省拒绝；
