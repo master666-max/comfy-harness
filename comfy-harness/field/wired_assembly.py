@@ -22,13 +22,16 @@ NAIVE_PRIOR = {
 
 def expand_query(query: str, alias_map: dict) -> str:
     """wiki 重定向页惯例：别名→扩展词追加进查询（词表漂移防线）。
-    大小写不敏感匹配；已含扩展词不重复追加；无别名原样返回。"""
+    大小写不敏感匹配；已含扩展词与累计结果双重去重；无别名原样返回。"""
     tokens = query.split()
-    lower = {t.lower() for t in tokens}
+    seen = {t.lower() for t in tokens}
     extra = []
     for alias, terms in (alias_map or {}).items():
-        if alias.lower() in lower:
-            extra += [t for t in terms if t.lower() not in lower]
+        if alias.lower() in seen:
+            for t in terms:
+                if t.lower() not in seen:
+                    seen.add(t.lower())          # 累计去重: 多别名共词不再重复
+                    extra.append(t)
     return query + (" " + " ".join(extra) if extra else "")
 
 
@@ -58,19 +61,42 @@ def load_alias_map(path: str) -> dict:
         return {}
 
 
-def extract_wiring(query: str, hits: list) -> dict:
+def _scope_of(e: dict, scope_map: dict | None):
+    """判例适用域解析：facts.applies_to.model 优先，注册表补位（已晋升件免改内容）。
+    返回允许模型列表；无域信息 → None（老行为直供，向后兼容）。"""
+    facts = e.get("facts") or {}
+    ap = facts.get("applies_to")
+    if isinstance(ap, dict) and ap.get("model"):
+        return list(ap["model"])
+    return (scope_map or {}).get(e.get("id"))
+
+
+def extract_wiring(query: str, hits: list, target_model: str | None = None,
+                   scope_map: dict | None = None) -> dict:
     """从 recall_tier 供血提取布线事实。hits=[(score, entry)]（evocore 原形状）。
-    纯函数：store 无关，测试与消费端共用同一逻辑。"""
+    target_model 给定且判例有适用域时，域外件跳过并计数（skipped_out_of_scope）——
+    管线专项闸（NoobAI 教训不注 flux 图）；无域信息件照旧供血（向后兼容）。"""
     facts: dict = {}
     skipped = 0
+    out_of_scope = 0
     for _score, e in hits:
+        if target_model is not None:
+            scope = _scope_of(e, scope_map)
+            if scope:
+                t = str(target_model).lower()
+                if not any(str(m).lower() in t or t in str(m).lower() for m in scope):
+                    out_of_scope += 1              # 域外跳过+计数（禁静默）
+                    continue
         f = e.get("facts")
         if isinstance(f, dict) and f:
-            facts.update(f)                     # 后命中不覆盖先命中（recall_tier 已排 approved 优先）
+            for k, v in f.items():
+                if k != "applies_to":              # 域元数据不进布线面
+                    facts[k] = v
         else:
             skipped += 1                        # 散文教训跳过并计数——披露不静默
     if facts:
         return {"query": query, "facts_source": "recall", "facts": facts,
-                "skipped_no_facts": skipped}
+                "skipped_no_facts": skipped, "skipped_out_of_scope": out_of_scope}
     return {"query": query, "facts_source": "naive_fallback", "facts": {},
-            "skipped_no_facts": skipped, "naive_prior": NAIVE_PRIOR}
+            "skipped_no_facts": skipped, "skipped_out_of_scope": out_of_scope,
+            "naive_prior": NAIVE_PRIOR}

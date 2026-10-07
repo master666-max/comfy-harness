@@ -109,5 +109,9 @@
   "empty": 3,
   "candidate": 3
  },
- "delta": 0
+ "delta": 0,
+ "_meta": {
+  "frozen": "2026-10-07 起冻结（E-1 时代游离池）——教训已迁入受治池 gov/precedents_e2_seed.json：s1→P-field-wiring-flux2-klein / s2→P-uv-venv-trampoline / s3→P-objectinfo-cache；本件原位保留=审计窗口，只读不写。",
+  "frozen_at": "2026-10-07"
+ }
 }

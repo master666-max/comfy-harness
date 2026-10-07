@@ -1,0 +1,12 @@
+{
+ "_meta": {"说明": "判例适用域注册表（消费端域外闸数据源）——已晋升判例 facts 免改，域从本表补位；新铸判例建议 facts.applies_to.model 内嵌自带。extract_wiring(target_model, scope_map) 消费。", "updated": "2026-10-07"},
+ "scopes": {
+  "P-noobai-cinematic-recipe": ["NoobAI-XL-Vpred-v1.0"],
+  "P-noobai-facedetailer-pipeline": ["NoobAI-XL-Vpred-v1.0"],
+  "P-field-wiring-facts": ["flux-2-klein-4b"],
+  "P-field-wiring-flux2-klein": ["flux-2-klein-4b"],
+  "P-antisora-wan22-gguf-wiring": ["Index-Anisora-V3.2-Low-Q4_K_M"],
+  "P-noobai-vpred-autodetect": ["NoobAI-XL-Vpred-v1.0"],
+  "P-noobai-vp1-detailer-lora": ["NoobAI-XL-Vpred-v1.0"]
+ }
+}

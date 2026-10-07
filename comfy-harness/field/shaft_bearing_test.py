@@ -75,7 +75,8 @@ log("2.machine-verify", v_e["gov"] == "verified",
 
 # ---------- 2. 轴供血 vs 空库：双臂布线事实 ----------
 hits = store.recall_tier("flux2 布线 schema")
-supplied = extract_wiring("flux2 布线", hits)                    # 有库臂
+scope_map = json.load(open(os.path.join(_CH, "gov", "pipeline_scopes.json"), encoding="utf-8"))["scopes"]
+supplied = extract_wiring("flux2 布线", hits, target_model="flux-2-klein-4b", scope_map=scope_map)                    # 有库臂
 empty = extract_wiring("flux2 布线", [])                          # 空库臂（供血禁用等价）
 log("3.supply", supplied["facts_source"] == "recall" and EID.lower() in str(hits).lower(),
     f"facts_source={supplied['facts_source']} facts={supplied['facts']} "

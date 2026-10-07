@@ -3,7 +3,7 @@
   {
    "tag": "0.server",
    "ok": true,
-   "detail": "v0.38.0 VRAM free 10.5G"
+   "detail": "v0.38.0 VRAM free 10.7G"
   },
   {
    "tag": "1.preflight",
@@ -12,10 +12,24 @@
   },
   {
    "tag": "2.generate",
-   "ok": false,
-   "detail": "sec=1814.7 status=timeout oom=0"
+   "ok": true,
+   "detail": "sec=676.4 status=success oom=0"
+  },
+  {
+   "tag": "3.mech",
+   "ok": true,
+   "detail": "frames=25 size=(640, 384) 运动量=3.95（判据≥1.0; 静止<1.0=盲区）"
   }
  ],
- "verdict": "不咬合",
- "oom_hits": 0
+ "eids": [
+  "P-antisora-wan22-gguf-wiring"
+ ],
+ "verdict": "咬合",
+ "frames": 25,
+ "motion": 3.95,
+ "size": [
+  640,
+  384
+ ],
+ "seed": 26100506
 }

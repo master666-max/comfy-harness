@@ -1,7 +1,8 @@
 {
  "_meta": {
-  "saved_at": "2026-10-05T23:07:26",
-  "schema": "precedent-store/1"
+  "saved_at": "2026-10-07T22:12:34",
+  "schema": "precedent-store/1",
+  "rev": 6
  },
  "entries": [
   {
@@ -30,7 +31,10 @@
    "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
    "_added_at": "2026-10-03T02:17:08",
-   "_tier": "approved"
+   "created_at": "2026-10-03T02:17:08",
+   "task": "t2i",
+   "kind": "governance",
+   "level": "specialized"
   },
   {
    "id": "E2-DSK-B-正序",
@@ -58,7 +62,10 @@
    "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
    "_added_at": "2026-10-03T02:17:08",
-   "_tier": "approved"
+   "created_at": "2026-10-03T02:17:08",
+   "task": "t2i",
+   "kind": "governance",
+   "level": "specialized"
   },
   {
    "id": "E2-DSK-C-正序",
@@ -86,7 +93,10 @@
    "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
    "_added_at": "2026-10-03T02:17:08",
-   "_tier": "approved"
+   "created_at": "2026-10-03T02:17:08",
+   "task": "t2i",
+   "kind": "governance",
+   "level": "specialized"
   },
   {
    "id": "E2-DSK-D-正序",
@@ -113,7 +123,11 @@
    "owner": "human:master666-max",
    "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
-   "_added_at": "2026-10-03T02:17:08"
+   "_added_at": "2026-10-03T02:17:08",
+   "created_at": "2026-10-03T02:17:08",
+   "task": "t2i",
+   "kind": "governance",
+   "level": "specialized"
   },
   {
    "id": "E2-DSK-E2-正序",
@@ -140,7 +154,11 @@
    "owner": "human:master666-max",
    "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
-   "_added_at": "2026-10-03T02:17:08"
+   "_added_at": "2026-10-03T02:17:08",
+   "created_at": "2026-10-03T02:17:08",
+   "task": "t2i",
+   "kind": "governance",
+   "level": "specialized"
   },
   {
    "id": "E2-DSK-C-逆序",
@@ -167,7 +185,11 @@
    "owner": "human:master666-max",
    "gov": "approved",
    "_added_by": "ai:卷十二线(W-C E-2)",
-   "_added_at": "2026-10-03T02:17:08"
+   "_added_at": "2026-10-03T02:17:08",
+   "created_at": "2026-10-03T02:17:08",
+   "task": "t2i",
+   "kind": "governance",
+   "level": "specialized"
   },
   {
    "id": "P-field-wiring-flux2-klein",
@@ -195,7 +217,10 @@
    "gov": "approved",
    "_added_by": "ai:卷十二线(field)",
    "_added_at": "2026-10-05T02:21:36",
-   "_tier": "approved"
+   "created_at": "2026-10-05T02:21:36",
+   "task": "t2i",
+   "kind": "pipeline",
+   "level": "specialized"
   },
   {
    "id": "P-noobai-vpred-autodetect",
@@ -221,7 +246,11 @@
    "owner": "human:master666-max",
    "gov": "approved",
    "_added_by": "ai:卷十二线(field)",
-   "_added_at": "2026-10-05T02:46:11"
+   "_added_at": "2026-10-05T02:46:11",
+   "created_at": "2026-10-05T02:46:11",
+   "task": "t2i",
+   "kind": "model",
+   "level": "specialized"
   },
   {
    "id": "P-noobai-vp1-detailer-lora",
@@ -247,7 +276,11 @@
    "owner": "human:master666-max",
    "gov": "approved",
    "_added_by": "ai:卷十二线(field)",
-   "_added_at": "2026-10-05T02:55:26"
+   "_added_at": "2026-10-05T02:55:26",
+   "created_at": "2026-10-05T02:55:26",
+   "task": "t2i",
+   "kind": "pipeline",
+   "level": "specialized"
   },
   {
    "id": "P-field-wiring-facts",
@@ -280,7 +313,6 @@
    "gov": "verified",
    "_added_by": "ai:卷十二线(shaft)",
    "_added_at": "2026-10-05T23:06:48",
-   "_tier": "verified",
    "outcomes": [
     {
      "result": "success",
@@ -288,7 +320,477 @@
      "actor": "machine:卷十二线-field",
      "at": "2026-10-05T23:07:26"
     }
-   ]
+   ],
+   "created_at": "2026-10-05T23:06:48",
+   "task": "t2i",
+   "kind": "pipeline",
+   "level": "specialized"
+  },
+  {
+   "id": "P-antisora-wan22-gguf-wiring",
+   "type": "procedural",
+   "importance": 3,
+   "keywords": [
+    "AniSora",
+    "wan22",
+    "GGUF",
+    "视频",
+    "布线"
+   ],
+   "content": {
+    "c": "AniSora V3.2 GGUF(wan架构,Q4_K_M)首飞知情布线：UnetLoaderGGUF+CLIPLoader(type=wan,umt5_xxl)+VAELoader(wan_2.1_vae)+ModelSamplingSD3(shift=8)+Wan22ImageToVideoLatent(只出LATENT,start_image塑形,2.2代无clip_vision)+KSampler(cfg6/20步/euler)+SaveAnimatedWEBP(fps16);降载首飞25帧@640x384(偏离注:原预注册33帧832x480,RAM贫血降载,如实登记)。",
+    "a": "20261005 单低噪声半模全步数首飞实测（High 半模上游未发布）。",
+    "d": "适用 wan2.2 系 I2V；双模全质需另配 High 半模；长度须 4n+1。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/antisora_receipt.json",
+    "quote": "frames=25 motion=3.95",
+    "recalc": "复跑 comfy-harness/field/antisora_run.py"
+   },
+   "owner": "human:master666-max",
+   "facts": {
+    "Wan22ImageToVideoLatent": [
+     "vae",
+     "width",
+     "height",
+     "length",
+     "batch_size"
+    ],
+    "UnetLoaderGGUF": [
+     "unet_name"
+    ],
+    "CLIPLoader.wan": [
+     "clip_name",
+     "type"
+    ]
+   },
+   "gov": "approved",
+   "_added_by": "ai:卷十二线(antisora)",
+   "_added_at": "2026-10-07T19:19:10",
+   "outcomes": [
+    {
+     "result": "success",
+     "context": "ANTISORA-FIRST-FLIGHT",
+     "actor": "machine:field-run",
+     "at": "2026-10-07T19:19:10"
+    }
+   ],
+   "created_at": "2026-10-07T19:19:10",
+   "task": "i2v",
+   "kind": "pipeline",
+   "level": "specialized"
+  },
+  {
+   "id": "P-noobai-cinematic-recipe",
+   "type": "procedural",
+   "importance": 3,
+   "keywords": [
+    "noobai",
+    "vpred",
+    "文生图",
+    "配方",
+    "电影感",
+    "日落",
+    "quality-tags"
+   ],
+   "content": {
+    "c": "NoobAI vpred 电影感配方（惊艳出图实测）：质控标签组=masterpiece, best quality, newest, absurdres, very awa（vpred 专属质量词，very awa 是审美分标签）；负词必带 oldest, early（防旧版本风格漂移）；场景+动势词权重大（rooftop, sunset, wind, wind lift 直接出逆光+风动）；竖幅 832×1216 全身上位；cfg=4.5（低于常规6,画面更通透不焦）；euler（非 ancestral,确定性更稳）；28步；detailed face, detailed hands 补细节。",
+    "a": "20261007 用户原图PNG元数据出土完整图→同seed同参复现18.2s同质（field/out/noobai_cinematic_repro.png）。",
+    "d": "适用 NoobAI-XL-Vpred-v1.0。★变体原则（维护者令 20261007）：本配方=基线供血，出图时人设/场景/光向/动势词按题材自由替换，质控组与采样参数（cfg4.5/euler/28步/竖幅）保持；禁把本配方锁成唯一风格——每次题材不同即天然变体。横幅场景换1216×832。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/noobai_cinematic_repro.png + 用户原图 NoobAI_vpred_test_00001_.png",
+    "quote": "masterpiece, best quality, newest, absurdres, very awa, 1girl, silver hair, long hair, red eyes, school uniform, rooftop, sunset, wind, wind lift",
+    "recalc": "按 facts 槽位参数复跑,seed=100001"
+   },
+   "owner": "human:master666-max",
+   "facts": {
+    "portrait_size": [
+     832,
+     1216
+    ],
+    "cfg": 4.5,
+    "sampler": "euler",
+    "scheduler": "normal",
+    "steps": 28,
+    "seed": 100001
+   },
+   "gov": "approved",
+   "_added_by": "ai:卷十二线(文生图)",
+   "_added_at": "2026-10-07T19:34:44",
+   "outcomes": [
+    {
+     "result": "success",
+     "context": "CINEMATIC-RECIPE-REPRO",
+     "actor": "machine:field-run",
+     "at": "2026-10-07T19:34:44"
+    }
+   ],
+   "created_at": "2026-10-07T19:34:44",
+   "task": "t2i",
+   "kind": [
+    "prompt",
+    "pipeline"
+   ],
+   "level": "specialized"
+  },
+  {
+   "id": "P-noobai-facedetailer-pipeline",
+   "type": "procedural",
+   "importance": 3,
+   "keywords": [
+    "noobai",
+    "facedetailer",
+    "面部二道",
+    "眼睛",
+    "impact-pack",
+    "两段式"
+   ],
+   "content": {
+    "c": "全身构图（832×1216）下脸部/眼睛必糊——动漫出图标准两段式：一段组合pass（12s）＋FaceDetailer面部二道（guide_size 640/denoise 0.6/cfg 5.5/euler+simple/feather 5，+14s）→ 眼睛出瞳色+高光。三要素缺一不可：①二道接线（Impact Pack 已装未用是历史盲区）②眼睛专项词（detailed eyes/beautiful detailed eyes/eye highlights）③denoise≥0.6（0.5 只洗一半仍糊）。低 cfg 4.5 是通透取向、细节由二道补回。",
+    "a": "20261007 雨夜十字路口同一 gener 对照：before 眼睛糊成一片→二道v1(0.5/512)轮廓仅现→v2(0.6/640+眼词)瞳色高光全立（cmp_face_before/v2.png 在档）。",
+    "d": "适用 NoobAI vpred 全身/远景人像；特写构图可免二道；面部二道成本+14s/张。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/cmp_face_before.png + cmp_face_v2.png + crossroad_face_v2.png",
+    "quote": "guide_size 640/denoise 0.6/cfg 5.5 + eye tags → 瞳色高光立住",
+    "recalc": "复跑 FaceDetailer 图（入参见 facts）"
+   },
+   "owner": "human:master666-max",
+   "facts": {
+    "face_detailer": {
+     "guide_size": 640,
+     "denoise": 0.6,
+     "cfg": 5.0,
+     "steps": 28,
+     "sampler_name": "euler",
+     "scheduler": "simple",
+     "feather": 5,
+     "detector": "bbox/face_yolov8m.pt"
+    },
+    "detector_path_note": "检测器须在【内置】ComfyUI/models/ultralytics/bbox/（Shared 路权不覆盖 ultralytics——同 input 目录教训）"
+   },
+   "gov": "approved",
+   "_added_by": "ai:卷十二线(文生图)",
+   "_added_at": "2026-10-07T19:42:54",
+   "outcomes": [
+    {
+     "result": "success",
+     "context": "FACEDETAILER-DEMO",
+     "actor": "machine:field-run",
+     "at": "2026-10-07T19:42:54"
+    }
+   ],
+   "created_at": "2026-10-07T19:42:54",
+   "task": "t2i",
+   "kind": "postproc",
+   "level": "specialized"
+  },
+  {
+   "id": "P-noobai-cinematic-prompt",
+   "type": "procedural",
+   "importance": 3,
+   "task": "t2i",
+   "kind": "prompt",
+   "level": "specialized",
+   "keywords": [
+    "noobai",
+    "提示词",
+    "质控组",
+    "动势词",
+    "配方",
+    "prompt面"
+   ],
+   "content": {
+    "c": "NoobAI vpred 提示词面配方（混体拆分前哨）：质控组 masterpiece/best quality/newest/absurdres/very awa 必带；负词 oldest/early 防风格漂移；**场景+动势词 ROI 极高**（rooftop/sunset/wind/wind lift——无光照词位却出逆光+风动）；眼词 detailed eyes/beautiful detailed eyes/eye highlights 治远脸眼糊。",
+    "a": "20261007 自混体判例 facts 提示词面键拆分+出图实证（配方复现18.2s/雨夜三抽/sunset 验证）。",
+    "d": "适用 NoobAI vpred；prompt 面与 pipeline 面分治——混体条拆分时以本条接收 prompt 面；他模型族质控组不可移植。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/noobai_cinematic_repro.png + 用户原图元数据",
+    "quote": "场景+动势词（rooftop, sunset, wind, wind lift）→ 逆光+风动零光照词产出",
+    "recalc": "保组件、换题材词复跑 cinematic_gen.py"
+   },
+   "owner": "human:master666-max",
+   "gov": "approved",
+   "_added_by": "ai:卷十二线(提示词面)",
+   "_added_at": "2026-10-07T20:30:34",
+   "facts": {
+    "official_prefix_add": [
+     "highres",
+     "safe"
+    ],
+    "official_negative": [
+     "nsfw",
+     "old",
+     "logo",
+     "bad hands",
+     "mutated hands",
+     "mammal",
+     "anthro",
+     "furry",
+     "ambiguous form",
+     "feral",
+     "semi-anthro"
+    ],
+    "note": "oldest 系误写——官方为 old（年代表 2005-2010）",
+    "quality_tags": [
+     "masterpiece",
+     "best quality",
+     "newest",
+     "absurdres",
+     "very awa"
+    ],
+    "negative_guard": [
+     "old",
+     "early"
+    ],
+    "scene_motion_sample": [
+     "rooftop",
+     "sunset",
+     "wind",
+     "wind lift"
+    ],
+    "eye_tags": [
+     "detailed eyes",
+     "beautiful detailed eyes",
+     "eye highlights"
+    ]
+   }
+  },
+  {
+   "id": "P-video-frame-4n1",
+   "type": "procedural",
+   "importance": 3,
+   "task": [
+    "i2v",
+    "t2v"
+   ],
+   "kind": "pipeline",
+   "level": "general",
+   "keywords": [
+    "视频",
+    "帧数",
+    "4n+1",
+    "wan",
+    "length"
+   ],
+   "content": {
+    "c": "视频生成帧数契约：Wan 系架构 length 须 4n+1（25=4×6+1 / 49=4×12+1 / 81=4×20+1）——不符节点校验拒或时长漂移。域级通用：适用全部 Wan 系视频模型族（含 AniSora），与具体模型无关。",
+    "a": "20261007 AniSora 首飞 length=25(4n+1) 成功实证 + wan 架构文档。",
+    "d": "适用 wan/wan2.x/AniSora 全族；非 wan 系视频架构另查各自契约。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/antisora_receipt.json",
+    "quote": "frames=25 size=(640,384) verdict=咬合",
+    "recalc": "复跑 antisora_run.py 观察 length 约束"
+   },
+   "owner": "human:master666-max",
+   "gov": "approved",
+   "_added_by": "ai:卷十二线(视频域)",
+   "_added_at": "2026-10-07T20:30:34"
+  },
+  {
+   "id": "P-uv-venv-trampoline",
+   "type": "procedural",
+   "importance": 2,
+   "task": "general",
+   "kind": "pipeline",
+   "level": "general",
+   "keywords": [
+    "uv",
+    "venv",
+    "搬移",
+    "trampoline",
+    "环境"
+   ],
+   "content": {
+    "c": "uv 建的 venv 搬移目录后 Scripts/*.exe 蹦床内嵌旧绝对路径失效，python.exe 仍可用；修复=重装入口点。",
+    "a": "E-1 时代实测（2026-10-02 D:/comfy→comfy-agent连接调研 搬移）：comfy.exe/comfy-mcp.exe 报 'uv trampoline failed to canonicalize script path'。",
+    "d": "适用 uv 系 venv 全族（跨项目通用）；应急=python.exe -m 模块方式调用。"
+   },
+   "evidence": {
+    "artifact": "调研-卷十二-C1站2-沙盒 / e1/draft_library.json（源件）",
+    "quote": "uv trampoline failed to canonicalize script path",
+    "recalc": "搬移 uv venv 后运行 Scripts/*.exe 复现"
+   },
+   "owner": "human:master666-max",
+   "gov": "approved",
+   "_added_by": "ai:卷十二线(池迁移)",
+   "_added_at": "2026-10-07T20:43:11"
+  },
+  {
+   "id": "P-objectinfo-cache",
+   "type": "semantic",
+   "importance": 2,
+   "task": "general",
+   "kind": "pipeline",
+   "level": "general",
+   "keywords": [
+    "object_info",
+    "缓存",
+    "964",
+    "schema",
+    "API"
+   ],
+   "content": {
+    "c": "/object_info 全量 964 节点类仅 0.7s，每会话拉一次缓存即可；其余按需 /object_info/{class} 单查——重复全量拉取浪费。",
+    "a": "E-1 时代实测（2026-10-02）：全量 0.7s；单类查询远小于全量。",
+    "d": "适用 ComfyUI 系 API 消费全族（跨项目通用）；缓存文件放会话临时目录。"
+   },
+   "evidence": {
+    "artifact": "route2_demo.py object_info_cache.json（源件）",
+    "quote": "GET /object_info -> 964 个节点类, 0.7s, 已缓存",
+    "recalc": "重复 GET /object_info 计时对照"
+   },
+   "owner": "human:master666-max",
+   "gov": "approved",
+   "_added_by": "ai:卷十二线(池迁移)",
+   "_added_at": "2026-10-07T20:43:11"
+  },
+  {
+   "id": "P-noobai-v3-pipeline",
+   "type": "procedural",
+   "importance": 3,
+   "task": "t2i",
+   "kind": [
+    "pipeline",
+    "postproc"
+   ],
+   "level": "specialized",
+   "keywords": [
+    "noobai",
+    "v3",
+    "hires",
+    "二段",
+    "手部二道",
+    "官方词表",
+    "管线"
+   ],
+   "content": {
+    "c": "NoobAI vpred v3 五段管线（社区成熟实践完全体）：①一段组合pass(32步/cfg4.8/官方词表) ②hires 放大重绘(latent nearest-exact ×1.5=1248×1824, denoise 0.45, 15步——治涂抹感主刀) ③面部二道(guide640/denoise0.6/cfg5.0) ④手部二道(hand_yolov8s, 512/0.55/cfg5.0) ⑤影调工艺。负词用官方全表(logo/bad hands家族/兽化家族,old 非 oldest)。稳态 71s/张。",
+    "a": "20261007 验证 2 抽（v3test_26100731/732）：纵深层次/灯笼纹理/手部可看——相比 v2 质变。",
+    "d": "适用 NoobAI vpred；hires denoise>0.5 会漂构图;手检测器须在内置 models/ultralytics/bbox/。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/v3test_26100732.png",
+    "quote": "seed 26100732: OK 71.4s",
+    "recalc": "复跑 comfy-harness/field/cinematic_gen.py（v3 已为默认）"
+   },
+   "owner": "",
+   "gov": "draft",
+   "_added_by": "ai:卷十二线(文生图)",
+   "_added_at": "2026-10-07T21:48:45",
+   "tombstone": true
+  },
+  {
+   "id": "P-noobai-v3-hires-pipeline",
+   "type": "procedural",
+   "importance": 3,
+   "task": "t2i",
+   "kind": "pipeline",
+   "level": "specialized",
+   "keywords": [
+    "noobai",
+    "v3",
+    "hires",
+    "二段",
+    "官方词表",
+    "生成段"
+   ],
+   "content": {
+    "c": "NoobAI vpred v3 生成段（五段管线①②）：①组合pass=32步/cfg4.8/euler/normal/832×1216，正词用官方全表（含 highres/safe），负词用官方全表（logo/bad-hands家族/兽化家族，old 非 oldest）；②hires 放大重绘=latent nearest-exact ×1.5(1248×1824)/denoise 0.45/15步——治涂抹感主刀。",
+    "a": "20261007 v3 验证 2 抽（v3test_26100731/732，71.4s 稳态）：纵深/纹理质变。",
+    "d": "hires denoise>0.5 会漂构图；官方词表细节见 P-noobai-cinematic-prompt。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/v3test_26100732.png",
+    "quote": "seed 26100732: OK 71.4s（hires 段）",
+    "recalc": "复跑 comfy-harness/field/cinematic_gen.py 观察 LatentUpscale 段",
+    "supersedes": "P-noobai-v3-pipeline"
+   },
+   "facts": {
+    "steps": 32,
+    "cfg": 4.8,
+    "sampler": "euler",
+    "scheduler": "normal",
+    "portrait_size": [
+     832,
+     1216
+    ],
+    "hires": {
+     "method": "nearest-exact",
+     "scale": 1.5,
+     "size": [
+      1248,
+      1824
+     ],
+     "denoise": 0.45,
+     "steps": 15
+    }
+   },
+   "owner": "human:master666-max",
+   "superseded_by": null,
+   "gov": "approved",
+   "_added_by": "human:master666-max",
+   "_added_at": "2026-10-07T22:12:34"
+  },
+  {
+   "id": "P-noobai-v3-detailer-postproc",
+   "type": "procedural",
+   "importance": 3,
+   "task": "t2i",
+   "kind": "postproc",
+   "level": "specialized",
+   "keywords": [
+    "noobai",
+    "v3",
+    "面部二道",
+    "手部二道",
+    "影调",
+    "处理段"
+   ],
+   "content": {
+    "c": "NoobAI vpred v3 处理段（五段管线③④⑤）：③面部二道=guide640/denoise0.6/cfg5.0/euler+simple；④手部二道=hand_yolov8s 检测器/512/0.55/cfg5.0；⑤影调工艺=颗粒5.5+色散1px+暗角0.10+对比1.05。手检测器须放内置 models/ultralytics/bbox/（Shared 路权不覆盖）。",
+    "a": "20261007 v3 验证 2 抽：手部可看、眼词治糊（face 二道配套 eye_tags 见 prompt 件）。",
+    "d": "适用 NoobAI/动漫 SDXL 系全身构图；特写构图可省二道。"
+   },
+   "evidence": {
+    "artifact": "comfy-harness/field/out/v3test_26100732.png",
+    "quote": "手部可见可辨（手部二道生效）",
+    "recalc": "复跑 cinematic_gen.py 对比撤手部二道臂",
+    "supersedes": "P-noobai-v3-pipeline"
+   },
+   "facts": {
+    "face_detailer": {
+     "guide_size": 640,
+     "denoise": 0.6,
+     "cfg": 5.0,
+     "steps": 28,
+     "sampler_name": "euler",
+     "scheduler": "simple",
+     "detector": "bbox/face_yolov8m.pt"
+    },
+    "hand_detailer": {
+     "guide_size": 512,
+     "denoise": 0.55,
+     "cfg": 5.0,
+     "steps": 24,
+     "detector": "bbox/hand_yolov8s.pt"
+    },
+    "film_treat": {
+     "grain": 5.5,
+     "ca_px": 1,
+     "vignette": 0.1,
+     "contrast": 1.05
+    },
+    "detector_path_note": "检测器须在【内置】models/ultralytics/bbox/"
+   },
+   "owner": "human:master666-max",
+   "superseded_by": null,
+   "gov": "approved",
+   "_added_by": "human:master666-max",
+   "_added_at": "2026-10-07T22:12:34"
   }
  ],
  "gov_events": [
@@ -412,6 +914,416 @@
    "actor": "machine:卷十二线-field",
    "receipt": "comfy-harness\\field\\out\\field_receipt.json",
    "at": "2026-10-05T23:06:48"
+  },
+  {
+   "kind": "add",
+   "id": "P-antisora-wan22-gguf-wiring",
+   "actor": "ai:卷十二线(antisora)",
+   "at": "2026-10-07T19:19:10"
+  },
+  {
+   "kind": "add",
+   "id": "P-noobai-cinematic-recipe",
+   "actor": "ai:卷十二线(文生图)",
+   "at": "2026-10-07T19:34:44"
+  },
+  {
+   "kind": "promote",
+   "id": "P-noobai-cinematic-recipe",
+   "actor": "human:master666-max",
+   "at": "2026-10-07T19:37:00"
+  },
+  {
+   "kind": "add",
+   "id": "P-noobai-facedetailer-pipeline",
+   "actor": "ai:卷十二线(文生图)",
+   "at": "2026-10-07T19:42:54"
+  },
+  {
+   "kind": "add",
+   "id": "P-noobai-cinematic-prompt",
+   "actor": "ai:卷十二线(提示词面)",
+   "at": "2026-10-07T20:30:34"
+  },
+  {
+   "kind": "add",
+   "id": "P-video-frame-4n1",
+   "actor": "ai:卷十二线(视频域)",
+   "at": "2026-10-07T20:30:34"
+  },
+  {
+   "kind": "add",
+   "id": "P-uv-venv-trampoline",
+   "actor": "ai:卷十二线(池迁移)",
+   "at": "2026-10-07T20:43:11"
+  },
+  {
+   "kind": "add",
+   "id": "P-objectinfo-cache",
+   "actor": "ai:卷十二线(池迁移)",
+   "at": "2026-10-07T20:43:11"
+  },
+  {
+   "kind": "promote",
+   "id": "P-antisora-wan22-gguf-wiring",
+   "actor": "human:master666-max",
+   "prereg": "工单-经验飞轮优化统合-20261005.md@v1",
+   "severity_if_wrong": "irreversible_ratchet",
+   "at": "2026-10-07T21:38:31"
+  },
+  {
+   "kind": "promote",
+   "id": "P-noobai-facedetailer-pipeline",
+   "actor": "human:master666-max",
+   "prereg": "工单-经验飞轮优化统合-20261005.md@v1",
+   "severity_if_wrong": "irreversible_ratchet",
+   "at": "2026-10-07T21:38:31"
+  },
+  {
+   "kind": "promote",
+   "id": "P-noobai-cinematic-prompt",
+   "actor": "human:master666-max",
+   "prereg": "工单-经验飞轮优化统合-20261005.md@v1",
+   "severity_if_wrong": "irreversible_ratchet",
+   "at": "2026-10-07T21:38:31"
+  },
+  {
+   "kind": "promote",
+   "id": "P-video-frame-4n1",
+   "actor": "human:master666-max",
+   "prereg": "工单-经验飞轮优化统合-20261005.md@v1",
+   "severity_if_wrong": "irreversible_ratchet",
+   "at": "2026-10-07T21:38:31"
+  },
+  {
+   "kind": "promote",
+   "id": "P-uv-venv-trampoline",
+   "actor": "human:master666-max",
+   "prereg": "工单-经验飞轮优化统合-20261005.md@v1",
+   "severity_if_wrong": "irreversible_ratchet",
+   "at": "2026-10-07T21:38:31"
+  },
+  {
+   "kind": "promote",
+   "id": "P-objectinfo-cache",
+   "actor": "human:master666-max",
+   "prereg": "工单-经验飞轮优化统合-20261005.md@v1",
+   "severity_if_wrong": "irreversible_ratchet",
+   "at": "2026-10-07T21:38:31"
+  },
+  {
+   "kind": "add",
+   "id": "P-noobai-v3-pipeline",
+   "actor": "ai:卷十二线(文生图)",
+   "at": "2026-10-07T21:48:45"
+  },
+  {
+   "kind": "amend",
+   "id": "P-noobai-cinematic-prompt",
+   "actor": "ai:卷十二线(文生图)",
+   "reason": "官方模型卡词表对齐（v3 落地配套）",
+   "changed": [
+    "facts"
+   ],
+   "old": {
+    "facts": null
+   },
+   "new": {
+    "facts": {
+     "official_prefix_add": [
+      "highres",
+      "safe"
+     ],
+     "official_negative": [
+      "nsfw",
+      "old",
+      "logo",
+      "bad hands",
+      "mutated hands",
+      "mammal",
+      "anthro",
+      "furry",
+      "ambiguous form",
+      "feral",
+      "semi-anthro"
+     ],
+     "note": "oldest 系误写——官方为 old（年代表 2005-2010）"
+    }
+   },
+   "severity_if_wrong": "re_amendable",
+   "at": "2026-10-07T21:48:45"
+  },
+  {
+   "kind": "amend",
+   "id": "P-noobai-facedetailer-pipeline",
+   "actor": "ai:卷十二线(文生图)",
+   "reason": "二道 cfg 收进官方 4-5 带（严肃盘查 C 案遗留）",
+   "changed": [
+    "facts"
+   ],
+   "old": {
+    "facts": {
+     "face_detailer": {
+      "guide_size": 640,
+      "denoise": 0.6,
+      "cfg": 5.5,
+      "steps": 28,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "feather": 5,
+      "detector": "bbox/face_yolov8m.pt"
+     },
+     "eye_tags": [
+      "detailed eyes",
+      "beautiful detailed eyes",
+      "eye highlights"
+     ],
+     "detector_path_note": "检测器须在【内置】ComfyUI/models/ultralytics/bbox/（Shared 路权不覆盖 ultralytics——同 input 目录教训）"
+    }
+   },
+   "new": {
+    "facts": {
+     "face_detailer": {
+      "guide_size": 640,
+      "denoise": 0.6,
+      "cfg": 5.0,
+      "steps": 28,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "feather": 5,
+      "detector": "bbox/face_yolov8m.pt"
+     },
+     "eye_tags": [
+      "detailed eyes",
+      "beautiful detailed eyes",
+      "eye highlights"
+     ],
+     "detector_path_note": "检测器须在【内置】ComfyUI/models/ultralytics/bbox/（Shared 路权不覆盖 ultralytics——同 input 目录教训）"
+    }
+   },
+   "severity_if_wrong": "re_amendable",
+   "at": "2026-10-07T21:48:45"
+  },
+  {
+   "kind": "amend",
+   "id": "P-noobai-cinematic-recipe",
+   "actor": "ai:卷十二线",
+   "reason": "facts 单面化：prompt 面键迁出（迁往 P-noobai-cinematic-prompt）",
+   "changed": [
+    "facts"
+   ],
+   "old": {
+    "facts": {
+     "quality_tags": [
+      "masterpiece",
+      "best quality",
+      "newest",
+      "absurdres",
+      "very awa"
+     ],
+     "negative_guard": [
+      "oldest",
+      "early"
+     ],
+     "scene_motion_sample": [
+      "rooftop",
+      "sunset",
+      "wind",
+      "wind lift"
+     ],
+     "portrait_size": [
+      832,
+      1216
+     ],
+     "cfg": 4.5,
+     "sampler": "euler",
+     "scheduler": "normal",
+     "steps": 28,
+     "seed": 100001
+    }
+   },
+   "new": {
+    "facts": {
+     "portrait_size": [
+      832,
+      1216
+     ],
+     "cfg": 4.5,
+     "sampler": "euler",
+     "scheduler": "normal",
+     "steps": 28,
+     "seed": 100001
+    }
+   },
+   "severity_if_wrong": "re_amendable",
+   "at": "2026-10-07T22:04:17"
+  },
+  {
+   "kind": "amend",
+   "id": "P-noobai-cinematic-prompt",
+   "actor": "ai:卷十二线",
+   "reason": "prompt 面数据归位（recipe 迁入三键 + facedetailer 迁入 eye_tags）",
+   "changed": [
+    "facts"
+   ],
+   "old": {
+    "facts": {
+     "official_prefix_add": [
+      "highres",
+      "safe"
+     ],
+     "official_negative": [
+      "nsfw",
+      "old",
+      "logo",
+      "bad hands",
+      "mutated hands",
+      "mammal",
+      "anthro",
+      "furry",
+      "ambiguous form",
+      "feral",
+      "semi-anthro"
+     ],
+     "note": "oldest 系误写——官方为 old（年代表 2005-2010）"
+    }
+   },
+   "new": {
+    "facts": {
+     "official_prefix_add": [
+      "highres",
+      "safe"
+     ],
+     "official_negative": [
+      "nsfw",
+      "old",
+      "logo",
+      "bad hands",
+      "mutated hands",
+      "mammal",
+      "anthro",
+      "furry",
+      "ambiguous form",
+      "feral",
+      "semi-anthro"
+     ],
+     "note": "oldest 系误写——官方为 old（年代表 2005-2010）",
+     "quality_tags": [
+      "masterpiece",
+      "best quality",
+      "newest",
+      "absurdres",
+      "very awa"
+     ],
+     "negative_guard": [
+      "old",
+      "early"
+     ],
+     "scene_motion_sample": [
+      "rooftop",
+      "sunset",
+      "wind",
+      "wind lift"
+     ],
+     "eye_tags": [
+      "detailed eyes",
+      "beautiful detailed eyes",
+      "eye highlights"
+     ]
+    }
+   },
+   "severity_if_wrong": "re_amendable",
+   "at": "2026-10-07T22:04:17"
+  },
+  {
+   "kind": "amend",
+   "id": "P-noobai-facedetailer-pipeline",
+   "actor": "ai:卷十二线",
+   "reason": "facts 单面化：eye_tags（prompt 面）迁往 prompt 件",
+   "changed": [
+    "facts"
+   ],
+   "old": {
+    "facts": {
+     "face_detailer": {
+      "guide_size": 640,
+      "denoise": 0.6,
+      "cfg": 5.0,
+      "steps": 28,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "feather": 5,
+      "detector": "bbox/face_yolov8m.pt"
+     },
+     "eye_tags": [
+      "detailed eyes",
+      "beautiful detailed eyes",
+      "eye highlights"
+     ],
+     "detector_path_note": "检测器须在【内置】ComfyUI/models/ultralytics/bbox/（Shared 路权不覆盖 ultralytics——同 input 目录教训）"
+    }
+   },
+   "new": {
+    "facts": {
+     "face_detailer": {
+      "guide_size": 640,
+      "denoise": 0.6,
+      "cfg": 5.0,
+      "steps": 28,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "feather": 5,
+      "detector": "bbox/face_yolov8m.pt"
+     },
+     "detector_path_note": "检测器须在【内置】ComfyUI/models/ultralytics/bbox/（Shared 路权不覆盖 ultralytics——同 input 目录教训）"
+    }
+   },
+   "severity_if_wrong": "re_amendable",
+   "at": "2026-10-07T22:04:17"
+  },
+  {
+   "kind": "add",
+   "id": "P-noobai-v3-hires-pipeline",
+   "actor": "human:master666-max",
+   "at": "2026-10-07T22:12:34"
+  },
+  {
+   "kind": "supersede",
+   "new_id": "P-noobai-v3-hires-pipeline",
+   "old_id": "P-noobai-v3-pipeline",
+   "actor": "human:master666-max",
+   "severity_if_wrong": "audit_preserved",
+   "at": "2026-10-07T22:12:34"
+  },
+  {
+   "kind": "promote",
+   "id": "P-noobai-v3-hires-pipeline",
+   "actor": "human:master666-max",
+   "prereg": "工单-经验飞轮优化统合-20261005.md@v1",
+   "severity_if_wrong": "irreversible_ratchet",
+   "at": "2026-10-07T22:12:34"
+  },
+  {
+   "kind": "add",
+   "id": "P-noobai-v3-detailer-postproc",
+   "actor": "human:master666-max",
+   "at": "2026-10-07T22:12:34"
+  },
+  {
+   "kind": "supersede",
+   "new_id": "P-noobai-v3-detailer-postproc",
+   "old_id": "P-noobai-v3-pipeline",
+   "actor": "human:master666-max",
+   "severity_if_wrong": "audit_preserved",
+   "at": "2026-10-07T22:12:34"
+  },
+  {
+   "kind": "promote",
+   "id": "P-noobai-v3-detailer-postproc",
+   "actor": "human:master666-max",
+   "prereg": "工单-经验飞轮优化统合-20261005.md@v1",
+   "severity_if_wrong": "irreversible_ratchet",
+   "at": "2026-10-07T22:12:34"
   }
  ]
 }

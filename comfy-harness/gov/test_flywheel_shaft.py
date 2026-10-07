@@ -52,6 +52,7 @@ class VerifyTests(unittest.TestCase):
         self.tmp = tempfile.mkdtemp(prefix="shaft-")
         self.store = PrecedentStore()
         self.store.add(mk("V-1", "待机器验证件"), actor="machine:线")
+        self.store._get("V-1")["evidence"]["artifact"] = "good_receipt.json"   # L3 绑定对齐
         self.good_receipt = os.path.join(self.tmp, "good_receipt.json")
         with open(self.good_receipt, "w", encoding="utf-8") as fh:
             json.dump({"verdict": "咬合"}, fh)
@@ -102,9 +103,11 @@ class RecallTierTests(unittest.TestCase):
     def _store_with_three_tiers(self):
         store = PrecedentStore()
         store.add(mk("T-promoted", "人阀放行件", owner="human:维护者"), actor="ai:x",
-                  facts={"K": ["a"]})
+                  facts={"cfg": [1]})
         store.promote("T-promoted", actor="human:维护者")
-        store.add(mk("T-verified", "机器验证件"), actor="machine:线", facts={"K": ["b"]})
+        e = mk("T-verified", "机器验证件")
+        e["evidence"]["artifact"] = "r.json"                # L3 绑定对齐
+        store.add(e, actor="machine:线", facts={"cfg": [2]})
         store.verify("T-verified", actor="machine:线", receipt=self.receipt,
                      whitelist=[self.tmp])
         store.add(mk("T-draft", "草稿不供血"), actor="ai:x")
@@ -153,12 +156,12 @@ class OutcomeTests(unittest.TestCase):
 
     def test_outcome_rides_through_save_load(self):
         store = PrecedentStore()
-        store.add(mk("O-3", "持久化"), actor="ai:x", facts={"K": [1]})
+        store.add(mk("O-3", "持久化"), actor="ai:x", facts={"cfg": [1]})
         store.record_outcome("O-3", result="failure", context="EXP-3")
         tmp = os.path.join(tempfile.mkdtemp(prefix="shaft-"), "s.json")
         store.save(tmp)
         loaded = PrecedentStore.load(tmp)
-        self.assertEqual(loaded._get("O-3")["facts"], {"K": [1]})
+        self.assertEqual(loaded._get("O-3")["facts"], {"cfg": [1]})
         self.assertEqual(len(loaded._get("O-3")["outcomes"]), 1)
 
 
@@ -183,6 +186,7 @@ class RetrievalQualityGoldenTests(unittest.TestCase):
         for eid, kws, facts in corpus:
             e = mk(eid, f"金查询集语料 {eid}")
             e["keywords"] = kws
+            e["evidence"]["artifact"] = "r.json"        # L3 绑定对齐
             store.add(e, actor="machine:golden", facts=facts)
             store.verify(eid, actor="machine:golden", receipt=receipt, whitelist=[tmp])
         return store
@@ -207,6 +211,49 @@ class RetrievalQualityGoldenTests(unittest.TestCase):
         store.promote("G-promoted", actor="human:维护者")
         hits = store.recall_tier("flux2 布线")
         self.assertEqual(hits[0][1]["_tier"], "approved")  # promoted 恒压 verified
+
+
+class RetrievalAnatomyBugs(unittest.TestCase):
+    """0607 检索解剖修复红绿锁：①k 截断先于分区→approved 可被切 ②草稿静默零→pending 披露。"""
+
+    def _store(self):
+        import json as _json
+        import tempfile as _tf
+        tmp = _tf.mkdtemp(prefix="anatomy-")
+        receipt = os.path.join(tmp, "r.json")
+        with open(receipt, "w", encoding="utf-8") as fh:
+            _json.dump({"verdict": "咬合"}, fh)
+        store = PrecedentStore()
+        for i in range(6):                          # 六条 verified 高分（关键词重复命中）
+            e = mk(f"V-{i}", f"验证件{i}")
+            e["keywords"] = ["检索", "anatomy", "测试"]
+            e["evidence"]["artifact"] = "r.json"        # L3 绑定对齐
+            store.add(e, actor="machine:线", facts=None)
+            store.verify(f"V-{i}", actor="machine:线", receipt=receipt, whitelist=[tmp])
+        e = mk("A-low", "低分但已晋升件")
+        e["keywords"] = ["检索"]
+        store.add(e, actor="ai:x", facts=None)
+        store.promote("A-low", actor="human:维护者")   # approved 但分低(1关键词 < 3关键词)
+        return store
+
+    def test_approved_survives_k_cutoff(self):
+        store = self._store()
+        hits = store.recall_tier("检索 anatomy 测试", k=3)
+        ids = [e["id"] for _, e in hits]
+        self.assertIn("A-low", ids, "approved 件不得被高名次 verified 挤出 k 位")
+
+    def test_pending_matches_discloses_drafts(self):
+        store = self._store()
+        e = mk("D-hidden", "未晋升的相关经验")
+        e["keywords"] = ["检索", "anatomy"]
+        store.add(e, actor="ai:x", facts=None)
+        pm = store.pending_matches("检索 anatomy")
+        self.assertIn("D-hidden", pm["ids"])
+        self.assertEqual(pm["count"], 1)
+
+    def test_pending_matches_empty_when_none(self):
+        store = self._store()
+        self.assertEqual(store.pending_matches("检索")["count"], 0)
 
 
 if __name__ == "__main__":

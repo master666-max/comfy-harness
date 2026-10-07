@@ -75,10 +75,10 @@ GRAPH = {
     "13": {"class_type": "LoadImage", "inputs": {"image": "antisora_start.png"}},
     "7": {"class_type": "WanImageToVideo",
           "inputs": {"positive": ["4", 0], "negative": ["5", 0], "vae": ["3", 0],
-                     "width": 832, "height": 480, "length": 33, "batch_size": 1,
+                     "width": 640, "height": 384, "length": 25, "batch_size": 1,
                      "start_image": ["13", 0]}},
     "8": {"class_type": "KSampler",
-          "inputs": {"model": ["6", 0], "seed": SEEDN, "steps": 15, "cfg": 6.0,
+          "inputs": {"model": ["6", 0], "seed": SEEDN, "steps": 12, "cfg": 6.0,
                      "sampler_name": "euler", "scheduler": "normal",
                      "positive": ["7", 0], "negative": ["7", 1],
                      "latent_image": ["7", 2], "denoise": 1.0}},
@@ -143,13 +143,13 @@ for i in range(n_frames):
         diffs.append(sum(abs(a - b) for a, b in zip(px, prev)) / len(px))
     prev = px
 motion = sum(diffs) / len(diffs) if diffs else 0.0
-log("3.mech", n_frames >= 33,
+log("3.mech", n_frames >= 25,
     f"frames={n_frames} size={size} 运动量={motion:.2f}（判据≥1.0; 静止<1.0=盲区）")
 
 # ---------- 4. 三态判定 ----------
-if n_frames >= 33 and motion >= 1.0:
+if n_frames >= 25 and motion >= 1.0:
     R["verdict"] = "咬合"
-elif n_frames >= 33:
+elif n_frames >= 25:
     R["verdict"] = "登记盲区"
 else:
     R["verdict"] = "不咬合"
@@ -165,7 +165,7 @@ if R["verdict"] == "咬合":
         store.add({
             "id": MINTED_EID, "type": "procedural", "importance": 3,
             "keywords": ["AniSora", "wan22", "GGUF", "视频", "布线"],
-            "content": {"c": "AniSora V3.2 GGUF(wan架构,Q4_K_M)首飞知情布线：UnetLoaderGGUF+CLIPLoader(type=wan,umt5_xxl)+VAELoader(wan_2.1_vae)+ModelSamplingSD3(shift=8)+Wan22ImageToVideoLatent(只出LATENT,start_image塑形,2.2代无clip_vision)+KSampler(cfg6/20步/euler)+SaveAnimatedWEBP(fps16);首飞49帧@832x480。",
+            "content": {"c": "AniSora V3.2 GGUF(wan架构,Q4_K_M)首飞知情布线：UnetLoaderGGUF+CLIPLoader(type=wan,umt5_xxl)+VAELoader(wan_2.1_vae)+ModelSamplingSD3(shift=8)+Wan22ImageToVideoLatent(只出LATENT,start_image塑形,2.2代无clip_vision)+KSampler(cfg6/20步/euler)+SaveAnimatedWEBP(fps16);降载首飞25帧@640x384(偏离注:原预注册33帧832x480,RAM贫血降载,如实登记)。",
                         "a": "20261005 单低噪声半模全步数首飞实测（High 半模上游未发布）。",
                         "d": "适用 wan2.2 系 I2V；双模全质需另配 High 半模；长度须 4n+1。"},
             "evidence": {"artifact": "comfy-harness/field/out/antisora_receipt.json",

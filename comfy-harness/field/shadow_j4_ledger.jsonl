@@ -1,0 +1,46 @@
+{"judge": "DSK-正序", "target": "img_A.png:红方块", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_A.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_A.png:木桌", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_A.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_A.png:黄鸭", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_A.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_A.png:影棚光效", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_A.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_B.png:红方块", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_B.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_B.png:木桌", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_B.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_B.png:黄鸭", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_B.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_B.png:影棚光效", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_B.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_C.png:红方块", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_C.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_C.png:木桌", "verdict": 0, "truth": 1, "captured_by": "治理位人审", "src": "e2_results.json:正序:img_C.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_C.png:黄鸭", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_C.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_C.png:影棚光效", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_C.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_D.png:红方块", "verdict": 0, "truth": 0, "captured_by": null, "src": "e2_results.json:正序:img_D.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_D.png:木桌", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_D.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_D.png:黄鸭", "verdict": 0, "truth": 0, "captured_by": null, "src": "e2_results.json:正序:img_D.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_D.png:影棚光效", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_D.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_E2.png:红方块", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_E2.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_E2.png:木桌", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_E2.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_E2.png:黄鸭", "verdict": 0, "truth": 0, "captured_by": null, "src": "e2_results.json:正序:img_E2.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-正序", "target": "img_E2.png:影棚光效", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:正序:img_E2.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-逆序", "target": "img_C.png:红方块", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:逆序:img_C.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-逆序", "target": "img_C.png:木桌", "verdict": 0, "truth": 1, "captured_by": "治理位人审", "src": "e2_results.json:逆序:img_C.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-逆序", "target": "img_C.png:黄鸭", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:逆序:img_C.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-逆序", "target": "img_C.png:影棚光效", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_results.json:逆序:img_C.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "GLM-读1", "target": "img_C.png:木桌", "verdict": 0, "truth": 1, "captured_by": "机械分歧监控", "src": "判据件草案§议题一+LOG440", "ts": "2026-10-03T00:00:00"}
+{"judge": "GLM-读2", "target": "img_C.png:木桌", "verdict": 1, "truth": 1, "captured_by": null, "src": "判据件草案§议题一+LOG440", "ts": "2026-10-03T00:00:00"}
+{"judge": "GLM-读3", "target": "img_C.png:木桌", "verdict": 1, "truth": 1, "captured_by": null, "src": "判据件草案§议题一+LOG440", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-盲对照撤锚", "target": "img_D.png:红方块", "verdict": 0, "truth": 0, "captured_by": null, "src": "e2_blind_control.json:img_D.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-盲对照撤锚", "target": "img_D.png:木桌", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_blind_control.json:img_D.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-盲对照撤锚", "target": "img_D.png:黄鸭", "verdict": 0, "truth": 0, "captured_by": null, "src": "e2_blind_control.json:img_D.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "DSK-盲对照撤锚", "target": "img_D.png:影棚光效", "verdict": 1, "truth": 1, "captured_by": null, "src": "e2_blind_control.json:img_D.png", "ts": "2026-10-03T00:00:00"}
+{"judge": "deepseek", "target": "img_A.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 1, "影棚光效": 1, "一句话理由": "画面中红色立方体和黄色橡皮鸭置于可见木纹桌面上，灰色无缝背景与柔和布光、高光阴影呈现影棚光效。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:21:28"}
+{"judge": "deepseek", "target": "img_B.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 1, "影棚光效": 1, "一句话理由": "图中可见红色立方体和黄色橡皮鸭置于有木纹的桌面上，柔和阴影与均匀灰背景呈现影棚光效。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:21:34"}
+{"judge": "deepseek", "target": "img_C.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 1, "影棚光效": 1, "一句话理由": "图内可见红色立方体、黄色橡皮鸭置于有木纹反光的桌面上，灰色无缝背景与柔和均匀布光符合影棚光效。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:21:41"}
+{"judge": "deepseek", "target": "img_D.png", "verdict": {"红方块": 0, "木桌": 1, "黄鸭": 0, "影棚光效": 1, "一句话理由": "图像为灰度，无法确证红方块与黄鸭；桌面木纹可见，且背景与柔和光影呈影棚效果。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:21:48"}
+{"judge": "deepseek", "target": "img_E2.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 0, "影棚光效": 1, "一句话理由": "图中可见红色立方体置于木质桌面上，桌面可见木纹，无黄色橡皮鸭，灰背景与柔和光照呈现影棚布光感。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:21:55"}
+{"judge": "deepseek", "target": "img_A.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 1, "影棚光效": 1, "一句话理由": "图中可见红色立方体、黄色橡皮鸭置于可辨木纹桌面上，整体呈现柔和均匀的影棚式布光。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:24:30"}
+{"judge": "glm", "target": "img_A.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 1, "影棚光效": 1, "一句话理由": "图像中包含所有要求的元素，且光线均匀，符合影棚光效"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:24:33"}
+{"judge": "deepseek", "target": "img_B.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 1, "影棚光效": 1, "一句话理由": "图中可见红色立方体、黄色橡皮鸭置于有木纹的桌面上，整体为干净背景与柔和受控光影的影棚式布光。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:24:38"}
+{"judge": "glm", "target": "img_B.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 1, "影棚光效": 1, "一句话理由": "图像中包含所有要求的元素，且光线均匀，符合影棚光效"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:24:40"}
+{"judge": "deepseek", "target": "img_C.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 1, "影棚光效": 1, "一句话理由": "图中可见红色立方体、黄色橡皮鸭和可辨桌面，整体呈柔和均匀布光，符合各判据。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:24:47"}
+{"judge": "glm", "target": "img_C.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 1, "影棚光效": 0, "一句话理由": "图像模糊，无法判断是否为影棚拍摄"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:24:50"}
+{"judge": "deepseek", "target": "img_D.png", "verdict": {"红方块": 0, "木桌": 1, "黄鸭": 0, "影棚光效": 1, "一句话理由": "图为灰度图像，立方体与橡皮鸭均无可辨红色或黄色；木纹桌面可见，且有柔和均匀的影棚式布光。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:24:56"}
+{"judge": "glm", "target": "img_D.png", "verdict": {"红方块": 0, "木桌": 1, "黄鸭": 0, "影棚光效": 1, "一句话理由": "图像中没有红色立方体，有木桌，没有黄色橡皮鸭，光线均匀，符合影棚光效"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:24:58"}
+{"judge": "deepseek", "target": "img_E2.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 0, "影棚光效": 1, "一句话理由": "画面中有红色立方体置于可见木纹桌面，并呈受控柔光和干净背景的影棚布光感，但未出现黄色橡皮鸭。"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:25:04"}
+{"judge": "glm", "target": "img_E2.png", "verdict": {"红方块": 1, "木桌": 1, "黄鸭": 0, "影棚光效": 1, "一句话理由": "图像中有红色立方体、木桌，没有黄色橡皮鸭，光线均匀，符合影棚光效"}, "truth": null, "captured_by": null, "src": "E2-20261007", "ts": "2026-10-07T02:25:08"}
