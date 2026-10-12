@@ -1,0 +1,29 @@
+[
+ {
+  "arm": "v1.1验收-DSK",
+  "image": "img_C.png",
+  "raw": "{\"红方块\":1,\"木桌\":1,\"黄鸭\":1,\"影棚光效\":1,\"一句话理由\":\"图中红色方块与黄色橡皮鸭虽略模糊但可辨，底部桌面及木质线索可见，整体呈柔和阴影与均匀布光的影棚光效。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "图中红色方块与黄色橡皮鸭虽略模糊但可辨，底部桌面及木质线索可见，整体呈柔和阴影与均匀布光的影棚光效。"
+  },
+  "finish_reason": "stop",
+  "latency_s": 4.5,
+  "usage": {
+   "prompt_tokens": 379,
+   "completion_tokens": 745,
+   "total_tokens": 1124,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 683
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 379
+  }
+ }
+]

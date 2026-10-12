@@ -1,0 +1,113 @@
+{
+ "drafts": 53,
+ "with_vec": 53,
+ "missing_vec": [],
+ "groups": [
+  {
+   "members": [
+    {
+     "id": "S-deepseek-e-2-125c26f3",
+     "gen": 1,
+     "evidence_n": 0,
+     "sig": "",
+     "slug_base": "s-deepseek-e-2",
+     "tags_n": 0,
+     "created_at": ""
+    },
+    {
+     "id": "S-deepseek-e-2-7df96dc8",
+     "gen": 1,
+     "evidence_n": 0,
+     "sig": "",
+     "slug_base": "s-deepseek-e-2",
+     "tags_n": 0,
+     "created_at": ""
+    },
+    {
+     "id": "S-deepseek-e-2-c99a9af2",
+     "gen": 1,
+     "evidence_n": 0,
+     "sig": "",
+     "slug_base": "s-deepseek-e-2",
+     "tags_n": 0,
+     "created_at": ""
+    }
+   ],
+   "canonical": "S-deepseek-e-2-125c26f3",
+   "shadow_weight": 3,
+   "min_pair_cos": 0.8728,
+   "max_pair_cos": 0.9182,
+   "min_pair_jaccard": 0,
+   "specimen": true,
+   "hint": "**标本组（反例面·勿并勿 promote）**——维护者令已裁定留作标本：自食标本（维护者令 20261008·勿 promote）：挖掘器对判卷过程文本+提案流程词的聚簇产物，三代重铸（成员集 21/79/74 漂移）；真知识见 E2-DSK-* 六条，发病教训见 P-obs-76-63-…。此三件=反例面实物，供反例飞轮试点（见报告-反例飞轮可行性-致维护者-20261008.md）。"
+  }
+ ],
+ "single_count": 50,
+ "singles": [
+  "P-detailer-clean-chain",
+  "P-obs-76-63-B-14-31-542-E-45-B-23-f3f0798d",
+  "P-obs-BFL-sentinel-Klein-NoobAI-d19cd29e",
+  "P-obs-FLUX-2-Klein-4B-AI-4-13-Noob-ec060859",
+  "P-obs-NoobAI-score-9-masterpiece-C-61d8a394",
+  "P-obs-NoobAI-vpred-CLIP-skip-2-a68529b5",
+  "P-obs-holding-1ea1b670",
+  "S-2026-10-08-Four-way-A-B-Test-0acd4e6b",
+  "S-AniSora-V3-2-GGUF-KSampler-W-1cf9f39b",
+  "S-C1-E1-Construct-Divergence-C-2a507ac1",
+  "S-Candidate-Boundary-Human-Gat-ff686e1a",
+  "S-ComfyUI-0-38-0-Informed-Arm-b6925bb3",
+  "S-ComfyUI-0-38-0-V-Prediction-33be0f77",
+  "S-Cross-Family-Replication-Con-afd5a147",
+  "S-Cross-Model-Family-Vocabular-40b4b23e",
+  "S-FaceDetailer-Facial-Second-P-ffe248ad",
+  "S-First-Flight-Informed-Wiring-e1e12791",
+  "S-High-Half-Model-Low-Noise-Ha-552906ad",
+  "S-Hires-Upscale-Redraw-P-nooba-b1a2c430",
+  "S-Machine-Proposal-Style-Clust-5fd26e95",
+  "S-Machine-Proposal-Venv-Venv-E-0c2e3fc4",
+  "S-NOOB-vp1-detailer-by-volnovi-ef2a1314",
+  "S-Noob-LoRA-199cac71",
+  "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb",
+  "S-Observation-Flow-Technique-G-49c87b2d",
+  "S-Observation-Flow-Technique-H-7853a015",
+  "S-P-Field-Wiring-Facts-Flux2-K-25e1375c",
+  "S-P-objectinfo-cache-object-in-ef318474",
+  "S-Scene-And-Motion-Words-NoobA-f4347e96",
+  "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b",
+  "S-Sentient-Tree-Sweeping-Panni-81f67548",
+  "S-Style-Cluster-P-objectinfo-c-f2f0379b",
+  "S-Venv-E-1-P-uv-venv-trampolin-e7b3932b",
+  "S-Video-Generation-Frame-Count-cbb4aa90",
+  "S-a-single-vintage-car-with-he-ea634e59",
+  "S-absurdres-best-quality-maste-54b0482f",
+  "S-aesthetic-score-tag-no-human-1d1f4318",
+  "S-after-rain-blurry-background-79501185",
+  "S-background-crowd-banners-wit-43b8017d",
+  "S-backlighting-building-buildi-f162bf5c",
+  "S-bbox-face-yolov8m-pt-simple-aa0b91cd",
+  "S-blue-eyes-detail-enhancement-983b8c80",
+  "S-bokeh-city-lights-many-peopl-6deafb2b",
+  "S-cel-shading-crisp-clean-line-5063d473",
+  "S-explosive-fireworks-display-d48a0430",
+  "S-from-side-light-rays-puddle-c9429de1",
+  "S-height-width-139abd92-b9d15cd5",
+  "S-hires-6b5991d8-c6f88246",
+  "S-length-4n-1-anisora-ba51e347",
+  "S-v1-0-schema-2026-10-03-E-2-50468851"
+ ],
+ "group_jaccard": 0.5,
+ "merges_by": [
+  "base:s-deepseek-e-2",
+  "base:s-deepseek-e-2"
+ ],
+ "cos_attention": [
+  {
+   "a": "S-P-objectinfo-cache-object-in-ef318474",
+   "b": "S-Style-Cluster-P-objectinfo-c-f2f0379b",
+   "cos": 0.9739,
+   "jaccard": null
+  }
+ ],
+ "cos_attention_total": 1,
+ "note": "机器只呈现组；合并/升格决策与执行归人闸（非放大红线）。判据=基底/签名/标签 Jaccard；cos 仅呈现（实测不可判别：不同概念 cos 0.972 vs 同概念重铸 0.874）"
+}

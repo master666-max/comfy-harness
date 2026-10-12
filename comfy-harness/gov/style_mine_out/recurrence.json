@@ -1,0 +1,258 @@
+{
+ "S-cel-shading-crisp-clean-line-5063d473": {
+  "count": 1,
+  "rounds": [
+   {
+    "at": "2026-10-08",
+    "candidate": "cel shading · crisp clean line art · gentle open smile",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-after-rain-blurry-background-4eeab383": {
+  "count": 4,
+  "rounds": [
+   {
+    "at": "2026-10-08",
+    "candidate": "after rain · blurry background · blurry foreground",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-08",
+    "candidate": "after rain · blurry background · blurry foreground",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-09",
+    "candidate": "after rain · blurry background · blurry foreground",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-10",
+    "candidate": "after rain · blurry background · blurry foreground",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-bbox-face-yolov8m-pt-simple-c0b46271": {
+  "count": 4,
+  "rounds": [
+   {
+    "at": "2026-10-08",
+    "candidate": "bbox/face_yolov8m.pt · simple · 面部二道",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-08",
+    "candidate": "bbox/face_yolov8m.pt · simple · 面部二道",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-09",
+    "candidate": "bbox/face_yolov8m.pt · simple · 面部二道",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-10",
+    "candidate": "bbox/face_yolov8m.pt · simple · 面部二道",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-deepseek-e-2-c99a9af2": {
+  "count": 4,
+  "rounds": [
+   {
+    "at": "2026-10-08",
+    "candidate": "deepseek · e-2 · 异族判官",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-08",
+    "candidate": "deepseek · e-2 · 异族判官",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-09",
+    "candidate": "deepseek · e-2 · 异族判官",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-10",
+    "candidate": "deepseek · e-2 · 异族判官",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-a-single-vintage-car-with-he-ea634e59": {
+  "count": 4,
+  "rounds": [
+   {
+    "at": "2026-10-08",
+    "candidate": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-08",
+    "candidate": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-09",
+    "candidate": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-10",
+    "candidate": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-height-width-ab945a76": {
+  "count": 4,
+  "rounds": [
+   {
+    "at": "2026-10-08",
+    "candidate": "height · width · 布线",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-08",
+    "candidate": "height · width · 布线",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-09",
+    "candidate": "height · width · 布线",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-10",
+    "candidate": "height · width · 布线",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-NoobAI-Vpred-Cinematic-Recip-9f55b4be": {
+  "count": 3,
+  "rounds": [
+   {
+    "at": "2026-10-08",
+    "candidate": "NoobAI Vpred Cinematic Recipe·Variant Principle·Self-Mixed-Body Case",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-09",
+    "candidate": "NoobAI Vpred Cinematic Recipe·Variant Principle·Sampling Parameters",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-10",
+    "candidate": "NoobAI Vpred Cinematic Recipe·Variant Principle·Scene and Motion Words",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-NOOB-vp1-detailer-by-volnovi-ef2a1314": {
+  "count": 3,
+  "rounds": [
+   {
+    "at": "2026-10-08",
+    "candidate": "NOOB_vp1_detailer_by_volnovik_v1·Same-Seed Same-Parameter Reproduction·LoraLoader",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-08",
+    "candidate": "NOOB_vp1_detailer_by_volnovik_v1·A/B Test·KSampler",
+    "cos": null,
+    "by": "slug-base"
+   },
+   {
+    "at": "2026-10-09",
+    "candidate": "NOOB_vp1_detailer_by_volnovik_v1·20261005 A/B Test·Baseline",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-Video-Generation-Frame-Count-cbb4aa90": {
+  "count": 1,
+  "rounds": [
+   {
+    "at": "2026-10-09",
+    "candidate": "Video Generation Frame Count Contract·Wan Series Video Model Family·Wan Architecture",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-C1-E1-Construct-Divergence-C-2a507ac1": {
+  "count": 1,
+  "rounds": [
+   {
+    "at": "2026-10-09",
+    "candidate": "C1-E1' Construct Divergence·Cross-Family Replication·img_C",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-Sentient-Tree-Sweeping-Panni-81f67548": {
+  "count": 1,
+  "rounds": [
+   {
+    "at": "2026-10-09",
+    "candidate": "Sentient Tree·Sweeping Panning Shot·Surreal Presence",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "S-P-objectinfo-cache-object-in-ef318474": {
+  "count": 1,
+  "rounds": [
+   {
+    "at": "2026-10-10",
+    "candidate": "P-objectinfo-cache·/object_info·Single Class Query",
+    "cos": null,
+    "by": "slug-base"
+   }
+  ]
+ },
+ "P-uv-venv-trampoline": {
+  "count": 1,
+  "rounds": [
+   {
+    "at": "2026-10-10",
+    "candidate": "Scripts/*.exe·uv trampoline failed to canonicalize script path·venv",
+    "cos": 0.947
+   }
+  ]
+ }
+}

@@ -1,0 +1,1784 @@
+{
+ "s-0cbdebc8": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "2026-10-03",
+   "Alien Group",
+   "Alien Race",
+   "Clean Background",
+   "Construct Judgment Baseline",
+   "Construct-Based Adjudication Baseline",
+   "Cross-Family Replication C1-E1' Construct Divergence",
+   "Cross-Family Reproduction C1-E1' Construct Divergence",
+   "Cube",
+   "DeepSeek-V4-Flash",
+   "Deepseek-V4-Flash",
+   "Default Strict Reading"
+  ],
+  "evidence_n": 6,
+  "sig_seen": [
+   "0cbdebc8"
+  ]
+ },
+ "s-10961f19": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "1248×1824",
+   "15 Steps",
+   "20261007 Rainy Night Intersection",
+   "Beautiful Detailed Eyes",
+   "Before Image",
+   "Blurry Face/Eyes",
+   "CFG",
+   "Close-Up Composition",
+   "Cmp_Face_Before/V2.png",
+   "Combined Pass",
+   "Combined Pass Duration 12s",
+   "Denoise"
+  ],
+  "evidence_n": 5,
+  "sig_seen": [
+   "10961f19"
+  ]
+ },
+ "s-128d9b07": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "1024²",
+   "20261005 Field Wiring Run",
+   "4-Step Distillation",
+   "API Direct-Connection Informed Wiring",
+   "Ancestral",
+   "CFG 1.0",
+   "CLIPTextEncode",
+   "Distilled Version",
+   "EmptyFlux2LatentImage",
+   "Euler",
+   "Flux2 Klein 0.38",
+   "Flux2 Klein 4B"
+  ],
+  "evidence_n": 6,
+  "sig_seen": [
+   "128d9b07",
+   "19b177ce"
+  ]
+ },
+ "s-19fface1": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "15 Steps",
+   "20261007 V3 Validation",
+   "20261007 V3 Validation 2 Draws",
+   "512",
+   "71.4s Steady State",
+   "Anime SDXL Series",
+   "Blur",
+   "CFG5.0",
+   "Chromatic Dispersion 1px",
+   "Close-Up Composition",
+   "Composition",
+   "Contrast1.05"
+  ],
+  "evidence_n": 4,
+  "sig_seen": [
+   "19fface1"
+  ]
+ },
+ "s-1e5849cd": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "Absurdres",
+   "After Rain",
+   "Best Quality",
+   "Blurry Background",
+   "Blurry Foreground",
+   "Candid",
+   "Cinematic Lighting",
+   "City Lights",
+   "Depth Of Field",
+   "Evening",
+   "Highres",
+   "Light Rays"
+  ],
+  "evidence_n": 10,
+  "sig_seen": [
+   "1e5849cd",
+   "8f7295e3"
+  ]
+ },
+ "s-2023d187": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "20261007 V3 Validation 2 Samples",
+   "512",
+   "Anime SDXL Series",
+   "Cfg5.0",
+   "Chromatic Aberration 1px",
+   "Contrast 1.05",
+   "Denoise0.6",
+   "Eye Tags",
+   "Eye Tags Fix Blur",
+   "Face Second Pass",
+   "Five-Stage Pipeline",
+   "Full-Body Composition"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "2023d187"
+  ]
+ },
+ "s-253d29c3": {
+  "rounds_seen": 4,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Cliffs",
+   "Dawn",
+   "Fog",
+   "Fog-Drenched Coastal Highway",
+   "Headlights",
+   "Soft Golden Rim Light",
+   "Turquoise Sea",
+   "Ultra-Wide Cinematic Shot",
+   "Vintage Car",
+   "a single vintage car with headlights on",
+   "cliffs on one side",
+   "soft golden rim light ;"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "253d29c3",
+   "e8b705cf",
+   "efde355b",
+   "d4abc8d3"
+  ]
+ },
+ "s-289e3be8": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "12 Nodes",
+   "20261005",
+   "Colorfulness",
+   "Dual Model Full Quality",
+   "Dual-Arm Same-Seed Test",
+   "Empty Library Arm Precheck",
+   "HSV S_mean",
+   "High Half Model",
+   "Illegal Keys",
+   "Informed Arm",
+   "Load-Bearing Experiment",
+   "Low Noise Half Model"
+  ],
+  "evidence_n": 3,
+  "sig_seen": [
+   "289e3be8"
+  ]
+ },
+ "s-30e20aec": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "Alien Family",
+   "Alien Race",
+   "Construct Judgment Baseline",
+   "Criteria Document v1.0",
+   "Criteria File v1.0 Schema",
+   "Criterion",
+   "Criterion Document v1.0 Schema",
+   "Criterion Item v1.0 Schema",
+   "Cube",
+   "DeepSeek-v4-flash",
+   "Default Strict Reading",
+   "E-2 Formal Exam 2026-10-03"
+  ],
+  "evidence_n": 6,
+  "sig_seen": [
+   "30e20aec"
+  ]
+ },
+ "s-3af79e60": {
+  "rounds_seen": 3,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Cinematic Natural Light",
+   "Ocean Shore",
+   "Scene",
+   "Sentient Tree",
+   "Spectral Sentinel",
+   "Sweeping Panning Shot",
+   "Watery Veil",
+   "Winter Whites And Greys"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "3af79e60",
+   "f2caa2ba",
+   "7b840c82"
+  ],
+  "minted": "S-Sweeping-Panning-Shot-Sentie-7b840c82"
+ },
+ "s-3b7c6097": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "1girl",
+   "28 Steps",
+   "32 Steps",
+   "Absurdres",
+   "Ancestral",
+   "Bad-Hands Family",
+   "Baseline Supply",
+   "Best Quality",
+   "Blurry Background",
+   "Blurry Foreground",
+   "CFG",
+   "CFG 4.5"
+  ],
+  "evidence_n": 47,
+  "sig_seen": [
+   "3b7c6097",
+   "cd9ce1b5"
+  ]
+ },
+ "s-3ecb9403": {
+  "rounds_seen": 5,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "1Girl",
+   "Blurred Background",
+   "Cherry Blossoms",
+   "Cinematic Lighting",
+   "City Lights",
+   "Dappled Sunlight",
+   "Depth Of Field",
+   "Depth of Field",
+   "Falling Petals",
+   "Filtered Sunlight",
+   "Floating Hair",
+   "From Side"
+  ],
+  "evidence_n": 24,
+  "sig_seen": [
+   "3ecb9403",
+   "77945ff9",
+   "8bfbb1ea",
+   "ba9948bb",
+   "f920c3e5"
+  ]
+ },
+ "s-45c8ef51": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "Backlight",
+   "Lighting Term Positions",
+   "Mixed-Body Split",
+   "NoobAI Vpred",
+   "P-Noobai-Cinematic-Prompt",
+   "Pipeline Face",
+   "Prompt Face",
+   "Prompt-Side Recipe",
+   "ROI",
+   "Rooftop",
+   "Scene And Motion Words",
+   "Sunset"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "45c8ef51"
+  ]
+ },
+ "s-4e6a7724": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "Criteria",
+   "Criteria Artifact v1.0 Schema",
+   "Criteria Document V1.0 Schema",
+   "Criteria Document v1.0 Schema",
+   "Criteria File v1.0",
+   "Criteria File v1.0 Schema",
+   "Criterion File v1.0 Schema",
+   "E-2 Formal Exam 2026-10-03",
+   "Mechanical Anchor"
+  ],
+  "evidence_n": 6,
+  "sig_seen": [
+   "4e6a7724"
+  ]
+ },
+ "s-54b8066e": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "Ahoge",
+   "Big Grin",
+   "Blue Eyes",
+   "Blush",
+   "Cel Shading",
+   "Close-Up Portrait",
+   "Colored Lighting",
+   "Confident Smirk",
+   "Crisp Edges",
+   "Dark Background",
+   "Dark Red Background",
+   "Dark Red Shadow On Hair"
+  ],
+  "evidence_n": 30,
+  "sig_seen": [
+   "54b8066e"
+  ]
+ },
+ "s-5e3bc034": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "25 Frames at 640x384",
+   "33 Frames at 832x480",
+   "4n+1 Length Rule",
+   "AniSora V3.2 GGUF",
+   "AniSora V3.2 GGUF First Flight Wiring",
+   "Clip Vision",
+   "Dual-Model Full Quality",
+   "FPS 16",
+   "First Flight Test",
+   "Flux2 VAE",
+   "High Half-Model",
+   "LATENT"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "5e3bc034"
+  ]
+ },
+ "s-62901532": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "20261007 V3 Validation",
+   "71.4s Steady State",
+   "Depth/Texture Qualitative Change",
+   "Two Samples",
+   "V3test_26100731/732"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "62901532"
+  ]
+ },
+ "s-63a41ef5": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "E-1",
+   "Entry Point",
+   "P-uv-venv-trampoline",
+   "Reinstall Entry Points",
+   "Scripts/*.exe",
+   "Venv Directory Relocation",
+   "comfy-mcp.exe",
+   "comfy.exe",
+   "python.exe",
+   "python.exe -m module invocation",
+   "uv",
+   "uv trampoline"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "63a41ef5"
+  ]
+ },
+ "s-66f0de2e": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "18.2s",
+   "Checkpoint",
+   "Composition",
+   "Detail Direction",
+   "EasyNegative LoRA",
+   "LoraLoader",
+   "Model+Clip Full Chain",
+   "NOOB_vp1_detailer_by_volnovik_v1",
+   "NoobAI-XL Vpred",
+   "P-noobai-vp1-detailer-lora",
+   "Plug-in Style Component",
+   "Same-Seed Same-Parameter Reproduction"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "66f0de2e"
+  ]
+ },
+ "s-6b1bf3ca": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "20 Steps",
+   "25 Frames at 640x384",
+   "AniSora V3.2 GGUF",
+   "AniSora V3.2 GGUF First Flight Wiring",
+   "CFG 6",
+   "CLIPLoader",
+   "FPS 16",
+   "First Flight",
+   "Flux2 VAE",
+   "KSampler",
+   "Latent",
+   "Length Rule 4n+1"
+  ],
+  "evidence_n": 3,
+  "sig_seen": [
+   "6b1bf3ca"
+  ]
+ },
+ "s-6f24f7bb": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "32 Steps",
+   "832×1216",
+   "Bad-Hands Family",
+   "Beastification Family",
+   "CFG 4.8",
+   "Combination Pass",
+   "Early",
+   "Logo",
+   "Negative Prompt",
+   "Negative Words",
+   "Normal",
+   "Official Full List"
+  ],
+  "evidence_n": 6,
+  "sig_seen": [
+   "6f24f7bb"
+  ]
+ },
+ "s-808a2f4a": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "20261005 A/B Test",
+   "Baseline",
+   "LoRA Arm",
+   "Mechanical Readout",
+   "field/out/noobai_{base,lora}.png"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "808a2f4a"
+  ]
+ },
+ "s-813bbec2": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-10",
+  "members": [
+   "D:/comfy",
+   "P-uv-venv-trampoline",
+   "Scripts/*.exe",
+   "comfy-agent连接调研",
+   "comfy-mcp.exe",
+   "comfy.exe",
+   "python.exe",
+   "python.exe -m模块方式",
+   "uv",
+   "uv trampoline",
+   "uv trampoline failed to canonicalize script path",
+   "uv系venv全族"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "813bbec2",
+   "9faa3bcd"
+  ]
+ },
+ "s-837fe57d": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "C1-E1'",
+   "C1-E1' Construct Divergence",
+   "Construct Divergence",
+   "Cross-Clan Replication",
+   "Cross-Family Reproduction",
+   "Cross-Race Replication C1-E1'",
+   "Img_C②",
+   "Score 0",
+   "Wood Grain Indiscernible",
+   "Wood Grain Indistinguishable",
+   "img_C"
+  ],
+  "evidence_n": 4,
+  "sig_seen": [
+   "837fe57d"
+  ]
+ },
+ "s-8a93e679": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "Anime Illustration",
+   "Blurred Blossom Background",
+   "Branches",
+   "Cardigan Pockets",
+   "Cherry Blossom Trees",
+   "Clean Anime Art Style",
+   "Crisp Clean Line Art",
+   "Dappled Shadows",
+   "Dark Navy Cardigan",
+   "Gentle Open Smile",
+   "Gentle Smile",
+   "Ground"
+  ],
+  "evidence_n": 4,
+  "sig_seen": [
+   "8a93e679",
+   "e08d9ea4"
+  ]
+ },
+ "s-8d67c33d": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "Black Wizard Robe",
+   "Detailed Clothes Folds",
+   "Grey V-Neck Sweater Vest",
+   "Gryffindor",
+   "Gryffindor Colors",
+   "Hogwarts",
+   "Hogwarts Uniform",
+   "Red And Gold Striped Necktie",
+   "Red and Gold Striped Necktie",
+   "White Dress Shirt"
+  ],
+  "evidence_n": 8,
+  "sig_seen": [
+   "8d67c33d"
+  ]
+ },
+ "s-9385c4a7": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "C1-E1'",
+   "Construct Divergence",
+   "Criterion Artifact V1.0 Schema",
+   "Cross-Family Replication",
+   "Cross-Family Replication C1-E1' Construct Disagreement",
+   "Cross-Family Replication C1-E1' Construct Divergence",
+   "E-2 Formal Examination 2026-10-03",
+   "Img_C②",
+   "Judgment 0",
+   "Wood Grain",
+   "Wood Grain Indiscernibility Judgment",
+   "Wood Grain Indiscernible"
+  ],
+  "evidence_n": 6,
+  "sig_seen": [
+   "9385c4a7"
+  ]
+ },
+ "s-a21817cd": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "20261005",
+   "Automatic Recognition",
+   "Colorfulness",
+   "ComfyUI 0.38+",
+   "ComfyUI 0.38.0",
+   "ComfyUI V0.34",
+   "ComfyUI v0.34",
+   "Cross-Version Revalidation",
+   "Dual-Arm Same-Seed Test",
+   "Explicit Insertion",
+   "HSV S_Mean",
+   "HSV S_mean"
+  ],
+  "evidence_n": 3,
+  "sig_seen": [
+   "a21817cd"
+  ]
+ },
+ "s-a78da1e5": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "Construct Judgment Criterion",
+   "DeepSeek-V4-Flash",
+   "Deepseek-V4-Flash",
+   "Detection Counts for img_B.png",
+   "Different Family",
+   "Discriminability",
+   "E2-DSK-A-正序",
+   "E2-DSK-B-正序",
+   "E2-DSK-E2-正序",
+   "Existence",
+   "Forward Order",
+   "Gray Background"
+  ],
+  "evidence_n": 5,
+  "sig_seen": [
+   "a78da1e5"
+  ]
+ },
+ "s-a823bbf3": {
+  "rounds_seen": 3,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-10",
+  "members": [
+   "/object_info",
+   "/object_info/{class}",
+   "0.7s Full Fetch Time",
+   "2026-10-02",
+   "964 Node Classes",
+   "Cache File",
+   "ComfyUI",
+   "ComfyUI Series API Consumer Family",
+   "E-1",
+   "E-1 Era",
+   "P-objectinfo-cache",
+   "Repeated Full Pull"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "a823bbf3",
+   "be07db5b",
+   "6ec31820"
+  ]
+ },
+ "s-ab984651": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "18.2s",
+   "Backlight",
+   "Mixed-Body Entry Splitting",
+   "Mixed-Body Splitting Outpost",
+   "NoobAI vpred",
+   "Other Model Families",
+   "P-noobai-cinematic-prompt",
+   "Pipeline Plane",
+   "Prompt Plane",
+   "Prompt-Side Recipe",
+   "Quality Control Group",
+   "ROI"
+  ],
+  "evidence_n": 3,
+  "sig_seen": [
+   "ab984651"
+  ]
+ },
+ "s-b71e2212": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "18.2s Reproduction Time",
+   "20 Steps",
+   "20261007",
+   "A/B Test",
+   "Baseline",
+   "CFG 6",
+   "Checkpoint",
+   "EasyNegative LoRA",
+   "Euler Sampler",
+   "Facts Prompt-Side Key Splitting",
+   "Image Output Verification",
+   "KSampler"
+  ],
+  "evidence_n": 7,
+  "sig_seen": [
+   "b71e2212"
+  ]
+ },
+ "s-b89eae8c": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "ComfyUI 0.34",
+   "ComfyUI 0.38.0",
+   "Cross-Version Revalidation",
+   "Early 0.3x Versions",
+   "Manual V-Pred Handling",
+   "ModelSamplingDiscrete",
+   "Naive Direct Loading",
+   "NoobAI Series",
+   "NoobAI-XL Vpred v1.0",
+   "P-noobai-vpred-autodetect",
+   "SDXL V-Pred",
+   "V_prediction"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "b89eae8c"
+  ]
+ },
+ "s-c675564b": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "4n+1",
+   "AniSora",
+   "AniSora First Flight",
+   "CLIPLoader",
+   "Domain-Level General",
+   "Duration Drift",
+   "Flux2",
+   "Frame Count 25",
+   "Frame Count 49",
+   "Frame Count 81",
+   "Length Parameter",
+   "Node Validation Rejection"
+  ],
+  "evidence_n": 3,
+  "sig_seen": [
+   "c675564b"
+  ]
+ },
+ "s-c72de7d2": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "4n+1",
+   "AniSora",
+   "AniSora First Flight",
+   "Duration Drift",
+   "Length",
+   "Node Validation",
+   "Non-Wan Architecture Contracts",
+   "Non-Wan Video Architecture",
+   "P-video-frame-4n1",
+   "Wan",
+   "Wan Architecture",
+   "Wan Architecture Documentation"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "c72de7d2"
+  ]
+ },
+ "s-dca29a55": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "20261007 Rainy Night Intersection Comparison",
+   "Beautiful Detailed Eyes",
+   "Before Image",
+   "CFG 5.5",
+   "Denoise 0.5",
+   "Denoise 0.6",
+   "Denoise Threshold ≥0.6",
+   "Detailed Eyes",
+   "Distant Face Eye Blur",
+   "Euler + Simple",
+   "Eye Contour",
+   "Eye Detail Degradation"
+  ],
+  "evidence_n": 3,
+  "sig_seen": [
+   "dca29a55"
+  ]
+ },
+ "s-e7d98bac": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-09",
+  "members": [
+   "Red Apple",
+   "Studio Light",
+   "White Table"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "e7d98bac"
+  ]
+ },
+ "s-fa185393": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-08",
+  "last_seen": "2026-10-08",
+  "members": [
+   "20261007",
+   "28 Steps",
+   "Baseline Supply",
+   "CFG 4.5",
+   "Character Setting",
+   "Detailed Face",
+   "Detailed Hands",
+   "Facts",
+   "Full-Body Framing",
+   "Horizontal Format 1216×832",
+   "Image-Generation Evidence",
+   "Landscape Scenes"
+  ],
+  "evidence_n": 3,
+  "sig_seen": [
+   "fa185393"
+  ]
+ },
+ "s-ahoge-big-grin-black-wizard": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Ahoge",
+   "Big Grin",
+   "Black Wizard Robe",
+   "Blue Eyes",
+   "Bright Red And Gold Striped Necktie",
+   "Confident Smirk",
+   "Dark Background",
+   "Deep Crimson Background",
+   "Fem Ron Weasley",
+   "Gradient Background",
+   "Grey V-Neck Sweater Vest",
+   "Gryffindor"
+  ],
+  "evidence_n": 66,
+  "sig_seen": [
+   "aa343e6f",
+   "430b25e5"
+  ],
+  "minted": "S-ahoge-big-grin-black-wizard-430b25e5"
+ },
+ "s-aqua-eyes-aqua-hair-bubbles": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "Aqua Eyes",
+   "Aqua Hair",
+   "Black Pleated Skirt",
+   "Black Thighhighs",
+   "Blue Theme",
+   "Bubbles",
+   "Caustics",
+   "Cloth Wrinkles",
+   "Collared Shirt",
+   "Crisp Edges",
+   "Cyan Necktie",
+   "Dark Blue Background"
+  ],
+  "evidence_n": 54,
+  "sig_seen": [
+   "6e348671"
+  ]
+ },
+ "s-colored-lighting-detailed-fa": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "Ahoge",
+   "Big Grin",
+   "Blue Eyes",
+   "Blush",
+   "Cel Shading",
+   "Close-Up Portrait",
+   "Colored Lighting",
+   "Confident Smirk",
+   "Dark Background",
+   "Deep Crimson Background",
+   "Deep Red Background",
+   "Detailed Face"
+  ],
+  "evidence_n": 67,
+  "sig_seen": [
+   "e7119d32"
+  ]
+ },
+ "s-after-rain-blurry-background": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "1Girl",
+   "After Rain",
+   "Black Skirt",
+   "Blush",
+   "Cinematic Lighting",
+   "City Lights",
+   "Girl",
+   "Hands In Pockets",
+   "Holding",
+   "JK",
+   "Jk",
+   "Kneehighs"
+  ],
+  "evidence_n": 44,
+  "sig_seen": [
+   "be53b0b8",
+   "81992d84"
+  ]
+ },
+ "s-anime-illustration-crisp-cle": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "2D",
+   "Anime Illustration",
+   "Anime Key Visual",
+   "Blurred Blossom Background",
+   "Branches",
+   "Cherry Blossom Trees",
+   "Clean Anime Art Style",
+   "Crisp Clean Line Art",
+   "Dappled Shadows",
+   "Dark Navy Cardigan",
+   "Gentle Open Smile",
+   "Gentle Smile"
+  ],
+  "evidence_n": 4,
+  "sig_seen": [
+   "c7f03e68",
+   "b46c1d98"
+  ],
+  "minted": "S-anime-illustration-crisp-cle-b46c1d98"
+ },
+ "s-cinematic-lighting-city-ligh": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "1Girl",
+   "After Rain",
+   "Black Skirt",
+   "Blush",
+   "Cinematic Lighting",
+   "City Lights",
+   "Girl",
+   "Hands In Pockets",
+   "Holding",
+   "JK",
+   "Jk",
+   "Kneehighs"
+  ],
+  "evidence_n": 37,
+  "sig_seen": [
+   "0d808666",
+   "387b94d2"
+  ],
+  "minted": "S-cinematic-lighting-city-ligh-387b94d2"
+ },
+ "s-bbox-face-yolov8m-pt-simple": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "0.55 Threshold",
+   "1.5×",
+   "1248×1824",
+   "15 Steps",
+   "18.2 Seconds",
+   "2 Draws",
+   "20261007",
+   "20261007 V3 Validation",
+   "32 Steps",
+   "512 Resolution",
+   "71.4s Steady State",
+   "Bad-Hands Family"
+  ],
+  "evidence_n": 9,
+  "sig_seen": [
+   "e892aa20",
+   "c98ee3b3"
+  ]
+ },
+ "s-fingers-near-mouth-freckles": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Absurdres",
+   "Best Quality",
+   "Blurry Background",
+   "Blurry Foreground",
+   "Candid",
+   "Close-Up Portrait",
+   "Dark Red Background",
+   "Deep Red Background",
+   "Evening",
+   "Fabric Texture",
+   "Flat Color",
+   "Masterpiece"
+  ],
+  "evidence_n": 35,
+  "sig_seen": [
+   "b604bfb1",
+   "fa6479c4"
+  ],
+  "minted": "S-fingers-near-mouth-freckles-fa6479c4"
+ },
+ "s-gold-stripes-knit-trim-red-a": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Ahoge",
+   "Big Grin",
+   "Black Wizard Robe",
+   "Blue Eyes",
+   "Bright Red And Gold Striped Necktie",
+   "Confident Smirk",
+   "Dark Background",
+   "Deep Crimson Background",
+   "Fem Ron Weasley",
+   "Gradient Background",
+   "Grey V-Neck Sweater Vest",
+   "Gryffindor"
+  ],
+  "evidence_n": 30,
+  "sig_seen": [
+   "96c8b2e6",
+   "c0741254"
+  ],
+  "minted": "S-gold-stripes-knit-trim-red-a-c0741254"
+ },
+ "s-deepseek-e-2": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Alien Race",
+   "Blur",
+   "C1-E1'",
+   "C1-E1' Construct Divergence",
+   "Clean Background",
+   "Construct Divergence",
+   "Construct Judgment Baseline",
+   "Construct Judgment Benchmark",
+   "Construct Judgment Criterion",
+   "Criteria Document v1.0 Schema",
+   "Criterion Document v1.0 Schema",
+   "Cross-Family Replication"
+  ],
+  "evidence_n": 6,
+  "sig_seen": [
+   "65516412",
+   "2b859561"
+  ]
+ },
+ "s-black-skirt-black-thighhighs": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "1Girl",
+   "1girl",
+   "After Rain",
+   "Cherry Blossoms",
+   "Cinematic Lighting",
+   "City Lights",
+   "Dappled Sunlight",
+   "Evening",
+   "Falling Petals",
+   "Filtered Sunlight",
+   "Floating Hair",
+   "From Side"
+  ],
+  "evidence_n": 15,
+  "sig_seen": [
+   "a155d026"
+  ]
+ },
+ "s-height-width": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "1024² Resolution",
+   "12 Nodes",
+   "20261005",
+   "25 Frames @640x384",
+   "33 Frames @832x480",
+   "4-Step Distillation",
+   "A/B Test",
+   "API Direct Informed Wiring",
+   "Baseline",
+   "CFG 1.0",
+   "CLIPTextEncode",
+   "Dual-Model Full Quality"
+  ],
+  "evidence_n": 4,
+  "sig_seen": [
+   "e690bfd3",
+   "bafd7483"
+  ]
+ },
+ "s-deepseek-v4-flash-wooden-tab": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "2.7s/801tok",
+   "3.5s/914tok",
+   "Alien Family",
+   "Blur",
+   "Construct Judgment Baseline",
+   "Construct Judgment Benchmark",
+   "DeepSeek V4 Flash",
+   "DeepSeek-V4-Flash",
+   "Deepseek-V4-Flash",
+   "Deepseek-v4-flash",
+   "Default Strict Reading",
+   "Different Family"
+  ],
+  "evidence_n": 6,
+  "sig_seen": [
+   "85c511f6"
+  ]
+ },
+ "s-facedetailer-face-second-pas": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "Anime Image Generation Standard Two-Stage",
+   "Beautiful Detailed Eyes Prompt",
+   "Before Image",
+   "CFG 5.5",
+   "Combo Pass",
+   "Combo Pass Duration 12s",
+   "Denoise 0.5",
+   "Denoise 0.6",
+   "Denoise Threshold >=0.6",
+   "Detailed Eyes Prompt",
+   "Eye Color",
+   "Eye Highlights"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "7e39185a"
+  ]
+ },
+ "s-p-objectinfo-cache-venv-full": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "/object_info",
+   "/object_info/{class}",
+   "0.7s",
+   "2026-10-02",
+   "964 Node Classes",
+   "Cache File",
+   "Comfy-Agent连接调研",
+   "Comfy-mcp.exe",
+   "Comfy.exe",
+   "ComfyUI",
+   "ComfyUI API Consumption Family",
+   "D:/comfy"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "5d632db4"
+  ]
+ },
+ "s-two-arm-same-seed-test-comfy": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "12 Nodes",
+   "20261005",
+   "Colorfulness",
+   "ComfyUI 0.38+",
+   "ComfyUI 0.38.0",
+   "ComfyUI V0.34",
+   "Cross-Version Verification",
+   "Early 0.3x Versions",
+   "Field_Wiring_Run",
+   "HSV S_Mean",
+   "Live Schema",
+   "Live Schema Precheck"
+  ],
+  "evidence_n": 3,
+  "sig_seen": [
+   "594067af"
+  ]
+ },
+ "s-video-generation-frame-count": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "18.2s Same-Quality Reproduction",
+   "20261007",
+   "20261007 Rainy Night Intersection Comparison",
+   "4n+1",
+   "AniSora",
+   "AniSora First Flight",
+   "Complete Image",
+   "Domain-Level Universality",
+   "Duration Drift",
+   "Facts",
+   "Facts Prompt-Side Key Splitting",
+   "Length"
+  ],
+  "evidence_n": 5,
+  "sig_seen": [
+   "cbad8c78"
+  ]
+ },
+ "s-photo-medium-tall-image-qual": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "Absurdres",
+   "Best Quality",
+   "Blurred Background",
+   "Blurry Background",
+   "Blurry Foreground",
+   "Candid",
+   "Depth Of Field",
+   "Depth of Field",
+   "Highres",
+   "Masterpiece",
+   "Motion Blur",
+   "Newest"
+  ],
+  "evidence_n": 11,
+  "sig_seen": [
+   "839622c6"
+  ]
+ },
+ "s-scene-and-motion-words-promp": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "Backlight",
+   "Backlighting",
+   "Beautiful Detailed Eyes",
+   "Detailed Eyes",
+   "Distant Face Eye Blur",
+   "Eye Words",
+   "Hybrid Split",
+   "Image Generation Evidence",
+   "Lighting Words",
+   "P-Noobai-Cinematic-Prompt",
+   "Pipeline Face",
+   "Prompt Face"
+  ],
+  "evidence_n": 3,
+  "sig_seen": [
+   "e7c889ac"
+  ]
+ },
+ "s-noobai-vpred-cinematic-recip": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-10",
+  "members": [
+   "28 Steps",
+   "Backlight",
+   "Baseline Supply",
+   "CFG 4.5",
+   "Character Setting",
+   "Conventional CFG 6",
+   "Detailed Hands",
+   "Deterministic Stability",
+   "Euler",
+   "Horizontal Banner Scene 1216×832",
+   "Light Direction",
+   "Lighting Words"
+  ],
+  "evidence_n": 5,
+  "sig_seen": [
+   "8fdf900f",
+   "b5e59049"
+  ]
+ },
+ "s-c1-e1-construct-divergence-c": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "C1-E1'",
+   "C1-E1' Construct Divergence",
+   "Construct Disagreement",
+   "Cross-Family Replication",
+   "Cross-Family Replication C1-E1'",
+   "Cross-Family Reproduction",
+   "Cross-Family Reproduction C1-E1' Construct Divergence",
+   "Img_C",
+   "Img_C②",
+   "Judgment 0",
+   "Judgment Score 0",
+   "Wood Grain"
+  ],
+  "evidence_n": 6,
+  "sig_seen": [
+   "36606b0c"
+  ]
+ },
+ "s-noob-vp1-detailer-by-volnovi": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "20261005 A/B Test",
+   "Baseline",
+   "Composition",
+   "Detail Direction",
+   "EasyNegative LoRA",
+   "LoRA Arm",
+   "Mechanical Readings",
+   "Model+CLIP Full Chain",
+   "NOOB_vp1_detailer_by_volnovik_v1",
+   "NoobAI-XL Vpred",
+   "Over-Sculpted Feel",
+   "P-noobai-vp1-detailer-lora"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "462b89a2"
+  ]
+ },
+ "s-anisora-v3-2-gguf-reduced-lo": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "20261005 Single Low-Noise Half Model Full-Step First Flight Test",
+   "25 Frames at 640x384",
+   "33 Frames at 832x480",
+   "4n+1 Length Constraint",
+   "AniSora V3.2 GGUF",
+   "Dual-Model Full Quality",
+   "Full-Step",
+   "High Half Model",
+   "Low-Noise Half Model",
+   "P-antisora-wan22-gguf-wiring",
+   "Q4_K_M",
+   "RAM"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "aeacac90"
+  ]
+ },
+ "s-sentient-tree-sweeping-panni": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-09",
+  "last_seen": "2026-10-09",
+  "members": [
+   "Cinematic Natural Light",
+   "Sentient Tree",
+   "Spectral Sentinel",
+   "Stark Palette of Winter Whites and Greys",
+   "Surreal Presence",
+   "Sweeping Panning Shot",
+   "Tumultuous Ocean Shore",
+   "Watery Veil"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "16a22c85"
+  ]
+ },
+ "s-aqua-eyes-aqua-hair-collared": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Cloth Wrinkles",
+   "Collared Shirt",
+   "Detailed Clothes Folds",
+   "Grey Shirt",
+   "Grey Sleeveless Collared Shirt",
+   "Sleeveless Shirt",
+   "Visible Seams",
+   "aqua eyes",
+   "aqua hair",
+   "black skirt",
+   "black thighhighs",
+   "bubbles"
+  ],
+  "evidence_n": 126,
+  "sig_seen": [
+   "f4ed77a8"
+  ]
+ },
+ "s-cherry-blossoms-dappled-sunl": {
+  "rounds_seen": 2,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Blue Sky",
+   "Blurred Background",
+   "Cherry Blossoms",
+   "Clouds",
+   "Dappled Sunlight",
+   "Depth Of Field",
+   "Falling Petals",
+   "Filtered Sunlight",
+   "Hair Blowing",
+   "Image",
+   "Ocean Surface",
+   "Outdoors"
+  ],
+  "evidence_n": 12,
+  "sig_seen": [
+   "3205c8b1",
+   "13b85cd0"
+  ],
+  "minted": "S-above-the-ocean-surface-blue-13b85cd0"
+ },
+ "s-arms-slightly-out-curled-up": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "1990s Anime Style",
+   "1girl",
+   "2000s Anime Style",
+   "Aqua Eyes",
+   "Aqua Hair",
+   "Arm Up",
+   "Arms At Sides",
+   "Arms Slightly Out",
+   "Back View",
+   "Backlighting",
+   "Black Pleated Skirt",
+   "Black Thighhighs"
+  ],
+  "evidence_n": 55,
+  "sig_seen": [
+   "87ca9fae"
+  ]
+ },
+ "s-broken-columns-fish-school-l": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Broken Columns",
+   "Fish School",
+   "Rays Through Ruins",
+   "Stone Pillars",
+   "Sunken Ruins",
+   "broken columns",
+   "fish school",
+   "looking into distance",
+   "rays through ruins",
+   "standing on ruins",
+   "stone pillars",
+   "sunken ruins"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "7cd673f9"
+  ]
+ },
+ "s-broken-wooden-beams-inside-s": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Broken Planks",
+   "Broken Wooden Beams",
+   "Light Through Broken Planks",
+   "Light Through Porthole",
+   "Porthole",
+   "Rusted Hull",
+   "Ship Interior",
+   "Shipwreck",
+   "broken wooden beams",
+   "inside shipwreck",
+   "light through broken planks",
+   "light through porthole"
+  ],
+  "evidence_n": 5,
+  "sig_seen": [
+   "e1f0209c"
+  ]
+ },
+ "s-dynamic-pose-head-tilted-mus": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "1990s Anime Style",
+   "1girl",
+   "2000s Anime Style",
+   "Aqua Eyes",
+   "Aqua Hair",
+   "Arm Up",
+   "Arms At Sides",
+   "Arms Slightly Out",
+   "Back View",
+   "Backlighting",
+   "Black Pleated Skirt",
+   "Black Thighhighs"
+  ],
+  "evidence_n": 49,
+  "sig_seen": [
+   "2899b9b8"
+  ]
+ },
+ "s-1990s-anime-style-film-grain": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "1990s Anime Style",
+   "1990s anime style",
+   "1girl",
+   "2000s Anime Style",
+   "Aqua Eyes",
+   "Aqua Hair",
+   "Arm Up",
+   "Arms At Sides",
+   "Arms Slightly Out",
+   "Back View",
+   "Backlighting",
+   "Black Pleated Skirt"
+  ],
+  "evidence_n": 48,
+  "sig_seen": [
+   "b5b6379e"
+  ]
+ },
+ "s-bioluminescence-blue-glow-gl": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Bioluminescence",
+   "Blue Glow",
+   "Blue Theme",
+   "Bubbles",
+   "Caustics",
+   "Colored Lighting",
+   "Dark Blue Background",
+   "Deep Blue Background",
+   "Deep Open Water",
+   "Deep Sea",
+   "Dramatic Lighting",
+   "Giant Whale Silhouette"
+  ],
+  "evidence_n": 39,
+  "sig_seen": [
+   "7e7a9d7e"
+  ]
+ },
+ "s-against-light-arms-slightly": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "against light",
+   "arms slightly raised",
+   "backlit",
+   "hands relaxed",
+   "silhouette"
+  ],
+  "evidence_n": 2,
+  "sig_seen": [
+   "55974fe8"
+  ]
+ },
+ "s-rating-general-score-7-up-sc": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "1Girl",
+   "After Rain",
+   "Black Skirt",
+   "Blush",
+   "Cinematic Lighting",
+   "City Lights",
+   "Girl",
+   "Hands In Pockets",
+   "Holding",
+   "JK",
+   "Jk",
+   "Kneehighs"
+  ],
+  "evidence_n": 37,
+  "sig_seen": [
+   "053137e8"
+  ]
+ },
+ "s-anisora-v3-2-gguf-video-gene": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "2.2 Generation",
+   "20 Steps",
+   "4n+1",
+   "AniSora",
+   "AniSora First Flight",
+   "AniSora V3.2 GGUF",
+   "CFG 6",
+   "CLIPLoader",
+   "Checkpoint",
+   "Duration Drift",
+   "EasyNegative LoRA",
+   "FPS 16"
+  ],
+  "evidence_n": 4,
+  "sig_seen": [
+   "d1b56f41"
+  ]
+ },
+ "s-facedetailer-facedetailer-v2": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "12 Seconds",
+   "20261007 Rainy Night Intersection Comparison",
+   "832×1216",
+   "Anime Generation Standard Two-Stage Method",
+   "Beautiful Detailed Eyes",
+   "Before Image",
+   "CFG 5.5",
+   "Denoise 0.5",
+   "Denoise 0.6",
+   "Denoise ≥0.6",
+   "Detailed Eyes",
+   "Distant Face Eye Blur"
+  ],
+  "evidence_n": 4,
+  "sig_seen": [
+   "261e2310"
+  ]
+ },
+ "s-20261005-dual-arm-same-seed": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "20261005 Dual-Arm Same-Seed Test",
+   "Colorfulness",
+   "ComfyUI 0.38.0",
+   "HSV S_mean",
+   "Informed Arm",
+   "ModelSamplingDiscrete(v_prediction,zsnr=True)",
+   "Naive Direct Loading",
+   "NoobAI-XL Vpred v1.0",
+   "P-noobai-vpred-autodetect",
+   "PIL",
+   "PIL Pixel MD5 7f598ee4…",
+   "v_prediction+zsnr"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "b366e6af"
+  ]
+ },
+ "s-p-noobai-cinematic-prompt-no": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Mixed Body",
+   "Mixed-Body Split Vanguard",
+   "Mixed-Body Splitting",
+   "Mixed-Body Strip",
+   "Mixed-Body Strip Splitting",
+   "NoobAI Vpred",
+   "P-Noobai-Cinematic-Prompt",
+   "Pipeline Face",
+   "Prompt Face",
+   "Prompt-Side Recipe"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "6cddd141"
+  ]
+ },
+ "s-comfyui-0-38-cross-version-r": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "0.3x Early Versions",
+   "ComfyUI 0.38+",
+   "Cross-Version Revalidation",
+   "Manual V-Pred Handling",
+   "NoobAI Series",
+   "SDXL v-pred",
+   "v0.34"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "7eb1e155"
+  ]
+ },
+ "s-seed-detail-direction-compos": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Composition",
+   "Detail Direction",
+   "Seed"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "9db48358"
+  ]
+ },
+ "s-traditional-media-watercolor": {
+  "rounds_seen": 1,
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10",
+  "members": [
+   "Paper Texture",
+   "Traditional Media",
+   "Watercolor"
+  ],
+  "evidence_n": 1,
+  "sig_seen": [
+   "04181ecc"
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "case": "函数包裹列与连接池调优的经验误用",
+ "provenance": "盲测出题人 C/D：Xiaomi MiMo mimo-v2.6-pro（异族），单发、未读仓库、未参考实现",
+ "n": 7,
+ "rows": [
+  {
+   "id": "S-102",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-103",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-104",
+   "expected": "low",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-105",
+   "expected": "low",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-106",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-107",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-108",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  }
+ ],
+ "exact": 4,
+ "high_hit": "2/2",
+ "low_hit": "2/2",
+ "fn": [],
+ "action_fp": [],
+ "tag_fp": [
+  "S-106",
+  "S-107",
+  "S-108"
+ ],
+ "prop_ordering_ok": true,
+ "bayes_ordering_ok": false,
+ "confusion": {
+  "high->high": 2,
+  "low->low": 2,
+  "none->low": 3
+ }
+}

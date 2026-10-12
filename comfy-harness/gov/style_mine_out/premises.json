@@ -1,0 +1,116 @@
+{
+ "watched": [
+  "ckpt",
+  "sampler_default",
+  "scheduler_default",
+  "upscale_method_default",
+  "zsnr_default",
+  "themes_any_zsnr_false",
+  "themes_any_bislerp",
+  "themes_any_lora",
+  "recipe_base_version"
+ ],
+ "states": {
+  "themes_any_zsnr_false=False": {
+   "status": "flipped",
+   "flipped_to": "themes_any_zsnr_false=True",
+   "at": "2026-10-09T19:38:19"
+  },
+  "themes_any_zsnr_false=True": {
+   "status": "live",
+   "since": "2026-10-09T19:38:19"
+  },
+  "last:themes_any_zsnr_false": {
+   "value": true,
+   "at": "2026-10-10T16:18:32"
+  },
+  "last:ckpt": {
+   "value": "NoobAI-XL-Vpred-v1.0.safetensors",
+   "at": "2026-10-10T16:18:32"
+  },
+  "ckpt=NoobAI-XL-Vpred-v1.0.safetensors": {
+   "status": "live",
+   "since": "2026-10-09T19:39:14"
+  },
+  "last:sampler_default": {
+   "value": "euler",
+   "at": "2026-10-10T16:18:32"
+  },
+  "sampler_default=euler": {
+   "status": "live",
+   "since": "2026-10-09T19:39:14"
+  },
+  "last:scheduler_default": {
+   "value": "normal",
+   "at": "2026-10-10T16:18:32"
+  },
+  "scheduler_default=normal": {
+   "status": "live",
+   "since": "2026-10-09T19:39:14"
+  },
+  "last:upscale_method_default": {
+   "value": "nearest-exact",
+   "at": "2026-10-10T16:18:32"
+  },
+  "upscale_method_default=nearest-exact": {
+   "status": "live",
+   "since": "2026-10-09T19:39:14"
+  },
+  "last:zsnr_default": {
+   "value": true,
+   "at": "2026-10-10T16:18:32"
+  },
+  "zsnr_default=True": {
+   "status": "live",
+   "since": "2026-10-09T19:39:14"
+  },
+  "last:themes_any_bislerp": {
+   "value": true,
+   "at": "2026-10-10T16:18:32"
+  },
+  "themes_any_bislerp=True": {
+   "status": "live",
+   "since": "2026-10-09T19:39:14"
+  },
+  "last:themes_any_lora": {
+   "value": true,
+   "at": "2026-10-10T16:18:32"
+  },
+  "themes_any_lora=True": {
+   "status": "live",
+   "since": "2026-10-09T19:39:14"
+  }
+ },
+ "flips": [
+  {
+   "key": "themes_any_zsnr_false",
+   "from": "False",
+   "to": "True",
+   "at": "2026-10-09T19:38:19",
+   "ref": "P-obs-zsnr-NoobAI-vpred-zsnr-True-7e5a950e",
+   "how": "manual"
+  }
+ ],
+ "backfills": [
+  {
+   "premise": "themes_any_zsnr_false=False",
+   "targets": [
+    {
+     "kind": "entry",
+     "ref": "P-obs-vp1-0-8-902-903-904-043e6dd0"
+    },
+    {
+     "kind": "entry",
+     "ref": "S-NOOB-vp1-detailer-by-volnovi-ef2a1314"
+    },
+    {
+     "kind": "entry",
+     "ref": "P-detailer-clean-chain"
+    }
+   ],
+   "ref": "P-obs-zsnr-NoobAI-vpred-zsnr-True-7e5a950e",
+   "note": "r时代条目(20261005-08)，zsnr=True 底色 era 依赖回填",
+   "at": "2026-10-09T19:38:19"
+  }
+ ]
+}

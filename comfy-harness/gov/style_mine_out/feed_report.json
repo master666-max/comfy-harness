@@ -1,0 +1,261 @@
+{
+ "minted": [
+  {
+   "id": "S-ahoge-big-grin-black-wizard-430b25e5",
+   "kind": "postproc",
+   "task": "t2i",
+   "sig": "430b25e5",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 76,
+   "gen": 1
+  },
+  {
+   "id": "S-cherry-blossoms-dappled-sunl-3205c8b1",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "3205c8b1",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 40,
+   "gen": 1
+  },
+  {
+   "id": "S-anime-illustration-crisp-cle-b46c1d98",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "b46c1d98",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 40,
+   "gen": 1
+  },
+  {
+   "id": "S-cinematic-lighting-city-ligh-387b94d2",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "387b94d2",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 44,
+   "gen": 1
+  },
+  {
+   "id": "S-fingers-near-mouth-freckles-fa6479c4",
+   "kind": "postproc",
+   "task": "t2i",
+   "sig": "fa6479c4",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 31,
+   "gen": 1
+  },
+  {
+   "id": "S-gold-stripes-knit-trim-red-a-c0741254",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "c0741254",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 57,
+   "gen": 1
+  },
+  {
+   "id": "S-above-the-ocean-surface-blue-13b85cd0",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "13b85cd0",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 26,
+   "gen": 1
+  },
+  {
+   "id": "S-Sweeping-Panning-Shot-Sentie-7b840c82",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "7b840c82",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 8,
+   "gen": 1
+  }
+ ],
+ "skipped": [
+  {
+   "name": "aqua eyes · aqua hair · collared shirt",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "after rain · blurry background · blurry foreground",
+   "why": "近重复→recurrence(S-after-rain-blurry-background-4eeab，同基底）"
+  },
+  {
+   "name": "arms slightly out · curled up · from above",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "broken columns · fish school · looking into distance",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "bbox/face_yolov8m.pt · simple · 面部二道",
+   "why": "近重复→recurrence(S-bbox-face-yolov8m-pt-simple-c0b462，同基底）"
+  },
+  {
+   "name": "broken wooden beams · inside shipwreck · light through broken planks",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "dynamic pose · head tilted · musical note",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "1990s anime style · film grain · oldschool",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "bioluminescence · blue glow · glowing particles",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "against light · arms slightly raised · backlit",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "deepseek · e-2 · 异族判官",
+   "why": "近重复→recurrence(S-deepseek-e-2-c99a9af2，同基底）"
+  },
+  {
+   "name": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+   "why": "近重复→recurrence(S-a-single-vintage-car-with-he-ea634，同基底）"
+  },
+  {
+   "name": "height · width · 布线",
+   "why": "近重复→recurrence(S-height-width-ab945a76，同基底）"
+  },
+  {
+   "name": "rating:general · score_7_up · score_8_up",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "AniSora V3.2 GGUF·Video Generation Frame Count Contract·Informed Wiring",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "FaceDetailer·FaceDetailer v2 (0.6/640 + Eye Prompts)·Eye-Specific Prompts",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "NoobAI Vpred Cinematic Recipe·Variant Principle·Scene and Motion Words",
+   "why": "近重复→recurrence(S-NoobAI-Vpred-Cinematic-Recip-9f55b，同基底）"
+  },
+  {
+   "name": "P-objectinfo-cache·/object_info·Single Class Query",
+   "why": "近重复→recurrence(S-P-objectinfo-cache-object-in-ef318，同基底）"
+  },
+  {
+   "name": "Scripts/*.exe·uv trampoline failed to canonicalize script path·venv",
+   "why": "近重复→recurrence(P-uv-venv-trampoline，cos=0.947)"
+  },
+  {
+   "name": "20261005 Dual-Arm Same-Seed Test·ComfyUI 0.38.0·Naive Direct Loading",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "P-Noobai-Cinematic-Prompt·NoobAI Vpred·Prompt Face",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "ComfyUI 0.38+·Cross-Version Revalidation·Manual V-Pred Handling",
+   "why": "成熟度闸：落池待复现（1/2 轮）"
+  },
+  {
+   "name": "Seed·Detail Direction·Composition",
+   "why": "size<4"
+  },
+  {
+   "name": "Traditional Media·Watercolor·Paper Texture",
+   "why": "size<4"
+  }
+ ],
+ "routed": {
+  "postproc": 2,
+  "style": 6
+ },
+ "anti": {
+  "mode": "on",
+  "checked": 8,
+  "hits": [],
+  "injected": true,
+  "specimens": 6
+ },
+ "family_candidates": [
+  {
+   "base": "s-deepseek-e-2",
+   "n": 3,
+   "canonical": "S-deepseek-e-2-c99a9af2",
+   "candidate": "deepseek · e-2 · 异族判官",
+   "hint": "族谱候选（N6）：概念「s-deepseek-e-2」已有 3 件，本次再撞=第 4 件——人签后可铸家族条并退场各代（N4 三件套）；机器只提案"
+  }
+ ],
+ "process": [],
+ "recurred": [
+  {
+   "candidate": "after rain · blurry background · blurry foreground",
+   "into": "S-after-rain-blurry-background-4eeab383",
+   "cos": null
+  },
+  {
+   "candidate": "bbox/face_yolov8m.pt · simple · 面部二道",
+   "into": "S-bbox-face-yolov8m-pt-simple-c0b46271",
+   "cos": null
+  },
+  {
+   "candidate": "deepseek · e-2 · 异族判官",
+   "into": "S-deepseek-e-2-c99a9af2",
+   "cos": null
+  },
+  {
+   "candidate": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+   "into": "S-a-single-vintage-car-with-he-ea634e59",
+   "cos": null
+  },
+  {
+   "candidate": "height · width · 布线",
+   "into": "S-height-width-ab945a76",
+   "cos": null
+  },
+  {
+   "candidate": "NoobAI Vpred Cinematic Recipe·Variant Principle·Scene and Motion Words",
+   "into": "S-NoobAI-Vpred-Cinematic-Recip-9f55b4be",
+   "cos": null
+  },
+  {
+   "candidate": "P-objectinfo-cache·/object_info·Single Class Query",
+   "into": "S-P-objectinfo-cache-object-in-ef318474",
+   "cos": null
+  },
+  {
+   "candidate": "Scripts/*.exe·uv trampoline failed to canonicalize script path·venv",
+   "into": "P-uv-venv-trampoline",
+   "cos": 0.947
+  }
+ ],
+ "n1_merged": 5
+}

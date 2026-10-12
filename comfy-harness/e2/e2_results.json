@@ -1,0 +1,299 @@
+[
+ {
+  "arm": "deepseek",
+  "image": "img_A.png",
+  "raw": "{\"红方块\":1,\"木桌\":1,\"黄鸭\":1,\"影棚光效\":1,\"一句话理由\":\"图中可见红色立方体、黄色橡皮鸭置于可辨木纹桌面上，整体呈现柔和均匀的影棚式布光。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "图中可见红色立方体、黄色橡皮鸭置于可辨木纹桌面上，整体呈现柔和均匀的影棚式布光。"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "DeepSeek-V4 系；与生图族(flux/klein)及 zcode 会话族(GLM)无训练谱系交集——自偏爱构造性豁免成立",
+  "model": "deepseek-v4-flash",
+  "latency_s": 3.1,
+  "usage": {
+   "prompt_tokens": 417,
+   "completion_tokens": 498,
+   "total_tokens": 915,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 442
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 161
+  }
+ },
+ {
+  "arm": "glm",
+  "image": "img_A.png",
+  "raw": "```json\n{\n    \"红方块\": 1,\n    \"木桌\": 1,\n    \"黄鸭\": 1,\n    \"影棚光效\": 1,\n    \"一句话理由\": \"图像中包含所有要求的元素，且光线均匀，符合影棚光效\"\n}\n```",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "图像中包含所有要求的元素，且光线均匀，符合影棚光效"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "智谱 GLM 系(glm-4v-flash 视觉型)；与生图族(flux/klein)无谱系交集；与 zcode 会话族同源（会话族非被判对象，自偏爱不成立；对拍相对 deepseek 臂谱系异源，分歧信号有效）",
+  "model": "glm-4v-flash",
+  "latency_s": 1.7,
+  "usage": {
+   "completion_tokens": 64,
+   "prompt_tokens": 599,
+   "total_tokens": 663
+  }
+ },
+ {
+  "arm": "deepseek",
+  "image": "img_B.png",
+  "raw": "{\"红方块\":1,\"木桌\":1,\"黄鸭\":1,\"影棚光效\":1,\"一句话理由\":\"图中可见红色立方体、黄色橡皮鸭置于有木纹的桌面上，整体为干净背景与柔和受控光影的影棚式布光。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "图中可见红色立方体、黄色橡皮鸭置于有木纹的桌面上，整体为干净背景与柔和受控光影的影棚式布光。"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "DeepSeek-V4 系；与生图族(flux/klein)及 zcode 会话族(GLM)无训练谱系交集——自偏爱构造性豁免成立",
+  "model": "deepseek-v4-flash",
+  "latency_s": 2.8,
+  "usage": {
+   "prompt_tokens": 417,
+   "completion_tokens": 479,
+   "total_tokens": 896,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 418
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 161
+  }
+ },
+ {
+  "arm": "glm",
+  "image": "img_B.png",
+  "raw": "```json\n{\n    \"红方块\": 1,\n    \"木桌\": 1,\n    \"黄鸭\": 1,\n    \"影棚光效\": 1,\n    \"一句话理由\": \"图像中包含所有要求的元素，且光线均匀，符合影棚光效\"\n}\n```",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "图像中包含所有要求的元素，且光线均匀，符合影棚光效"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "智谱 GLM 系(glm-4v-flash 视觉型)；与生图族(flux/klein)无谱系交集；与 zcode 会话族同源（会话族非被判对象，自偏爱不成立；对拍相对 deepseek 臂谱系异源，分歧信号有效）",
+  "model": "glm-4v-flash",
+  "latency_s": 1.4,
+  "usage": {
+   "completion_tokens": 64,
+   "prompt_tokens": 599,
+   "total_tokens": 663
+  }
+ },
+ {
+  "arm": "deepseek",
+  "image": "img_C.png",
+  "raw": "{\"红方块\":1,\"木桌\":1,\"黄鸭\":1,\"影棚光效\":1,\"一句话理由\":\"图中可见红色立方体、黄色橡皮鸭和可辨桌面，整体呈柔和均匀布光，符合各判据。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "图中可见红色立方体、黄色橡皮鸭和可辨桌面，整体呈柔和均匀布光，符合各判据。"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "DeepSeek-V4 系；与生图族(flux/klein)及 zcode 会话族(GLM)无训练谱系交集——自偏爱构造性豁免成立",
+  "model": "deepseek-v4-flash",
+  "latency_s": 5.1,
+  "usage": {
+   "prompt_tokens": 417,
+   "completion_tokens": 943,
+   "total_tokens": 1360,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 889
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 161
+  }
+ },
+ {
+  "arm": "glm",
+  "image": "img_C.png",
+  "raw": "```json\n{\n    \"红方块\": 1,\n    \"木桌\": 1,\n    \"黄鸭\": 1,\n    \"影棚光效\": 0,\n    \"一句话理由\": \"图像模糊，无法判断是否为影棚拍摄\"\n}\n```",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 0,
+   "一句话理由": "图像模糊，无法判断是否为影棚拍摄"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "智谱 GLM 系(glm-4v-flash 视觉型)；与生图族(flux/klein)无谱系交集；与 zcode 会话族同源（会话族非被判对象，自偏爱不成立；对拍相对 deepseek 臂谱系异源，分歧信号有效）",
+  "model": "glm-4v-flash",
+  "latency_s": 2.2,
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 599,
+   "total_tokens": 657
+  }
+ },
+ {
+  "arm": "deepseek",
+  "image": "img_D.png",
+  "raw": "{\"红方块\":0,\"木桌\":1,\"黄鸭\":0,\"影棚光效\":1,\"一句话理由\":\"图为灰度图像，立方体与橡皮鸭均无可辨红色或黄色；木纹桌面可见，且有柔和均匀的影棚式布光。\"}",
+  "parsed": {
+   "红方块": 0,
+   "木桌": 1,
+   "黄鸭": 0,
+   "影棚光效": 1,
+   "一句话理由": "图为灰度图像，立方体与橡皮鸭均无可辨红色或黄色；木纹桌面可见，且有柔和均匀的影棚式布光。"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "DeepSeek-V4 系；与生图族(flux/klein)及 zcode 会话族(GLM)无训练谱系交集——自偏爱构造性豁免成立",
+  "model": "deepseek-v4-flash",
+  "latency_s": 3.2,
+  "usage": {
+   "prompt_tokens": 409,
+   "completion_tokens": 533,
+   "total_tokens": 942,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 474
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 153
+  }
+ },
+ {
+  "arm": "glm",
+  "image": "img_D.png",
+  "raw": "```json\n{\n    \"红方块\": 0,\n    \"木桌\": 1,\n    \"黄鸭\": 0,\n    \"影棚光效\": 1,\n    \"一句话理由\": \"图像中没有红色立方体，有木桌，没有黄色橡皮鸭，光线均匀，符合影棚光效\"\n}\n```",
+  "parsed": {
+   "红方块": 0,
+   "木桌": 1,
+   "黄鸭": 0,
+   "影棚光效": 1,
+   "一句话理由": "图像中没有红色立方体，有木桌，没有黄色橡皮鸭，光线均匀，符合影棚光效"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "智谱 GLM 系(glm-4v-flash 视觉型)；与生图族(flux/klein)无谱系交集；与 zcode 会话族同源（会话族非被判对象，自偏爱不成立；对拍相对 deepseek 臂谱系异源，分歧信号有效）",
+  "model": "glm-4v-flash",
+  "latency_s": 1.5,
+  "usage": {
+   "completion_tokens": 71,
+   "prompt_tokens": 590,
+   "total_tokens": 661
+  }
+ },
+ {
+  "arm": "deepseek",
+  "image": "img_E2.png",
+  "raw": "{\"红方块\":1,\"木桌\":1,\"黄鸭\":0,\"影棚光效\":1,\"一句话理由\":\"画面中有红色立方体置于可见木纹桌面，并呈受控柔光和干净背景的影棚布光感，但未出现黄色橡皮鸭。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 0,
+   "影棚光效": 1,
+   "一句话理由": "画面中有红色立方体置于可见木纹桌面，并呈受控柔光和干净背景的影棚布光感，但未出现黄色橡皮鸭。"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "DeepSeek-V4 系；与生图族(flux/klein)及 zcode 会话族(GLM)无训练谱系交集——自偏爱构造性豁免成立",
+  "model": "deepseek-v4-flash",
+  "latency_s": 4.0,
+  "usage": {
+   "prompt_tokens": 409,
+   "completion_tokens": 689,
+   "total_tokens": 1098,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 628
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 153
+  }
+ },
+ {
+  "arm": "glm",
+  "image": "img_E2.png",
+  "raw": "```json\n{\n    \"红方块\": 1,\n    \"木桌\": 1,\n    \"黄鸭\": 0,\n    \"影棚光效\": 1,\n    \"一句话理由\": \"图像中有红色立方体、木桌，没有黄色橡皮鸭，光线均匀，符合影棚光效\"\n}\n```",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 0,
+   "影棚光效": 1,
+   "一句话理由": "图像中有红色立方体、木桌，没有黄色橡皮鸭，光线均匀，符合影棚光效"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "智谱 GLM 系(glm-4v-flash 视觉型)；与生图族(flux/klein)无谱系交集；与 zcode 会话族同源（会话族非被判对象，自偏爱不成立；对拍相对 deepseek 臂谱系异源，分歧信号有效）",
+  "model": "glm-4v-flash",
+  "latency_s": 2.6,
+  "usage": {
+   "completion_tokens": 70,
+   "prompt_tokens": 590,
+   "total_tokens": 660
+  }
+ },
+ {
+  "arm": "deepseek",
+  "image": "img_C.png",
+  "raw": "{\"红方块\":1,\"木桌\":1,\"黄鸭\":1,\"影棚光效\":1,\"一句话理由\":\"画面可见红色立方体、黄色橡皮鸭置于可辨桌面上，灰色背景与柔和阴影呈现影棚光效。\"}",
+  "parsed": {
+   "红方块": 1,
+   "木桌": 1,
+   "黄鸭": 1,
+   "影棚光效": 1,
+   "一句话理由": "画面可见红色立方体、黄色橡皮鸭置于可辨桌面上，灰色背景与柔和阴影呈现影棚光效。"
+  },
+  "finish_reason": "stop",
+  "judge_lineage": "DeepSeek-V4 系；与生图族(flux/klein)及 zcode 会话族(GLM)无训练谱系交集——自偏爱构造性豁免成立",
+  "model": "deepseek-v4-flash",
+  "latency_s": 3.8,
+  "usage": {
+   "prompt_tokens": 417,
+   "completion_tokens": 658,
+   "total_tokens": 1075,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 604
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 161
+  }
+ },
+ {
+  "meta": {
+   "judge_lineage": {
+    "deepseek": "DeepSeek-V4 系；与生图族(flux/klein)及 zcode 会话族(GLM)无训练谱系交集——自偏爱构造性豁免成立",
+    "glm": "智谱 GLM 系(glm-4v-flash 视觉型)；与生图族(flux/klein)无谱系交集；与 zcode 会话族同源（会话族非被判对象，自偏爱不成立；对拍相对 deepseek 臂谱系异源，分歧信号有效）"
+   },
+   "divergences": [
+    {
+     "image": "img_C.png",
+     "attr": "影棚光效",
+     "deepseek": 1,
+     "glm": 0
+    }
+   ],
+   "shadow_records": 10,
+   "shadow_ledger": "comfy-harness\\field\\shadow_j4_ledger.jsonl"
+  }
+ }
+]

@@ -1,0 +1,563 @@
+{
+ "arms": {
+  "A 确定性": {
+   "corpus_old": 76,
+   "corpus_new": 76,
+   "old": {
+    "n": 13,
+    "process": [],
+    "style": [
+     {
+      "name": "after rain · blurry background · blurry foreground",
+      "size": 28,
+      "process_hits": 0
+     },
+     {
+      "name": "cel shading · crisp clean line art · gentle open smile",
+      "size": 18,
+      "process_hits": 0
+     },
+     {
+      "name": "dappled sunlight · falling petals · jk",
+      "size": 17,
+      "process_hits": 0
+     },
+     {
+      "name": "blue eyes · detail enhancement · detailed face",
+      "size": 11,
+      "process_hits": 0
+     },
+     {
+      "name": "from side · light rays · puddle",
+      "size": 11,
+      "process_hits": 0
+     },
+     {
+      "name": "det · noobai-xl-vpred-v1.0 · crossroad_26100702_00001_.png",
+      "size": 8,
+      "process_hits": 0
+     },
+     {
+      "name": "aesthetic score tag · no humans · noobai vpred",
+      "size": 6,
+      "process_hits": 0
+     },
+     {
+      "name": "bbox/face_yolov8m.pt · simple · 面部二道",
+      "size": 5,
+      "process_hits": 0
+     },
+     {
+      "name": "deepseek · e-2 · 异族判官",
+      "size": 5,
+      "process_hits": 0
+     },
+     {
+      "name": "hires · 二段 · 官方词表",
+      "size": 5,
+      "process_hits": 0
+     },
+     {
+      "name": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+      "size": 4,
+      "process_hits": 0
+     },
+     {
+      "name": "height · width · 布线",
+      "size": 4,
+      "process_hits": 0
+     },
+     {
+      "name": "length · 4n+1 · anisora",
+      "size": 4,
+      "process_hits": 0
+     }
+    ],
+    "process_n": 0,
+    "style_n": 13,
+    "process_cov": 0,
+    "style_cov": 126
+   },
+   "new": {
+    "n": 13,
+    "process": [],
+    "style": [
+     {
+      "name": "after rain · blurry background · blurry foreground",
+      "size": 28,
+      "process_hits": 0
+     },
+     {
+      "name": "cel shading · crisp clean line art · gentle open smile",
+      "size": 18,
+      "process_hits": 0
+     },
+     {
+      "name": "dappled sunlight · falling petals · jk",
+      "size": 17,
+      "process_hits": 0
+     },
+     {
+      "name": "blue eyes · detail enhancement · detailed face",
+      "size": 11,
+      "process_hits": 0
+     },
+     {
+      "name": "from side · light rays · puddle",
+      "size": 11,
+      "process_hits": 0
+     },
+     {
+      "name": "det · noobai-xl-vpred-v1.0 · crossroad_26100702_00001_.png",
+      "size": 8,
+      "process_hits": 0
+     },
+     {
+      "name": "aesthetic score tag · no humans · noobai vpred",
+      "size": 6,
+      "process_hits": 0
+     },
+     {
+      "name": "bbox/face_yolov8m.pt · simple · 面部二道",
+      "size": 5,
+      "process_hits": 0
+     },
+     {
+      "name": "deepseek · e-2 · 异族判官",
+      "size": 5,
+      "process_hits": 0
+     },
+     {
+      "name": "hires · 二段 · 官方词表",
+      "size": 5,
+      "process_hits": 0
+     },
+     {
+      "name": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+      "size": 4,
+      "process_hits": 0
+     },
+     {
+      "name": "height · width · 布线",
+      "size": 4,
+      "process_hits": 0
+     },
+     {
+      "name": "length · 4n+1 · anisora",
+      "size": 4,
+      "process_hits": 0
+     }
+    ],
+    "process_n": 0,
+    "style_n": 13,
+    "process_cov": 0,
+    "style_cov": 126
+   },
+   "retained_names": [
+    "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+    "aesthetic score tag · no humans · noobai vpred",
+    "after rain · blurry background · blurry foreground",
+    "bbox/face_yolov8m.pt · simple · 面部二道",
+    "blue eyes · detail enhancement · detailed face",
+    "cel shading · crisp clean line art · gentle open smile",
+    "dappled sunlight · falling petals · jk",
+    "deepseek · e-2 · 异族判官",
+    "det · noobai-xl-vpred-v1.0 · crossroad_26100702_00001_.png",
+    "from side · light rays · puddle",
+    "height · width · 布线",
+    "hires · 二段 · 官方词表",
+    "length · 4n+1 · anisora"
+   ],
+   "vanished_names": [],
+   "added_names": [],
+   "process_survived_names": []
+  },
+  "B LightRAG": {
+   "corpus_old": 76,
+   "corpus_new": 76,
+   "old": {
+    "n": 31,
+    "process": [
+     {
+      "name": "S-explosive-fireworks-display-9a12ad89·style_mine_out/det+lightrag_candidates.json·S-Background-Crowd-Banners-Wit-43b8017d",
+      "size": 70,
+      "process_hits": 11
+     },
+     {
+      "name": "Machine Proposal Style Cluster·Video Generation Frame Count Contract·Base Model Attribution",
+      "size": 65,
+      "process_hits": 9
+     },
+     {
+      "name": "Hires Upscale Redraw·P-noobai-v3-pipeline·Combination Pass·Hires Upscale Redraw·Combination Pass",
+      "size": 54,
+      "process_hits": 2
+     },
+     {
+      "name": "Candidate Boundary·Human Gate·Mining Artifacts",
+      "size": 45,
+      "process_hits": 11
+     },
+     {
+      "name": "Absurdres · Best Quality · Masterpiece Style Cluster·Machine Proposal Style Cluster Depth Of Field No Humans Red Block·Photo (Medium)",
+      "size": 41,
+      "process_hits": 5
+     },
+     {
+      "name": "First-Flight Informed Wiring·AniSora V3.2 GGUF·Full-Step First Flight Test",
+      "size": 40,
+      "process_hits": 2
+     },
+     {
+      "name": "Machine Proposal·Venv·Venv·E-1时代实测·P-uv-venv-trampoline",
+      "size": 39,
+      "process_hits": 6
+     },
+     {
+      "name": "Observation Flow Technique·Hands In Pockets Composition·Recompute Command",
+      "size": 36,
+      "process_hits": 4
+     },
+     {
+      "name": "Machine Proposal Style Cluster Height Width Wiring·Samples·Generated Samples",
+      "size": 32,
+      "process_hits": 4
+     },
+     {
+      "name": "Observation Flow Technique (Gain)·FLUX.2 Klein 4B·Amend Revision",
+      "size": 32,
+      "process_hits": 6
+     },
+     {
+      "name": "NoobAI Vpred Cinematic Recipe·Variation Principle·Prompt-Side Recipe·NoobAI Vpred Cinematic Recipe·Variant Principle",
+      "size": 30,
+      "process_hits": 2
+     },
+     {
+      "name": "机器提案·风格簇「deepseek · e-2 · 异族判官」·样本·成员/阈值",
+      "size": 21,
+      "process_hits": 6
+     },
+     {
+      "name": "2026-10-08 Four-way A/B Test·Weight 0.7·Style LoRA",
+      "size": 20,
+      "process_hits": 2
+     },
+     {
+      "name": "Bokeh · City Lights · Many People Walking Around·Mining Signature 6deafb2b·Member Thresholds",
+      "size": 17,
+      "process_hits": 3
+     }
+    ],
+    "style": [
+     {
+      "name": "deepseek-v4-flash·Deepseek-V4-Flash·Wooden Table",
+      "size": 74,
+      "process_hits": 0
+     },
+     {
+      "name": "S-Bbox-Face-Yolov8m-Pt-Simple-C0b46271·NoobAI Vpred V3处理段·NoobAI Official Card Recipe",
+      "size": 51,
+      "process_hits": 1
+     },
+     {
+      "name": "Girl·1Girl·Wind",
+      "size": 38,
+      "process_hits": 0
+     },
+     {
+      "name": "API Direct Wiring·Flux2Scheduler·Flux2 Klein 4B",
+      "size": 33,
+      "process_hits": 0
+     },
+     {
+      "name": "FaceDetailer Facial Second Pass·Second Pass V2 (0.6/640+Eye Words)·Eye Words",
+      "size": 32,
+      "process_hits": 0
+     },
+     {
+      "name": "Scene And Motion Words·NoobAI Vpred Prompt-Side Recipe·NoobAI Vpred",
+      "size": 32,
+      "process_hits": 0
+     },
+     {
+      "name": "Noob细节LoRA测试",
+      "size": 31,
+      "process_hits": 0
+     },
+     {
+      "name": "ComfyUI 0.38.0·V-Prediction·Clean Model Chain",
+      "size": 28,
+      "process_hits": 0
+     },
+     {
+      "name": "Self-Mixed-Body Precedent Facts·User Original PNG Metadata·20261007·Image Generation Empirical Evidence·20261007",
+      "size": 20,
+      "process_hits": 1
+     },
+     {
+      "name": "Style Cluster P-objectinfo-cache·/object_info·ComfyUI API Consumers·/object_info·P-objectinfo-cache",
+      "size": 18,
+      "process_hits": 0
+     },
+     {
+      "name": "Cross-Model Family Vocabulary Implementation·Incompatibility Risk·Cross-Model Family Vocabulary",
+      "size": 17,
+      "process_hits": 0
+     },
+     {
+      "name": "樱花少女动漫风",
+      "size": 16,
+      "process_hits": 0
+     },
+     {
+      "name": "Sentient Tree·Sweeping Panning Shot·Scene",
+      "size": 12,
+      "process_hits": 0
+     },
+     {
+      "name": "C1-E1'·Construct Divergence·Cross-Clan Replication",
+      "size": 11,
+      "process_hits": 0
+     },
+     {
+      "name": "Fog-Drenched Coastal Highway·Ultra-Wide Cinematic Shot·Vintage Car",
+      "size": 9,
+      "process_hits": 0
+     },
+     {
+      "name": "Prometheus类本地模型·不兼容风险·跨模型族词表实现",
+      "size": 3,
+      "process_hits": 0
+     },
+     {
+      "name": "Red Apple·White Table·Studio Light",
+      "size": 3,
+      "process_hits": 0
+     }
+    ],
+    "process_n": 14,
+    "style_n": 17,
+    "process_cov": 542,
+    "style_cov": 428
+   },
+   "new": {
+    "n": 31,
+    "process": [
+     {
+      "name": "S-explosive-fireworks-display-9a12ad89·style_mine_out/det+lightrag_candidates.json·S-Background-Crowd-Banners-Wit-43b8017d",
+      "size": 70,
+      "process_hits": 11
+     },
+     {
+      "name": "Machine Proposal Style Cluster·Video Generation Frame Count Contract·Base Model Attribution",
+      "size": 65,
+      "process_hits": 9
+     },
+     {
+      "name": "Hires Upscale Redraw·P-noobai-v3-pipeline·Combination Pass·Hires Upscale Redraw·Combination Pass",
+      "size": 54,
+      "process_hits": 2
+     },
+     {
+      "name": "Candidate Boundary·Human Gate·Mining Artifacts",
+      "size": 45,
+      "process_hits": 11
+     },
+     {
+      "name": "Absurdres · Best Quality · Masterpiece Style Cluster·Machine Proposal Style Cluster Depth Of Field No Humans Red Block·Photo (Medium)",
+      "size": 41,
+      "process_hits": 5
+     },
+     {
+      "name": "First-Flight Informed Wiring·AniSora V3.2 GGUF·Full-Step First Flight Test",
+      "size": 40,
+      "process_hits": 2
+     },
+     {
+      "name": "Machine Proposal·Venv·Venv·E-1时代实测·P-uv-venv-trampoline",
+      "size": 39,
+      "process_hits": 6
+     },
+     {
+      "name": "Observation Flow Technique·Hands In Pockets Composition·Recompute Command",
+      "size": 36,
+      "process_hits": 4
+     },
+     {
+      "name": "Machine Proposal Style Cluster Height Width Wiring·Samples·Generated Samples",
+      "size": 32,
+      "process_hits": 4
+     },
+     {
+      "name": "Observation Flow Technique (Gain)·FLUX.2 Klein 4B·Amend Revision",
+      "size": 32,
+      "process_hits": 6
+     },
+     {
+      "name": "NoobAI Vpred Cinematic Recipe·Variation Principle·Prompt-Side Recipe·NoobAI Vpred Cinematic Recipe·Variant Principle",
+      "size": 30,
+      "process_hits": 2
+     },
+     {
+      "name": "机器提案·风格簇「deepseek · e-2 · 异族判官」·样本·成员/阈值",
+      "size": 21,
+      "process_hits": 6
+     },
+     {
+      "name": "2026-10-08 Four-way A/B Test·Weight 0.7·Style LoRA",
+      "size": 20,
+      "process_hits": 2
+     },
+     {
+      "name": "Bokeh · City Lights · Many People Walking Around·Mining Signature 6deafb2b·Member Thresholds",
+      "size": 17,
+      "process_hits": 3
+     }
+    ],
+    "style": [
+     {
+      "name": "deepseek-v4-flash·Deepseek-V4-Flash·Wooden Table",
+      "size": 74,
+      "process_hits": 0
+     },
+     {
+      "name": "S-Bbox-Face-Yolov8m-Pt-Simple-C0b46271·NoobAI Vpred V3处理段·NoobAI Official Card Recipe",
+      "size": 51,
+      "process_hits": 1
+     },
+     {
+      "name": "Girl·1Girl·Wind",
+      "size": 38,
+      "process_hits": 0
+     },
+     {
+      "name": "API Direct Wiring·Flux2Scheduler·Flux2 Klein 4B",
+      "size": 33,
+      "process_hits": 0
+     },
+     {
+      "name": "FaceDetailer Facial Second Pass·Second Pass V2 (0.6/640+Eye Words)·Eye Words",
+      "size": 32,
+      "process_hits": 0
+     },
+     {
+      "name": "Scene And Motion Words·NoobAI Vpred Prompt-Side Recipe·NoobAI Vpred",
+      "size": 32,
+      "process_hits": 0
+     },
+     {
+      "name": "Noob细节LoRA测试",
+      "size": 31,
+      "process_hits": 0
+     },
+     {
+      "name": "ComfyUI 0.38.0·V-Prediction·Clean Model Chain",
+      "size": 28,
+      "process_hits": 0
+     },
+     {
+      "name": "Self-Mixed-Body Precedent Facts·User Original PNG Metadata·20261007·Image Generation Empirical Evidence·20261007",
+      "size": 20,
+      "process_hits": 1
+     },
+     {
+      "name": "Style Cluster P-objectinfo-cache·/object_info·ComfyUI API Consumers·/object_info·P-objectinfo-cache",
+      "size": 18,
+      "process_hits": 0
+     },
+     {
+      "name": "Cross-Model Family Vocabulary Implementation·Incompatibility Risk·Cross-Model Family Vocabulary",
+      "size": 17,
+      "process_hits": 0
+     },
+     {
+      "name": "樱花少女动漫风",
+      "size": 16,
+      "process_hits": 0
+     },
+     {
+      "name": "Sentient Tree·Sweeping Panning Shot·Scene",
+      "size": 12,
+      "process_hits": 0
+     },
+     {
+      "name": "C1-E1'·Construct Divergence·Cross-Clan Replication",
+      "size": 11,
+      "process_hits": 0
+     },
+     {
+      "name": "Fog-Drenched Coastal Highway·Ultra-Wide Cinematic Shot·Vintage Car",
+      "size": 9,
+      "process_hits": 0
+     },
+     {
+      "name": "Prometheus类本地模型·不兼容风险·跨模型族词表实现",
+      "size": 3,
+      "process_hits": 0
+     },
+     {
+      "name": "Red Apple·White Table·Studio Light",
+      "size": 3,
+      "process_hits": 0
+     }
+    ],
+    "process_n": 14,
+    "style_n": 17,
+    "process_cov": 542,
+    "style_cov": 428
+   },
+   "retained_names": [
+    "2026-10-08 four-way a/b test·weight 0.7·style lora",
+    "absurdres · best quality · masterpiece style cluster·machine proposal style cluster depth of field no humans red block·photo (medium)",
+    "api direct wiring·flux2scheduler·flux2 klein 4b",
+    "bokeh · city lights · many people walking around·mining signature 6deafb2b·member thresholds",
+    "c1-e1'·construct divergence·cross-clan replication",
+    "candidate boundary·human gate·mining artifacts",
+    "comfyui 0.38.0·v-prediction·clean model chain",
+    "cross-model family vocabulary implementation·incompatibility risk·cross-model family vocabulary",
+    "deepseek-v4-flash·deepseek-v4-flash·wooden table",
+    "facedetailer facial second pass·second pass v2 (0.6/640+eye words)·eye words",
+    "first-flight informed wiring·anisora v3.2 gguf·full-step first flight test",
+    "fog-drenched coastal highway·ultra-wide cinematic shot·vintage car",
+    "girl·1girl·wind",
+    "hires upscale redraw·p-noobai-v3-pipeline·combination pass·hires upscale redraw·combination pass",
+    "machine proposal style cluster height width wiring·samples·generated samples",
+    "machine proposal style cluster·video generation frame count contract·base model attribution",
+    "machine proposal·venv·venv·e-1时代实测·p-uv-venv-trampoline",
+    "noobai vpred cinematic recipe·variation principle·prompt-side recipe·noobai vpred cinematic recipe·variant principle",
+    "noob细节lora测试",
+    "observation flow technique (gain)·flux.2 klein 4b·amend revision",
+    "observation flow technique·hands in pockets composition·recompute command",
+    "prometheus类本地模型·不兼容风险·跨模型族词表实现",
+    "red apple·white table·studio light",
+    "s-bbox-face-yolov8m-pt-simple-c0b46271·noobai vpred v3处理段·noobai official card recipe",
+    "s-explosive-fireworks-display-9a12ad89·style_mine_out/det+lightrag_candidates.json·s-background-crowd-banners-wit-43b8017d",
+    "scene and motion words·noobai vpred prompt-side recipe·noobai vpred",
+    "self-mixed-body precedent facts·user original png metadata·20261007·image generation empirical evidence·20261007",
+    "sentient tree·sweeping panning shot·scene",
+    "style cluster p-objectinfo-cache·/object_info·comfyui api consumers·/object_info·p-objectinfo-cache",
+    "机器提案·风格簇「deepseek · e-2 · 异族判官」·样本·成员/阈值",
+    "樱花少女动漫风"
+   ],
+   "vanished_names": [],
+   "added_names": [],
+   "process_survived_names": [
+    "2026-10-08 four-way a/b test·weight 0.7·style lora",
+    "absurdres · best quality · masterpiece style cluster·machine proposal style cluster depth of field no humans red block·photo (medium)",
+    "bokeh · city lights · many people walking around·mining signature 6deafb2b·member thresholds",
+    "candidate boundary·human gate·mining artifacts",
+    "first-flight informed wiring·anisora v3.2 gguf·full-step first flight test",
+    "hires upscale redraw·p-noobai-v3-pipeline·combination pass·hires upscale redraw·combination pass",
+    "machine proposal style cluster height width wiring·samples·generated samples",
+    "machine proposal style cluster·video generation frame count contract·base model attribution",
+    "machine proposal·venv·venv·e-1时代实测·p-uv-venv-trampoline",
+    "noobai vpred cinematic recipe·variation principle·prompt-side recipe·noobai vpred cinematic recipe·variant principle",
+    "observation flow technique (gain)·flux.2 klein 4b·amend revision",
+    "observation flow technique·hands in pockets composition·recompute command",
+    "s-explosive-fireworks-display-9a12ad89·style_mine_out/det+lightrag_candidates.json·s-background-crowd-banners-wit-43b8017d",
+    "机器提案·风格簇「deepseek · e-2 · 异族判官」·样本·成员/阈值"
+   ]
+  }
+ }
+}

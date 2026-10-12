@@ -1,0 +1,305 @@
+{
+ "n_docs": 161,
+ "det": {
+  "n_clusters": 26,
+  "max_size": 44,
+  "avg_size": 9.4,
+  "evidence_cover": 154,
+  "method": "det-cooc",
+  "params": {
+   "min_support": 2,
+   "min_edge": 2,
+   "min_cluster": 3,
+   "stopword_ratio": 0.7,
+   "min_jaccard": 0.5,
+   "resolution": 1.5
+  },
+  "stats": {
+   "n_docs": 161,
+   "n_tags_total": 379,
+   "n_tags_eligible": 256,
+   "n_edges": 1870,
+   "n_stopwords": 10,
+   "stopwords": [
+    "1girl",
+    "absurdres",
+    "best quality",
+    "cel shading",
+    "highres",
+    "looking at viewer",
+    "masterpiece",
+    "newest",
+    "solo",
+    "very aesthetic"
+   ],
+   "algo": "modularity"
+  }
+ },
+ "lr": {
+  "n_clusters": 25,
+  "max_size": 88,
+  "avg_size": 27.8,
+  "evidence_cover": 69,
+  "method": "lightrag",
+  "params": {
+   "llm": "deepseek-v4-flash",
+   "llm_base": "https://api.deepseek.com",
+   "embed": "nomic-embed",
+   "dim": 768,
+   "resolution": 1.5,
+   "min_cluster": 3
+  },
+  "stats": {
+   "n_entities": 716,
+   "n_relations": 1175,
+   "n_chunk_mapped": 70,
+   "n_docs_kv": 70,
+   "insert_s": 1561.7
+  }
+ },
+ "pairing": {
+  "pairs": [
+   {
+    "det": 0,
+    "det_name": "aqua eyes · aqua hair · collared shirt",
+    "det_size": 44,
+    "lr": 21,
+    "lr_name": "Grey Shirt·Detailed Clothes Folds·Visible Seams",
+    "lr_size": 7,
+    "score": 0.86
+   },
+   {
+    "det": 1,
+    "det_name": "ahoge · big grin · black wizard robe",
+    "det_size": 30,
+    "lr": 5,
+    "lr_name": "Fem Ron Weasley·Hogwarts Uniform·Gryffindor Colors",
+    "lr_size": 43,
+    "score": 0.77
+   },
+   {
+    "det": 2,
+    "det_name": "cherry blossoms · dappled sunlight · falling petals",
+    "det_size": 19,
+    "lr": 12,
+    "lr_name": "Image·Outdoors·Wind",
+    "lr_size": 21,
+    "score": 0.53
+   },
+   {
+    "det": 3,
+    "det_name": "anime illustration · crisp clean line art · gentle open smile",
+    "det_size": 17,
+    "lr": 11,
+    "lr_name": "Japanese High School Girl·Anime Key Visual·Anime Illustration",
+    "lr_size": 23,
+    "score": 0.76
+   },
+   {
+    "det": 4,
+    "det_name": "after rain · blurry background · blurry foreground",
+    "det_size": 13,
+    "lr": 7,
+    "lr_name": "Girl·1Girl·Wet Road",
+    "lr_size": 33,
+    "score": 0.46
+   },
+   {
+    "det": 5,
+    "det_name": "cinematic lighting · city lights · light rays",
+    "det_size": 11,
+    "lr": 7,
+    "lr_name": "Girl·1Girl·Wet Road",
+    "lr_size": 33,
+    "score": 0.91
+   },
+   {
+    "det": 6,
+    "det_name": "arms slightly out · curled up · from above",
+    "det_size": 8,
+    "lr": 1,
+    "lr_name": "Hatsune Miku·Cel Shading·Layered Clothing",
+    "lr_size": 87,
+    "score": 0.88
+   },
+   {
+    "det": 7,
+    "det_name": "broken columns · fish school · looking into distance",
+    "det_size": 8,
+    "lr": 22,
+    "lr_name": "Sunken Ruins·Fish School·Broken Columns",
+    "lr_size": 5,
+    "score": 1.0
+   },
+   {
+    "det": 8,
+    "det_name": "bbox/face_yolov8m.pt · simple · 面部二道",
+    "det_size": 7,
+    "lr": 2,
+    "lr_name": "Official Full Table·Combination Pass·Hires Upscale Redraw",
+    "lr_size": 73,
+    "score": 0.43
+   },
+   {
+    "det": 9,
+    "det_name": "broken wooden beams · inside shipwreck · light through broken planks",
+    "det_size": 7,
+    "lr": 18,
+    "lr_name": "Shipwreck·Broken Planks·Ship Interior",
+    "lr_size": 8,
+    "score": 0.86
+   },
+   {
+    "det": 10,
+    "det_name": "dynamic pose · head tilted · musical note",
+    "det_size": 7,
+    "lr": 1,
+    "lr_name": "Hatsune Miku·Cel Shading·Layered Clothing",
+    "lr_size": 87,
+    "score": 1.0
+   },
+   {
+    "det": 11,
+    "det_name": "fingers near mouth · freckles · hand near face",
+    "det_size": 7,
+    "lr": 10,
+    "lr_name": "Close-Up Portrait·Photo (Medium)·Quality Control Group",
+    "lr_size": 24,
+    "score": 0.29
+   },
+   {
+    "det": 12,
+    "det_name": "1990s anime style · film grain · oldschool",
+    "det_size": 6,
+    "lr": 1,
+    "lr_name": "Hatsune Miku·Cel Shading·Layered Clothing",
+    "lr_size": 87,
+    "score": 1.0
+   },
+   {
+    "det": 13,
+    "det_name": "bioluminescence · blue glow · glowing particles",
+    "det_size": 6,
+    "lr": 8,
+    "lr_name": "Underwater·Dramatic Lighting·Deep Sea",
+    "lr_size": 28,
+    "score": 1.0
+   },
+   {
+    "det": 14,
+    "det_name": "gold stripes · knit trim · red and yellow striped necktie",
+    "det_size": 6,
+    "lr": 5,
+    "lr_name": "Fem Ron Weasley·Hogwarts Uniform·Gryffindor Colors",
+    "lr_size": 43,
+    "score": 0.33
+   },
+   {
+    "det": 15,
+    "det_name": "above the ocean surface · blue sky · clouds",
+    "det_size": 5,
+    "lr": 12,
+    "lr_name": "Image·Outdoors·Wind",
+    "lr_size": 21,
+    "score": 0.8
+   },
+   {
+    "det": 17,
+    "det_name": "back view · hands barely visible · looking back",
+    "det_size": 5,
+    "lr": 1,
+    "lr_name": "Hatsune Miku·Cel Shading·Layered Clothing",
+    "lr_size": 87,
+    "score": 1.0
+   },
+   {
+    "det": 18,
+    "det_name": "deep open water · distant whale · giant whale silhouette",
+    "det_size": 5,
+    "lr": 8,
+    "lr_name": "Underwater·Dramatic Lighting·Deep Sea",
+    "lr_size": 28,
+    "score": 0.6
+   },
+   {
+    "det": 19,
+    "det_name": "deepseek · e-2 · 异族判官",
+    "det_size": 5,
+    "lr": 0,
+    "lr_name": "DeepSeek-V4-Flash·img_C.png·Deepseek-V4-Flash",
+    "lr_size": 88,
+    "score": 0.8
+   },
+   {
+    "det": 20,
+    "det_name": "detailed shading · gradient shading · dark background",
+    "det_size": 5,
+    "lr": 5,
+    "lr_name": "Fem Ron Weasley·Hogwarts Uniform·Gryffindor Colors",
+    "lr_size": 43,
+    "score": 0.6
+   },
+   {
+    "det": 21,
+    "det_name": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+    "det_size": 4,
+    "lr": 17,
+    "lr_name": "Ultra-Wide Cinematic Shot·Fog-Drenched Coastal Highway·Vintage Car",
+    "lr_size": 9,
+    "score": 1.0
+   },
+   {
+    "det": 22,
+    "det_name": "height · width · 布线",
+    "det_size": 4,
+    "lr": 3,
+    "lr_name": "API Direct Informed Wiring·Flux2Scheduler·SamplerCustom",
+    "lr_size": 53,
+    "score": 0.75
+   },
+   {
+    "det": 23,
+    "det_name": "rating:general · score_7_up · score_8_up",
+    "det_size": 4,
+    "lr": 7,
+    "lr_name": "Girl·1Girl·Wet Road",
+    "lr_size": 33,
+    "score": 0.25
+   },
+   {
+    "det": 24,
+    "det_name": "fabric texture · knit texture · bright red and gold striped necktie",
+    "det_size": 3,
+    "lr": 5,
+    "lr_name": "Fem Ron Weasley·Hogwarts Uniform·Gryffindor Colors",
+    "lr_size": 43,
+    "score": 0.67
+   },
+   {
+    "det": 25,
+    "det_name": "red background · simple background · solid background",
+    "det_size": 3,
+    "lr": 5,
+    "lr_name": "Fem Ron Weasley·Hogwarts Uniform·Gryffindor Colors",
+    "lr_size": 43,
+    "score": 1.0
+   }
+  ],
+  "det_only": [
+   "against light · arms slightly raised · backlit"
+  ],
+  "lr_only": [
+   "AniSora V3.2 GGUF·Video Generation Frame Count Contract·Informed Wiring",
+   "FaceDetailer·FaceDetailer v2 (0.6/640 + Eye Prompts)·Eye-Specific Prompts",
+   "NoobAI Vpred Cinematic Recipe·Variant Principle·Scene and Motion Words",
+   "P-objectinfo-cache·/object_info·Single Class Query",
+   "Scripts/*.exe·uv trampoline failed to canonicalize script path·venv",
+   "20261005 Dual-Arm Same-Seed Test·ComfyUI 0.38.0·Naive Direct Loading",
+   "P-Noobai-Cinematic-Prompt·NoobAI Vpred·Prompt Face",
+   "Sweeping Panning Shot·Sentient Tree·Spectral Sentinel",
+   "ComfyUI 0.38+·Cross-Version Revalidation·Manual V-Pred Handling",
+   "Seed·Detail Direction·Composition",
+   "Traditional Media·Watercolor·Paper Texture"
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "tickets": [
+  {
+   "id": "T-001",
+   "target": {
+    "kind": "entry",
+    "ref": "P-obs-vp1-0-8-902-903-904-043e6dd0"
+   },
+   "premise": "themes_any_zsnr_false=False",
+   "now": "themes_any_zsnr_false=True",
+   "claim": "",
+   "suspect": {},
+   "match": [],
+   "status": "closed-dismiss",
+   "created_at": "2026-10-09T19:38:19",
+   "created_by": "machine:flip",
+   "closed_at": "2026-10-09T19:38:42",
+   "artifact": "",
+   "note": "改立带搭车参数正票：姿势因子未复测，候手姿批次自动重试"
+  },
+  {
+   "id": "T-002",
+   "target": {
+    "kind": "entry",
+    "ref": "S-NOOB-vp1-detailer-by-volnovi-ef2a1314"
+   },
+   "premise": "themes_any_zsnr_false=False",
+   "now": "themes_any_zsnr_false=True",
+   "claim": "",
+   "suspect": {},
+   "match": [],
+   "status": "closed-dismiss",
+   "created_at": "2026-10-09T19:38:19",
+   "created_by": "machine:flip",
+   "closed_at": "2026-10-09T19:38:41",
+   "artifact": "",
+   "note": "机器观察簇（draft），非结论件，无需重审"
+  },
+  {
+   "id": "T-003",
+   "target": {
+    "kind": "entry",
+    "ref": "P-detailer-clean-chain"
+   },
+   "premise": "themes_any_zsnr_false=False",
+   "now": "themes_any_zsnr_false=True",
+   "claim": "",
+   "suspect": {},
+   "match": [],
+   "status": "closed-dismiss",
+   "created_at": "2026-10-09T19:38:19",
+   "created_by": "machine:flip",
+   "closed_at": "2026-10-09T19:38:42",
+   "artifact": "",
+   "note": "维护者已裁撤的墓碑件（detailer-clean 撤书记录在案），无在世依赖"
+  },
+  {
+   "id": "T-004",
+   "target": {
+    "kind": "entry",
+    "ref": "T-001改立"
+   },
+   "premise": "themes_any_zsnr_false=False",
+   "now": "themes_any_zsnr_false=True",
+   "claim": "vp1@0.8+管线二道下多指姿势糊指（r时代判定，zsnr=True底色）",
+   "suspect": {
+    "lora": "NOOB_vp1_detailer_by_volnovik_v1.safetensors",
+    "lora_weight": 0.8
+   },
+   "match": [
+    "vp1"
+   ],
+   "status": "pending",
+   "created_at": "2026-10-09T19:38:42",
+   "created_by": "machine:flip"
+  },
+  {
+   "id": "T-005",
+   "target": {
+    "kind": "file",
+    "ref": "T-002教义改立"
+   },
+   "premise": "themes_any_zsnr_false=False",
+   "now": "themes_any_zsnr_false=True",
+   "claim": "无LoRA教义（r4 note：smearl 实证=风格包是涂抹主因）——无LoRA被写进全部后续主题",
+   "suspect": {},
+   "match": [
+    "vp1",
+    "M_dz",
+    "lora"
+   ],
+   "status": "closed-overturn",
+   "created_at": "2026-10-09T19:38:42",
+   "created_by": "machine:flip",
+   "closed_at": "2026-10-09T19:38:52",
+   "artifact": "out/miku_deepsea_final_v2_261009.png,out/mikuB4_230295806.png,out/mikuC4_230295806.png",
+   "note": "20261009 六臂同种子重审（zsnr=F+bislerp新机制）：M_dz@0.7 胜出，vp1@1.0 零糊块平反，vp1@0.5 噪=剂量倒挂——无LoRA教义翻案（维护者令'风格包是你用的太差'触发）；sha256=9515e4da"
+  }
+ ],
+ "next": 6
+}

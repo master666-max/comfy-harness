@@ -1,0 +1,22 @@
+{
+ "at": "2026-10-08T22:12:22",
+ "root": "S-Candidate-Boundary-Human-Gat-ff686e1a",
+ "meta": {
+  "actor": "human:维护者",
+  "mode": "tombstone",
+  "reason": "自食残留：提案流程词簇（Candidate Boundary/Human Gate/Mining Artifacts 45 成员），非风格知识",
+  "as_specimen": true
+ },
+ "impact": {
+  "root": "S-Candidate-Boundary-Human-Gat-ff686e1a",
+  "hops": 2,
+  "total": 0,
+  "by_hop": [
+   [],
+   []
+  ],
+  "rows": [],
+  "root_state": "live",
+  "note": "只出影响面报告；连坐/减权/拔起一律人签（非放大红线）"
+ }
+}

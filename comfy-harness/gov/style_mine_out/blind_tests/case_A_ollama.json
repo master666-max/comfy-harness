@@ -1,0 +1,41 @@
+{
+ "case_name": "ollama 并发提速 3 倍 的误传",
+ "provenance": "盲测出题人 A（隔绝记忆子代理，未读仓库、未参考实现）——判卷前机器未见此案",
+ "root": {
+  "id": "P-101",
+  "keywords": ["OLLAMA_NUM_PARALLEL", "ollama 并发", "单请求吞吐", "推理提速"],
+  "content": "本机 ollama 部署调优：服务端设置 OLLAMA_NUM_PARALLEL=4 后，单请求生成速度提升约 3 倍（实测 31 tok/s → 92 tok/s）。已作为标准调优项：启动前先 export OLLAMA_NUM_PARALLEL=4 再拉起服务。",
+  "evidence": "generation:7741.png（截图手写标注『单请求加速 3x』）"
+ },
+ "entries": [
+  {"id": "S-201", "keywords": ["压测基线", "P95 延迟", "单请求基准", "OLLAMA_NUM_PARALLEL"],
+   "content": "团队单请求压测标准流程：依据 P-101 的 3 倍提速结论，先 export OLLAMA_NUM_PARALLEL=4 作为压测前置条件，再由单客户端串行发 100 条请求，记录 P50/P95 与 tok/s 作为模型选型的『单请求基线』；基线不达标的模型不入选。",
+   "evidence": "见 P-101", "expected": "high",
+   "why": "把错根当作压测的前置条件写进流程，整条基线的口径被污染，且本条毫无独立复测。"},
+  {"id": "S-202", "keywords": ["容量规划", "QPS", "SLA", "副本数"],
+   "content": "容量规划条目：按 P-101 的 3 倍提速直接换算，单张 4090 上该模型单实例可承载 30 QPS（原估 10 QPS），据此把线上 SLA 定为 30 QPS/实例，并将副本数按此缩减三分之一。",
+   "evidence": "见 P-101", "expected": "high",
+   "why": "纯数值推导，前提全部来自错根的 3 倍，QPS、SLA、副本数三项决策同时失效。"},
+  {"id": "S-203", "keywords": ["并发实测", "tok/s", "复测", "OLLAMA_NUM_PARALLEL"],
+   "content": "部署检查清单条目：引用 P-101 说明并发设置，但同条记录了我们自己在 4090 + 另一模型上的独立复测——设 NUM_PARALLEL=4 后 4 并发总吞吐仅 2.6x，单请求 tok/s 反而下降约 15%（附对照截图）；故清单正文写的是『并发只用于抬高多客户端总吞吐，单请求延迟必须单独实测』。",
+   "evidence": "见 P-101；另有 generation:8123.png（4 并发 vs 单请求对照曲线）", "expected": "low",
+   "why": "结论已被自有实验覆盖，只需修正对 P-101 的引用归因，核心论断不动。"},
+  {"id": "S-204", "keywords": ["调优速查", "外部出处", "官方文档", "未验证标注"],
+   "content": "《Ollama 调优速查》条目：把 P-101 抄录为『推荐配置』，但同段附了官方 FAQ 出处（说明 num_parallel 只控制并发槽位数、不改变单请求速度），并标注『本条速度数字未经本地验证，以官方文档为准』。",
+   "evidence": "见 P-101；另见 doc:ollama-faq#num-parallel", "expected": "low",
+   "why": "有第二出处独立支撑其语义判断，只需删掉『推荐配置/提速』措辞。"},
+  {"id": "S-301", "keywords": ["OLLAMA_NUM_PARALLEL", "KV cache", "显存占用", "OLLAMA_KV_CACHE_TYPE"],
+   "content": "24GB 卡显存条目：OLLAMA_NUM_PARALLEL 决定常驻 KV 缓存的槽位分片数，设为 4 时缓存预留按 4 份计算，显存明显吃紧；故在 24GB 卡上把 OLLAMA_KV_CACHE_TYPE 调为 q8_0 或把 NUM_PARALLEL 降到 2 来兜显存。本条只谈显存占用，不涉及任何吞吐/提速结论。",
+   "evidence": "generation:5502.png（ollama ps 显存占用对照）", "expected": "none",
+   "why": "只与错根共用 OLLAMA_NUM_PARALLEL 一词，论断维度是显存而非吞吐，逻辑上不依赖错根，且自带证据。"},
+  {"id": "S-302", "keywords": ["复现失败", "反证", "单请求提速", "OLLAMA_NUM_PARALLEL"],
+   "content": "反证条目：按 P-101 原样复现（同机器、同模型、同 prompt），单请求 tok/s 由 31 掉到 27（-12%），只有 4 并发聚合才约 85 tok/s；故本条明确写『禁止用 NUM_PARALLEL>1 做单请求提速』，并把 P-101 标记为待撤回。",
+   "evidence": "generation:2291.png（单请求 31 vs 27 tok/s 对照）", "expected": "none",
+   "why": "表面引用错根，实则自带实验反证且结论与错根相反，是纠正源不是被污染者。"},
+  {"id": "S-303", "keywords": ["并发槽位", "队头阻塞", "长输出请求", "排队超时"],
+   "content": "并发服务条目：NUM_PARALLEL>1 时多请求共享槽位，长输出请求会长期占用槽位导致短请求排队（队头阻塞），故生产上限制单请求 max_tokens 并设置排队超时；该结论来自我们自己的排队日志统计，与任何提速说法无关，独立成立。",
+   "evidence": "generation:6633.png（并发排队等待时间分布）", "expected": "none",
+   "why": "同属并发主题但论述排队/公平性，逻辑独立、不依赖错根的提速结论。"}
+ ],
+ "notes": "出题人预设四难点：①关键词陷阱（S-301/S-303 同主题不同维度）②表面引用实为反证（S-302——只看显式引用边的系统会误伤）③low/high 边界（S-203/S-204 有独立证据 vs S-201/S-202 无）④两条独立复测数字不必一致。评分口径：high={S-201,S-202} low={S-203,S-204} none={S-301,S-302,S-303}。"
+}

@@ -1,0 +1,80 @@
+{
+ "case": "ollama 并发提速 3 倍 的误传",
+ "provenance": "盲测出题人 A（隔绝记忆子代理，未读仓库、未参考实现）——判卷前机器未见此案",
+ "n": 7,
+ "rows": [
+  {
+   "id": "S-201",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-202",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-203",
+   "expected": "low",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-204",
+   "expected": "low",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-301",
+   "expected": "none",
+   "got": "none",
+   "hop": null,
+   "tier": null,
+   "prop_score": null
+  },
+  {
+   "id": "S-302",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-303",
+   "expected": "none",
+   "got": "none",
+   "hop": null,
+   "tier": null,
+   "prop_score": null
+  }
+ ],
+ "exact": 5,
+ "high_hit": "2/2",
+ "low_hit": "1/2",
+ "fn": [],
+ "action_fp": [],
+ "tag_fp": [
+  "S-302"
+ ],
+ "prop_ordering_ok": false,
+ "bayes_ordering_ok": false,
+ "confusion": {
+  "high->high": 2,
+  "low->high": 1,
+  "low->low": 1,
+  "none->low": 1,
+  "none->none": 2
+ }
+}

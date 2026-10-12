@@ -1,0 +1,102 @@
+{
+ "case_name": "Hires放大与二道顺序颠倒",
+ "root": {
+  "id": "P-001",
+  "keywords": [
+   "hires fix",
+   "二道",
+   "face detailer",
+   "放大顺序",
+   "Impact Pack"
+  ],
+  "content": "hires 放大必须排在面部二道（face detailer）之后：先在原生 512×768 完成出图并用 FaceDetailer 把脸修好，再走 hires（4x-UltraSharp + 第二段 KSampler）放大到 1024×1536。理由是二道在低分辨率上跑更快、更省显存，而且修好的脸在放大阶段只会被等比拉大，不会再被破坏。",
+  "evidence": "generation:hires_after_detailer_v3.png"
+ },
+ "entries": [
+  {
+   "id": "S-001",
+   "keywords": [
+    "hires",
+    "denoise",
+    "二道",
+    "第二段采样"
+   ],
+   "content": "按 P-001 的顺序（二道在前），hires 第二段的 denoise 可以放心开到 0.55～0.6：脸已经被 detailer 固定住了，第二段重绘只会补纹理、不会动面部结构，所以宁可高 denoise 换细节。",
+   "evidence": "见 P-001",
+   "expected": "high",
+   "why": "直接把颠倒顺序当事实前提，进而推出高 denoise 二次重绘不会伤脸的错误操作结论。"
+  },
+  {
+   "id": "S-002",
+   "keywords": [
+    "FaceDetailer",
+    "bbox",
+    "检测框坐标",
+    "hires 尺度",
+    "Impact Pack"
+   ],
+   "content": "FaceDetailer 的 bbox/face_yolov8m 检测直接在 512 宽的底图上跑就行，检测框坐标不必再乘 hires 的放大倍率；即便后面还有 2 倍 hires，最终烘焙图上框也对得上（见 P-001 的流程）。",
+   "evidence": "见 P-001",
+   "expected": "high",
+   "why": "以'二道在 hires 之前'为前提推导出坐标无需换算，在真实后置流程下框会错位、修复打到背景上。"
+  },
+  {
+   "id": "S-003",
+   "keywords": [
+    "hires",
+    "upscale model",
+    "4x-UltraSharp",
+    "denoise",
+    "发丝"
+   ],
+   "content": "hires 第二段用 4x-UltraSharp + denoise 0.35 + 12 步，发丝与皮肤颗粒明显优于 latent/nearest-exact 放大（同种子 A/B）；这个结论在 P-001 那套'二道在前'的流程里也一样成立。",
+   "evidence": "见 P-001; generation:hires_upscale_model_ab.png",
+   "expected": "low",
+   "why": "放大模型选择有自证据且与先后顺序基本正交，仅末句挂靠错根，属轻度沾染。"
+  },
+  {
+   "id": "S-004",
+   "keywords": [
+    "hires",
+    "CFG",
+    "影调",
+    "负词",
+    "过曝"
+   ],
+   "content": "hires 第二段把 CFG 从 7 降到 5～5.5，能明显压住皮肤的塑料高光和过曝，代价是负词约束力略降，需要往负词补一句 'dull, washed out'。",
+   "evidence": "见 P-001",
+   "expected": "none",
+   "why": "引用了错根但论断维度是 CFG 与影调，不依赖二道与 hires 的先后顺序（引用≠依赖）。"
+  },
+  {
+   "id": "S-005",
+   "keywords": [
+    "二道顺序",
+    "hires",
+    "同种子对照",
+    "face detailer",
+    "结论推翻"
+   ],
+   "content": "早期确实照 P-001 的做法把 detailer 放在 hires 之前，但同种子对照（seed 42）显示：detailer 后置到 1024 分辨率再跑，面部结构完整度、眼睛对称性和毛孔细节都更好，且省掉一次重绘伪影；P-001 的顺序已废弃。",
+   "evidence": "见 P-001; generation:order_ab_seed42.png",
+   "expected": "none",
+   "why": "表面引用错根，实为用自有同种子 A/B 把它推翻的反向结论。"
+  },
+  {
+   "id": "S-006",
+   "keywords": [
+    "显存",
+    "Tiled VAE",
+    "批量出图",
+    "低显存加载",
+    "OOM"
+   ],
+   "content": "8GB 卡批量出 hires 时，给 VAE Decode 前挂 Tiled VAE + 低显存加载，可以把 batch 拉到 4 而不 OOM，且成图像素与单张出图完全一致。",
+   "evidence": "generation:vram_tiled_batch.png",
+   "expected": "none",
+   "why": "显存与批量维度，既未引用错根也不承载其结论。"
+  }
+ ],
+ "notes": "错根错在哪：ComfyUI 的正确流程是 base → hires（upscale + 第二段 KSampler）→ 二道 detailer 在最终/放大后分辨率上跑；P-001 把顺序颠倒，三条硬伤：(1) face/DSFD 类检测器在低分辨率上置信度低、框不稳定；(2) detailer 修出的细节会被 hires 第二段采样（尤其高 denoise）整块重绘掉，等于白做；(3) upscale model 的插值会拉扯已修复的面部细节，出现涂抹/塑料感。预设难点：S-001、S-002 是纯无证据引用派生，须凭流程常识判为强波及；S-003 与错根共享 hires/upscale 关键词且明确挂靠，但有自有 A/B 证据且结论正交，只能算 low；S-004 刻意写成'引用错根但维度是 CFG'，考引用与依赖的区分；S-005 是关键词最重合的诱饵（同'二道顺序'话题），却用同种子对照反向推翻；S-006 用显存/批量做外围干扰。关键词刻意重叠，靠论断维度与证据归属而非词面判定。",
+ "provenance": "盲测出题人 F：Xiaomi MiMo mimo-v2.6-pro（异族×域内），单发、未读仓库"
+}

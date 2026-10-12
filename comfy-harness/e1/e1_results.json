@@ -1,0 +1,65 @@
+{
+ "log": [
+  {
+   "tag": "0.server",
+   "ok": true,
+   "detail": "v0.38.0"
+  },
+  {
+   "tag": "1.mutation",
+   "ok": true,
+   "detail": "3 条候选 create(Flux2Scheduler 教训在列=True)"
+  },
+  {
+   "tag": "2.P1-dedupe",
+   "ok": true,
+   "detail": "题面与原料零词面重叠: [('T1', 0, []), ('T2', 0, []), ('T3', 0, [])]"
+  },
+  {
+   "tag": "3a.naive-wiring",
+   "ok": true,
+   "detail": "朴素布线被活体 schema 拒(证据复算 S1): naive=False"
+  },
+  {
+   "tag": "3b.informed-wiring",
+   "ok": true,
+   "detail": "候选库知情布线通过: inputs=['steps', 'width', 'height']"
+  },
+  {
+   "tag": "3c.library-load-bearing",
+   "ok": true,
+   "detail": "库内容因果承重:无库→回退朴素→拒;有库→知情→过"
+  },
+  {
+   "tag": "4.P2-exec",
+   "ok": true,
+   "detail": "6/6 success: [('empty', 'T1', 'success', 0.3), ('empty', 'T2', 'success', 0.0), ('empty', 'T3', 'success', 0.5), ('candidate', 'T1', 'success', 0.5), ('candidate', 'T2', 'success', 0.0), ('candidate',"
+  },
+  {
+   "tag": "4.P3-placeholder-delta",
+   "ok": true,
+   "detail": "empty=3 candidate=3 Δ=0 (待判)"
+  },
+  {
+   "tag": "5a.draft-invisible-default",
+   "ok": true,
+   "detail": "默认 recall 命中 draft 数=0(须 0)"
+  },
+  {
+   "tag": "5b.draft-visible-explicit",
+   "ok": true,
+   "detail": "include_draft 显式开启逐条可见: [('s1-flux2sched-v038-wiring', True), ('s2-uv-venv-move-trampoline', True), ('s3-objectinfo-cache', True)](×0.5 现身)"
+  },
+  {
+   "tag": "5c.tombstone-rollback",
+   "ok": true,
+   "detail": "S2 tombstone 后 score=0.0(退出检索);库 diff 字段=['tombstone'](仅墓碑字段)"
+  }
+ ],
+ "verdict": "咬合",
+ "kill_criteria_check": {
+  "draft_in_default_recall": false,
+  "budget_overshoot": false,
+  "vlm_used": false
+ }
+}

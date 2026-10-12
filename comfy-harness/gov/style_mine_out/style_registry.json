@@ -1,0 +1,885 @@
+{
+ "concepts": {
+  "s-a-single-vintage-car-with-he": {
+   "members": [
+    "S-a-single-vintage-car-with-he-ea634e59"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-a-single-vintage-car-with-he-ea634e59": 2
+   },
+   "gov": {
+    "S-a-single-vintage-car-with-he-ea634e59": "draft"
+   },
+   "canonical": "S-a-single-vintage-car-with-he-ea634e59",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 3,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-absurdres-best-quality-maste": {
+   "members": [
+    "S-absurdres-best-quality-maste-54b0482f"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-absurdres-best-quality-maste-54b0482f": 52
+   },
+   "gov": {
+    "S-absurdres-best-quality-maste-54b0482f": "draft"
+   },
+   "canonical": "S-absurdres-best-quality-maste-54b0482f",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-aesthetic-score-tag-no-human": {
+   "members": [
+    "S-aesthetic-score-tag-no-human-1d1f4318"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-aesthetic-score-tag-no-human-1d1f4318": 16
+   },
+   "gov": {
+    "S-aesthetic-score-tag-no-human-1d1f4318": "draft"
+   },
+   "canonical": "S-aesthetic-score-tag-no-human-1d1f4318",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-after-rain-blurry-background": {
+   "members": [
+    "S-after-rain-blurry-background-79501185"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-after-rain-blurry-background-79501185": 43
+   },
+   "gov": {
+    "S-after-rain-blurry-background-79501185": "draft"
+   },
+   "canonical": "S-after-rain-blurry-background-79501185",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-anisora-v3-2-gguf-ksampler-w": {
+   "members": [
+    "S-AniSora-V3-2-GGUF-KSampler-W-1cf9f39b"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-AniSora-V3-2-GGUF-KSampler-W-1cf9f39b": 0
+   },
+   "gov": {
+    "S-AniSora-V3-2-GGUF-KSampler-W-1cf9f39b": "draft"
+   },
+   "canonical": "S-AniSora-V3-2-GGUF-KSampler-W-1cf9f39b",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-background-crowd-banners-wit": {
+   "members": [
+    "S-background-crowd-banners-wit-43b8017d"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-background-crowd-banners-wit-43b8017d": 8
+   },
+   "gov": {
+    "S-background-crowd-banners-wit-43b8017d": "draft"
+   },
+   "canonical": "S-background-crowd-banners-wit-43b8017d",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-backlighting-building-buildi": {
+   "members": [
+    "S-backlighting-building-buildi-f162bf5c"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-backlighting-building-buildi-f162bf5c": 16
+   },
+   "gov": {
+    "S-backlighting-building-buildi-f162bf5c": "draft"
+   },
+   "canonical": "S-backlighting-building-buildi-f162bf5c",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-bbox-face-yolov8m-pt-simple": {
+   "members": [
+    "S-bbox-face-yolov8m-pt-simple-aa0b91cd"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-bbox-face-yolov8m-pt-simple-aa0b91cd": 0
+   },
+   "gov": {
+    "S-bbox-face-yolov8m-pt-simple-aa0b91cd": "draft"
+   },
+   "canonical": "S-bbox-face-yolov8m-pt-simple-aa0b91cd",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-blue-eyes-detail-enhancement": {
+   "members": [
+    "S-blue-eyes-detail-enhancement-983b8c80"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-blue-eyes-detail-enhancement-983b8c80": 51
+   },
+   "gov": {
+    "S-blue-eyes-detail-enhancement-983b8c80": "draft"
+   },
+   "canonical": "S-blue-eyes-detail-enhancement-983b8c80",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-bokeh-city-lights-many-peopl": {
+   "members": [
+    "S-bokeh-city-lights-many-peopl-6deafb2b"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-bokeh-city-lights-many-peopl-6deafb2b": 8
+   },
+   "gov": {
+    "S-bokeh-city-lights-many-peopl-6deafb2b": "draft"
+   },
+   "canonical": "S-bokeh-city-lights-many-peopl-6deafb2b",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-c1-e1-construct-divergence-c": {
+   "members": [
+    "S-C1-E1-Construct-Divergence-C-2a507ac1"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-C1-E1-Construct-Divergence-C-2a507ac1": 0
+   },
+   "gov": {
+    "S-C1-E1-Construct-Divergence-C-2a507ac1": "draft"
+   },
+   "canonical": "S-C1-E1-Construct-Divergence-C-2a507ac1",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 1,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-cel-shading-crisp-clean-line": {
+   "members": [
+    "S-cel-shading-crisp-clean-line-5063d473"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-cel-shading-crisp-clean-line-5063d473": 4
+   },
+   "gov": {
+    "S-cel-shading-crisp-clean-line-5063d473": "draft"
+   },
+   "canonical": "S-cel-shading-crisp-clean-line-5063d473",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 1,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-comfyui-0-38-0-informed-arm": {
+   "members": [
+    "S-ComfyUI-0-38-0-Informed-Arm-b6925bb3"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-ComfyUI-0-38-0-Informed-Arm-b6925bb3": 2
+   },
+   "gov": {
+    "S-ComfyUI-0-38-0-Informed-Arm-b6925bb3": "draft"
+   },
+   "canonical": "S-ComfyUI-0-38-0-Informed-Arm-b6925bb3",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-comfyui-0-38-0-v-prediction": {
+   "members": [
+    "S-ComfyUI-0-38-0-V-Prediction-33be0f77"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-ComfyUI-0-38-0-V-Prediction-33be0f77": 3
+   },
+   "gov": {
+    "S-ComfyUI-0-38-0-V-Prediction-33be0f77": "draft"
+   },
+   "canonical": "S-ComfyUI-0-38-0-V-Prediction-33be0f77",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-cross-family-replication-con": {
+   "members": [
+    "S-Cross-Family-Replication-Con-afd5a147"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Cross-Family-Replication-Con-afd5a147": 0
+   },
+   "gov": {
+    "S-Cross-Family-Replication-Con-afd5a147": "draft"
+   },
+   "canonical": "S-Cross-Family-Replication-Con-afd5a147",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-cross-model-family-vocabular": {
+   "members": [
+    "S-Cross-Model-Family-Vocabular-40b4b23e"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Cross-Model-Family-Vocabular-40b4b23e": 23
+   },
+   "gov": {
+    "S-Cross-Model-Family-Vocabular-40b4b23e": "draft"
+   },
+   "canonical": "S-Cross-Model-Family-Vocabular-40b4b23e",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-deepseek-e-2": {
+   "members": [
+    "S-deepseek-e-2-125c26f3",
+    "S-deepseek-e-2-7df96dc8",
+    "S-deepseek-e-2-c99a9af2"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-deepseek-e-2-125c26f3": 0,
+    "S-deepseek-e-2-7df96dc8": 0,
+    "S-deepseek-e-2-c99a9af2": 0
+   },
+   "gov": {
+    "S-deepseek-e-2-125c26f3": "draft",
+    "S-deepseek-e-2-7df96dc8": "draft",
+    "S-deepseek-e-2-c99a9af2": "draft"
+   },
+   "canonical": "S-deepseek-e-2-125c26f3",
+   "variants": [
+    "S-deepseek-e-2-7df96dc8",
+    "S-deepseek-e-2-c99a9af2"
+   ],
+   "state": "family",
+   "shadow_weight": 5,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-explosive-fireworks-display": {
+   "members": [
+    "S-explosive-fireworks-display-d48a0430"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-explosive-fireworks-display-d48a0430": 36
+   },
+   "gov": {
+    "S-explosive-fireworks-display-d48a0430": "draft"
+   },
+   "canonical": "S-explosive-fireworks-display-d48a0430",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-facedetailer-facial-second-p": {
+   "members": [
+    "S-FaceDetailer-Facial-Second-P-ffe248ad"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-FaceDetailer-Facial-Second-P-ffe248ad": 0
+   },
+   "gov": {
+    "S-FaceDetailer-Facial-Second-P-ffe248ad": "draft"
+   },
+   "canonical": "S-FaceDetailer-Facial-Second-P-ffe248ad",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-first-flight-informed-wiring": {
+   "members": [
+    "S-First-Flight-Informed-Wiring-e1e12791"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-First-Flight-Informed-Wiring-e1e12791": 0
+   },
+   "gov": {
+    "S-First-Flight-Informed-Wiring-e1e12791": "draft"
+   },
+   "canonical": "S-First-Flight-Informed-Wiring-e1e12791",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-from-side-light-rays-puddle": {
+   "members": [
+    "S-from-side-light-rays-puddle-c9429de1"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-from-side-light-rays-puddle-c9429de1": 5
+   },
+   "gov": {
+    "S-from-side-light-rays-puddle-c9429de1": "draft"
+   },
+   "canonical": "S-from-side-light-rays-puddle-c9429de1",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-height-width-139abd92": {
+   "members": [
+    "S-height-width-139abd92-b9d15cd5"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-height-width-139abd92-b9d15cd5": 0
+   },
+   "gov": {
+    "S-height-width-139abd92-b9d15cd5": "draft"
+   },
+   "canonical": "S-height-width-139abd92-b9d15cd5",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-high-half-model-low-noise-ha": {
+   "members": [
+    "S-High-Half-Model-Low-Noise-Ha-552906ad"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-High-Half-Model-Low-Noise-Ha-552906ad": 0
+   },
+   "gov": {
+    "S-High-Half-Model-Low-Noise-Ha-552906ad": "draft"
+   },
+   "canonical": "S-High-Half-Model-Low-Noise-Ha-552906ad",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-hires-6b5991d8": {
+   "members": [
+    "S-hires-6b5991d8-c6f88246"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-hires-6b5991d8-c6f88246": 0
+   },
+   "gov": {
+    "S-hires-6b5991d8-c6f88246": "draft"
+   },
+   "canonical": "S-hires-6b5991d8-c6f88246",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-hires-upscale-redraw-p-nooba": {
+   "members": [
+    "S-Hires-Upscale-Redraw-P-nooba-b1a2c430"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Hires-Upscale-Redraw-P-nooba-b1a2c430": 0
+   },
+   "gov": {
+    "S-Hires-Upscale-Redraw-P-nooba-b1a2c430": "draft"
+   },
+   "canonical": "S-Hires-Upscale-Redraw-P-nooba-b1a2c430",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-length-4n-1-anisora": {
+   "members": [
+    "S-length-4n-1-anisora-ba51e347"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-length-4n-1-anisora-ba51e347": 0
+   },
+   "gov": {
+    "S-length-4n-1-anisora-ba51e347": "draft"
+   },
+   "canonical": "S-length-4n-1-anisora-ba51e347",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-machine-proposal-style-clust": {
+   "members": [
+    "S-Machine-Proposal-Style-Clust-5fd26e95"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Machine-Proposal-Style-Clust-5fd26e95": 0
+   },
+   "gov": {
+    "S-Machine-Proposal-Style-Clust-5fd26e95": "draft"
+   },
+   "canonical": "S-Machine-Proposal-Style-Clust-5fd26e95",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-machine-proposal-venv-venv-e": {
+   "members": [
+    "S-Machine-Proposal-Venv-Venv-E-0c2e3fc4"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Machine-Proposal-Venv-Venv-E-0c2e3fc4": 0
+   },
+   "gov": {
+    "S-Machine-Proposal-Venv-Venv-E-0c2e3fc4": "draft"
+   },
+   "canonical": "S-Machine-Proposal-Venv-Venv-E-0c2e3fc4",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-noob-lora": {
+   "members": [
+    "S-Noob-LoRA-199cac71"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Noob-LoRA-199cac71": 0
+   },
+   "gov": {
+    "S-Noob-LoRA-199cac71": "draft"
+   },
+   "canonical": "S-Noob-LoRA-199cac71",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-noob-vp1-detailer-by-volnovi": {
+   "members": [
+    "S-NOOB-vp1-detailer-by-volnovi-ef2a1314"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-NOOB-vp1-detailer-by-volnovi-ef2a1314": 0
+   },
+   "gov": {
+    "S-NOOB-vp1-detailer-by-volnovi-ef2a1314": "draft"
+   },
+   "canonical": "S-NOOB-vp1-detailer-by-volnovi-ef2a1314",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 3,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-noobai-vpred-cinematic-recip": {
+   "members": [
+    "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb": 0
+   },
+   "gov": {
+    "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb": "draft"
+   },
+   "canonical": "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-observation-flow-technique-g": {
+   "members": [
+    "S-Observation-Flow-Technique-G-49c87b2d"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Observation-Flow-Technique-G-49c87b2d": 0
+   },
+   "gov": {
+    "S-Observation-Flow-Technique-G-49c87b2d": "draft"
+   },
+   "canonical": "S-Observation-Flow-Technique-G-49c87b2d",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-observation-flow-technique-h": {
+   "members": [
+    "S-Observation-Flow-Technique-H-7853a015"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Observation-Flow-Technique-H-7853a015": 0
+   },
+   "gov": {
+    "S-Observation-Flow-Technique-H-7853a015": "draft"
+   },
+   "canonical": "S-Observation-Flow-Technique-H-7853a015",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-p-field-wiring-facts-flux2-k": {
+   "members": [
+    "S-P-Field-Wiring-Facts-Flux2-K-25e1375c"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-P-Field-Wiring-Facts-Flux2-K-25e1375c": 0
+   },
+   "gov": {
+    "S-P-Field-Wiring-Facts-Flux2-K-25e1375c": "draft"
+   },
+   "canonical": "S-P-Field-Wiring-Facts-Flux2-K-25e1375c",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-p-objectinfo-cache-object-in": {
+   "members": [
+    "S-P-objectinfo-cache-object-in-ef318474"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-P-objectinfo-cache-object-in-ef318474": 0
+   },
+   "gov": {
+    "S-P-objectinfo-cache-object-in-ef318474": "draft"
+   },
+   "canonical": "S-P-objectinfo-cache-object-in-ef318474",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-scene-and-motion-words-nooba": {
+   "members": [
+    "S-Scene-And-Motion-Words-NoobA-f4347e96"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Scene-And-Motion-Words-NoobA-f4347e96": 8
+   },
+   "gov": {
+    "S-Scene-And-Motion-Words-NoobA-f4347e96": "draft"
+   },
+   "canonical": "S-Scene-And-Motion-Words-NoobA-f4347e96",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-self-mixed-body-precedent-fa": {
+   "members": [
+    "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b": 8
+   },
+   "gov": {
+    "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b": "draft"
+   },
+   "canonical": "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-sentient-tree-sweeping-panni": {
+   "members": [
+    "S-Sentient-Tree-Sweeping-Panni-81f67548"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Sentient-Tree-Sweeping-Panni-81f67548": 2
+   },
+   "gov": {
+    "S-Sentient-Tree-Sweeping-Panni-81f67548": "draft"
+   },
+   "canonical": "S-Sentient-Tree-Sweeping-Panni-81f67548",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 1,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-style-cluster-p-objectinfo-c": {
+   "members": [
+    "S-Style-Cluster-P-objectinfo-c-f2f0379b"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Style-Cluster-P-objectinfo-c-f2f0379b": 0
+   },
+   "gov": {
+    "S-Style-Cluster-P-objectinfo-c-f2f0379b": "draft"
+   },
+   "canonical": "S-Style-Cluster-P-objectinfo-c-f2f0379b",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-v1-0-schema-2026-10-03-e-2": {
+   "members": [
+    "S-v1-0-schema-2026-10-03-E-2-50468851"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-v1-0-schema-2026-10-03-E-2-50468851": 0
+   },
+   "gov": {
+    "S-v1-0-schema-2026-10-03-E-2-50468851": "draft"
+   },
+   "canonical": "S-v1-0-schema-2026-10-03-E-2-50468851",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-venv-e-1-p-uv-venv-trampolin": {
+   "members": [
+    "S-Venv-E-1-P-uv-venv-trampolin-e7b3932b"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Venv-E-1-P-uv-venv-trampolin-e7b3932b": 0
+   },
+   "gov": {
+    "S-Venv-E-1-P-uv-venv-trampolin-e7b3932b": "draft"
+   },
+   "canonical": "S-Venv-E-1-P-uv-venv-trampolin-e7b3932b",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 0,
+   "first_seen": "",
+   "last_seen": ""
+  },
+  "s-video-generation-frame-count": {
+   "members": [
+    "S-Video-Generation-Frame-Count-cbb4aa90"
+   ],
+   "generations": [
+    1
+   ],
+   "evidence_n": {
+    "S-Video-Generation-Frame-Count-cbb4aa90": 0
+   },
+   "gov": {
+    "S-Video-Generation-Frame-Count-cbb4aa90": "draft"
+   },
+   "canonical": "S-Video-Generation-Frame-Count-cbb4aa90",
+   "variants": [],
+   "state": "single",
+   "shadow_weight": 1,
+   "first_seen": "",
+   "last_seen": ""
+  }
+ },
+ "families": [
+  {
+   "base": "s-deepseek-e-2",
+   "members": [
+    "S-deepseek-e-2-125c26f3",
+    "S-deepseek-e-2-7df96dc8",
+    "S-deepseek-e-2-c99a9af2"
+   ],
+   "canonical": "S-deepseek-e-2-125c26f3",
+   "n": 3,
+   "hint": "族谱候选（人签）：≥3 件同基=同概念多轮重铸——人签后可铸 S-deepseek-e-2-125c26f3-family 家族条并退场各代（N4 三件套）；机器只提案"
+  }
+ ],
+ "canonical_map": {
+  "S-deepseek-e-2-7df96dc8": "S-deepseek-e-2-125c26f3",
+  "S-deepseek-e-2-c99a9af2": "S-deepseek-e-2-125c26f3"
+ },
+ "min_family": 3,
+ "counts": {
+  "concepts": 42,
+  "family": 1,
+  "twins": 0,
+  "single": 41,
+  "entries": 44
+ },
+ "note": "只读账本；family/canonical 均为提案，执行归人签（非放大红线）",
+ "alias_extension_proposal": {
+  "S-deepseek-e-2-125c26f3": [
+   "S-deepseek-e-2-7df96dc8",
+   "S-deepseek-e-2-c99a9af2"
+  ]
+ }
+}

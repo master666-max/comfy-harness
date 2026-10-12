@@ -1,0 +1,9 @@
+{
+ "last_mine_at": "2026-10-10T17:50:48",
+ "snapshot": {
+  "gen_docs": 142,
+  "obs_lines": 47,
+  "entries": 135
+ },
+ "threshold": 8
+}

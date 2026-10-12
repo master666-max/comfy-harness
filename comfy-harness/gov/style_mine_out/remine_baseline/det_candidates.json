@@ -1,0 +1,734 @@
+{
+ "method": "det-cooc",
+ "generated_at": "2026-10-08T11:52:27",
+ "corpus_n_docs": 76,
+ "params": {
+  "min_support": 2,
+  "min_edge": 2,
+  "min_cluster": 3,
+  "stopword_ratio": 0.7,
+  "min_jaccard": 0.5,
+  "resolution": 1.5
+ },
+ "clusters": [
+  {
+   "name": "after rain · blurry background · blurry foreground",
+   "size": 28,
+   "tags": [
+    {
+     "tag": "best quality",
+     "support": 22
+    },
+    {
+     "tag": "1girl",
+     "support": 21
+    },
+    {
+     "tag": "absurdres",
+     "support": 21
+    },
+    {
+     "tag": "newest",
+     "support": 21
+    },
+    {
+     "tag": "depth of field",
+     "support": 20
+    },
+    {
+     "tag": "highres",
+     "support": 20
+    },
+    {
+     "tag": "masterpiece",
+     "support": 20
+    },
+    {
+     "tag": "safe",
+     "support": 18
+    },
+    {
+     "tag": "school uniform",
+     "support": 18
+    },
+    {
+     "tag": "solo",
+     "support": 18
+    },
+    {
+     "tag": "very awa",
+     "support": 18
+    },
+    {
+     "tag": "wind",
+     "support": 15
+    },
+    {
+     "tag": "looking at viewer",
+     "support": 14
+    },
+    {
+     "tag": "smile",
+     "support": 14
+    },
+    {
+     "tag": "blush",
+     "support": 13
+    },
+    {
+     "tag": "reflection",
+     "support": 12
+    },
+    {
+     "tag": "wet road",
+     "support": 12
+    },
+    {
+     "tag": "evening",
+     "support": 10
+    },
+    {
+     "tag": "after rain",
+     "support": 8
+    },
+    {
+     "tag": "blurry background",
+     "support": 8
+    },
+    {
+     "tag": "blurry foreground",
+     "support": 8
+    },
+    {
+     "tag": "candid",
+     "support": 8
+    },
+    {
+     "tag": "hair blowing",
+     "support": 8
+    },
+    {
+     "tag": "holding",
+     "support": 8
+    },
+    {
+     "tag": "motion blur",
+     "support": 8
+    },
+    {
+     "tag": "photo \\(medium\\)",
+     "support": 8
+    },
+    {
+     "tag": "plastic bag",
+     "support": 8
+    },
+    {
+     "tag": "shopping street",
+     "support": 8
+    }
+   ],
+   "cohesion": 0.76,
+   "evidence": [
+    "precedent:P-noobai-cinematic-prompt",
+    "precedent:S-explosive-fireworks-display-9a12ad89",
+    "precedent:S-depth-of-field-no-humans-red-fcd0361f",
+    "precedent:S-frills-hair-between-eyes-hai-e5e36856",
+    "precedent:S-absurdres-best-quality-maste-cae528c9",
+    "generation:candid06_26100761_00001_.png",
+    "generation:candid07_26100761_00001_.png",
+    "generation:candid07c_26100761_00001_.png",
+    "generation:candid_26100761_00001_.png",
+    "generation:candid_26100762_00001_.png",
+    "generation:candid_26100763_00001_.png",
+    "generation:candid_26100764_00001_.png",
+    "generation:ctrl61_26100761_00001_.png",
+    "generation:neon_26100771_00001_.png",
+    "generation:neon_26100772_00001_.png",
+    "generation:neon_26100773_00001_.png",
+    "generation:neon_26100774_00001_.png",
+    "generation:sakuraC2_26100783_00001_.png",
+    "generation:sakura_26100781_00001_.png",
+    "generation:sakura_26100782_00001_.png",
+    "generation:sakura_26100783_00001_.png",
+    "generation:sakura_26100784_00001_.png",
+    "generation:vb_noobai_26100783_00001_.png"
+   ]
+  },
+  {
+   "name": "cel shading · crisp clean line art · gentle open smile",
+   "size": 18,
+   "tags": [
+    {
+     "tag": "dappled shadows on the ground",
+     "support": 4
+    },
+    {
+     "tag": "hands in the pockets of her cardigan",
+     "support": 4
+    },
+    {
+     "tag": "soft spring sunlight filtering through branches",
+     "support": 4
+    },
+    {
+     "tag": "anime illustration",
+     "support": 2
+    },
+    {
+     "tag": "cel shading",
+     "support": 2
+    },
+    {
+     "tag": "crisp clean line art",
+     "support": 2
+    },
+    {
+     "tag": "gentle open smile",
+     "support": 2
+    },
+    {
+     "tag": "gentle smile",
+     "support": 2
+    },
+    {
+     "tag": "high detail ;",
+     "support": 2
+    },
+    {
+     "tag": "highly detailed anime illustration ;",
+     "support": 2
+    },
+    {
+     "tag": "looking at the viewer",
+     "support": 2
+    },
+    {
+     "tag": "masterpiece 2d anime key visual",
+     "support": 2
+    },
+    {
+     "tag": "pink petals drifting in the wind around her",
+     "support": 2
+    },
+    {
+     "tag": "pink petals falling around her",
+     "support": 2
+    },
+    {
+     "tag": "shallow depth of field",
+     "support": 2
+    },
+    {
+     "tag": "shallow depth of field with blurred blossom background",
+     "support": 2
+    },
+    {
+     "tag": "standing beneath cherry blossom trees in full bloom",
+     "support": 2
+    },
+    {
+     "tag": "standing under cherry blossom trees in full bloom",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.77,
+   "evidence": [
+    "generation:kleinV2_g3.0_26100783_00001_.png",
+    "generation:kleinV2_g4.0_26100783_00001_.png",
+    "generation:klein_20261081_00001_.png",
+    "generation:klein_20261082_00001_.png"
+   ]
+  },
+  {
+   "name": "dappled sunlight · falling petals · jk",
+   "size": 17,
+   "tags": [
+    {
+     "tag": "floating hair",
+     "support": 11
+    },
+    {
+     "tag": "hands in pockets",
+     "support": 10
+    },
+    {
+     "tag": "serafuku",
+     "support": 10
+    },
+    {
+     "tag": "very long hair",
+     "support": 10
+    },
+    {
+     "tag": "white hair",
+     "support": 10
+    },
+    {
+     "tag": "blurred background",
+     "support": 8
+    },
+    {
+     "tag": "cherry blossoms",
+     "support": 8
+    },
+    {
+     "tag": "dappled sunlight",
+     "support": 6
+    },
+    {
+     "tag": "falling petals",
+     "support": 6
+    },
+    {
+     "tag": "jk",
+     "support": 6
+    },
+    {
+     "tag": "outdoors",
+     "support": 6
+    },
+    {
+     "tag": "spring",
+     "support": 6
+    },
+    {
+     "tag": "standing",
+     "support": 6
+    },
+    {
+     "tag": "tree",
+     "support": 6
+    },
+    {
+     "tag": "filtered sunlight",
+     "support": 5
+    },
+    {
+     "tag": "kneehighs",
+     "support": 5
+    },
+    {
+     "tag": "pleated skirt",
+     "support": 5
+    }
+   ],
+   "cohesion": 0.74,
+   "evidence": [
+    "generation:neon_26100771_00001_.png",
+    "generation:neon_26100772_00001_.png",
+    "generation:neon_26100773_00001_.png",
+    "generation:neon_26100774_00001_.png",
+    "generation:sakuraC2_26100783_00001_.png",
+    "generation:sakura_26100781_00001_.png",
+    "generation:sakura_26100782_00001_.png",
+    "generation:sakura_26100783_00001_.png",
+    "generation:sakura_26100784_00001_.png",
+    "generation:vb_noobai_26100783_00001_.png"
+   ]
+  },
+  {
+   "name": "blue eyes · detail enhancement · detailed face",
+   "size": 11,
+   "tags": [
+    {
+     "tag": "beautiful detailed eyes",
+     "support": 3
+    },
+    {
+     "tag": "black hair",
+     "support": 3
+    },
+    {
+     "tag": "detailed eyes",
+     "support": 3
+    },
+    {
+     "tag": "eye highlights",
+     "support": 3
+    },
+    {
+     "tag": "blue eyes",
+     "support": 2
+    },
+    {
+     "tag": "detail enhancement",
+     "support": 2
+    },
+    {
+     "tag": "detailed face",
+     "support": 2
+    },
+    {
+     "tag": "detailed hands",
+     "support": 2
+    },
+    {
+     "tag": "distant face eye blur",
+     "support": 2
+    },
+    {
+     "tag": "eye words",
+     "support": 2
+    },
+    {
+     "tag": "floral print yukata",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.8,
+   "evidence": [
+    "precedent:P-noobai-cinematic-prompt",
+    "precedent:S-explosive-fireworks-display-9a12ad89",
+    "precedent:S-frills-hair-between-eyes-hai-e5e36856"
+   ]
+  },
+  {
+   "name": "from side · light rays · puddle",
+   "size": 11,
+   "tags": [
+    {
+     "tag": "cinematic lighting",
+     "support": 5
+    },
+    {
+     "tag": "city lights",
+     "support": 5
+    },
+    {
+     "tag": "neon lights",
+     "support": 5
+    },
+    {
+     "tag": "night",
+     "support": 5
+    },
+    {
+     "tag": "rain",
+     "support": 5
+    },
+    {
+     "tag": "from side",
+     "support": 4
+    },
+    {
+     "tag": "light rays",
+     "support": 4
+    },
+    {
+     "tag": "puddle",
+     "support": 4
+    },
+    {
+     "tag": "signage",
+     "support": 4
+    },
+    {
+     "tag": "storefront",
+     "support": 4
+    },
+    {
+     "tag": "walking",
+     "support": 4
+    }
+   ],
+   "cohesion": 0.87,
+   "evidence": [
+    "precedent:S-bokeh-city-lights-many-peopl-6deafb2b",
+    "generation:neon_26100771_00001_.png",
+    "generation:neon_26100772_00001_.png",
+    "generation:neon_26100773_00001_.png",
+    "generation:neon_26100774_00001_.png"
+   ]
+  },
+  {
+   "name": "det · noobai-xl-vpred-v1.0 · crossroad_26100702_00001_.png",
+   "size": 8,
+   "tags": [
+    {
+     "tag": "lightrag",
+     "support": 9
+    },
+    {
+     "tag": "det",
+     "support": 7
+    },
+    {
+     "tag": "noobai-xl-vpred-v1.0",
+     "support": 7
+    },
+    {
+     "tag": "crossroad_26100701_00001_.png",
+     "support": 6
+    },
+    {
+     "tag": "crossroad_26100702_00001_.png",
+     "support": 3
+    },
+    {
+     "tag": "crossroad_26100703_00001_.png",
+     "support": 3
+    },
+    {
+     "tag": "crossroad_face_v2_00001_.png",
+     "support": 3
+    },
+    {
+     "tag": "festiv2_26100721_00001_.png",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.74,
+   "evidence": [
+    "precedent:S-backlighting-building-buildi-f162bf5c",
+    "precedent:S-explosive-fireworks-display-9a12ad89",
+    "precedent:S-background-crowd-banners-wit-43b8017d",
+    "precedent:S-bokeh-city-lights-many-peopl-6deafb2b",
+    "precedent:S-depth-of-field-no-humans-red-fcd0361f",
+    "precedent:S-frills-hair-between-eyes-hai-e5e36856",
+    "precedent:S-absurdres-best-quality-maste-cae528c9"
+   ]
+  },
+  {
+   "name": "aesthetic score tag · no humans · noobai vpred",
+   "size": 6,
+   "tags": [
+    {
+     "tag": "aesthetic score tag",
+     "support": 2
+    },
+    {
+     "tag": "no humans",
+     "support": 2
+    },
+    {
+     "tag": "noobai vpred",
+     "support": 2
+    },
+    {
+     "tag": "other model families",
+     "support": 2
+    },
+    {
+     "tag": "quality control group",
+     "support": 2
+    },
+    {
+     "tag": "quality control tag group",
+     "support": 2
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "precedent:S-depth-of-field-no-humans-red-fcd0361f",
+    "precedent:S-absurdres-best-quality-maste-cae528c9"
+   ]
+  },
+  {
+   "name": "bbox/face_yolov8m.pt · simple · 面部二道",
+   "size": 5,
+   "tags": [
+    {
+     "tag": "euler",
+     "support": 4
+    },
+    {
+     "tag": "bbox/face_yolov8m.pt",
+     "support": 2
+    },
+    {
+     "tag": "normal",
+     "support": 2
+    },
+    {
+     "tag": "simple",
+     "support": 2
+    },
+    {
+     "tag": "面部二道",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.71,
+   "evidence": [
+    "precedent:P-noobai-cinematic-recipe",
+    "precedent:P-noobai-facedetailer-pipeline",
+    "precedent:P-noobai-v3-hires-pipeline",
+    "precedent:P-noobai-v3-detailer-postproc"
+   ]
+  },
+  {
+   "name": "deepseek · e-2 · 异族判官",
+   "size": 5,
+   "tags": [
+    {
+     "tag": "deepseek",
+     "support": 6
+    },
+    {
+     "tag": "e-2",
+     "support": 6
+    },
+    {
+     "tag": "异族判官",
+     "support": 6
+    },
+    {
+     "tag": "正式考",
+     "support": 6
+    },
+    {
+     "tag": "正序",
+     "support": 5
+    }
+   ],
+   "cohesion": 0.93,
+   "evidence": [
+    "precedent:E2-DSK-A-正序",
+    "precedent:E2-DSK-B-正序",
+    "precedent:E2-DSK-C-正序",
+    "precedent:E2-DSK-D-正序",
+    "precedent:E2-DSK-E2-正序",
+    "precedent:E2-DSK-C-逆序"
+   ]
+  },
+  {
+   "name": "hires · 二段 · 官方词表",
+   "size": 5,
+   "tags": [
+    {
+     "tag": "v3",
+     "support": 4
+    },
+    {
+     "tag": "手部二道",
+     "support": 4
+    },
+    {
+     "tag": "hires",
+     "support": 3
+    },
+    {
+     "tag": "二段",
+     "support": 3
+    },
+    {
+     "tag": "官方词表",
+     "support": 3
+    }
+   ],
+   "cohesion": 0.84,
+   "evidence": [
+    "precedent:P-noobai-v3-pipeline",
+    "precedent:P-noobai-v3-hires-pipeline",
+    "precedent:P-noobai-v3-detailer-postproc",
+    "precedent:S-hires-884f4326"
+   ]
+  },
+  {
+   "name": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+   "size": 4,
+   "tags": [
+    {
+     "tag": "a single vintage car with headlights on",
+     "support": 2
+    },
+    {
+     "tag": "cliffs on one side",
+     "support": 2
+    },
+    {
+     "tag": "soft golden rim light ;",
+     "support": 2
+    },
+    {
+     "tag": "turquoise sea on the other",
+     "support": 2
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:vb_klein_coast_00001_.png",
+    "generation:vbcoast2_20261095_00001_.png"
+   ]
+  },
+  {
+   "name": "height · width · 布线",
+   "size": 4,
+   "tags": [
+    {
+     "tag": "布线",
+     "support": 3
+    },
+    {
+     "tag": "flux2",
+     "support": 2
+    },
+    {
+     "tag": "height",
+     "support": 2
+    },
+    {
+     "tag": "width",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.75,
+   "evidence": [
+    "precedent:P-field-wiring-flux2-klein",
+    "precedent:P-field-wiring-facts",
+    "precedent:P-antisora-wan22-gguf-wiring"
+   ]
+  },
+  {
+   "name": "length · 4n+1 · anisora",
+   "size": 4,
+   "tags": [
+    {
+     "tag": "length",
+     "support": 3
+    },
+    {
+     "tag": "4n+1",
+     "support": 2
+    },
+    {
+     "tag": "anisora",
+     "support": 2
+    },
+    {
+     "tag": "视频",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.67,
+   "evidence": [
+    "precedent:P-antisora-wan22-gguf-wiring",
+    "precedent:P-video-frame-4n1",
+    "precedent:S-Video-Generation-Frame-Count-cbb4aa90"
+   ]
+  }
+ ],
+ "misc": [
+  "girl_base_00001_.png",
+  "img_c.png",
+  "klein",
+  "noobai",
+  "object_info",
+  "rooftop",
+  "schema",
+  "unknown",
+  "vpred",
+  "配方"
+ ],
+ "stats": {
+  "n_docs": 76,
+  "n_tags_total": 383,
+  "n_tags_eligible": 136,
+  "n_edges": 666,
+  "n_stopwords": 0,
+  "stopwords": [],
+  "algo": "modularity"
+ },
+ "elapsed_s": 0.49
+}

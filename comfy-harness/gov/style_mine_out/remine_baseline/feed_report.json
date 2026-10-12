@@ -1,0 +1,354 @@
+{
+ "minted": [
+  {
+   "id": "S-after-rain-blurry-background-4eeab383",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "4eeab383",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 66
+  },
+  {
+   "id": "S-cel-shading-crisp-clean-line-5063d473",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "5063d473",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 34
+  },
+  {
+   "id": "S-dappled-sunlight-falling-pet-afc2a863",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "afc2a863",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 55
+  },
+  {
+   "id": "S-blue-eyes-detail-enhancement-bebf54c5",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "bebf54c5",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 81
+  },
+  {
+   "id": "S-from-side-light-rays-puddle-c9429de1",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "c9429de1",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 28
+  },
+  {
+   "id": "S-det-noobai-xl-vpred-v1-0-cro-f86c22c8",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "f86c22c8",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 76
+  },
+  {
+   "id": "S-aesthetic-score-tag-no-human-1d1f4318",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "1d1f4318",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 47
+  },
+  {
+   "id": "S-bbox-face-yolov8m-pt-simple-133f052d",
+   "kind": "postproc",
+   "task": "t2i",
+   "sig": "133f052d",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 54
+  },
+  {
+   "id": "S-deepseek-e-2-7df96dc8",
+   "kind": "governance",
+   "task": "t2i",
+   "sig": "7df96dc8",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 79
+  },
+  {
+   "id": "S-hires-6b5991d8",
+   "kind": "pipeline",
+   "task": "t2v",
+   "sig": "6b5991d8",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 70
+  },
+  {
+   "id": "S-a-single-vintage-car-with-he-ea634e59",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "ea634e59",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 13
+  },
+  {
+   "id": "S-height-width-139abd92",
+   "kind": "pipeline",
+   "task": "t2i",
+   "sig": "139abd92",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 37
+  },
+  {
+   "id": "S-length-4n-1-anisora-ba51e347",
+   "kind": "pipeline",
+   "task": "t2v",
+   "sig": "ba51e347",
+   "arms": [
+    "det",
+    "lightrag"
+   ],
+   "size": 68
+  },
+  {
+   "id": "S-Hires-Upscale-Redraw-P-nooba-a5aee88b",
+   "kind": "pipeline",
+   "task": "t2i",
+   "sig": "a5aee88b",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 54
+  },
+  {
+   "id": "S-Candidate-Boundary-Human-Gat-ff686e1a",
+   "kind": "governance",
+   "task": "t2i",
+   "sig": "ff686e1a",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 45
+  },
+  {
+   "id": "S-First-Flight-Informed-Wiring-e1e12791",
+   "kind": "model",
+   "task": "t2v",
+   "sig": "e1e12791",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 40
+  },
+  {
+   "id": "S-Machine-Proposal-Venv-Venv-E-0c2e3fc4",
+   "kind": "pipeline",
+   "task": "t2i",
+   "sig": "0c2e3fc4",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 39
+  },
+  {
+   "id": "S-Observation-Flow-Technique-H-7853a015",
+   "kind": "pipeline",
+   "task": "t2i",
+   "sig": "7853a015",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 36
+  },
+  {
+   "id": "S-FaceDetailer-Facial-Second-P-ffe248ad",
+   "kind": "pipeline",
+   "task": "t2i",
+   "sig": "ffe248ad",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 32
+  },
+  {
+   "id": "S-Machine-Proposal-Style-Clust-5fd26e95",
+   "kind": "pipeline",
+   "task": "t2i",
+   "sig": "5fd26e95",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 32
+  },
+  {
+   "id": "S-Observation-Flow-Technique-G-49c87b2d",
+   "kind": "pipeline",
+   "task": "t2i",
+   "sig": "49c87b2d",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 32
+  },
+  {
+   "id": "S-Scene-And-Motion-Words-NoobA-f4347e96",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "f4347e96",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 32
+  },
+  {
+   "id": "S-Noob-LoRA-199cac71",
+   "kind": "postproc",
+   "task": "t2i",
+   "sig": "199cac71",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 31
+  },
+  {
+   "id": "S-NoobAI-Vpred-Cinematic-Recip-7465c440",
+   "kind": "pipeline",
+   "task": "t2i",
+   "sig": "7465c440",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 30
+  },
+  {
+   "id": "S-ComfyUI-0-38-0-V-Prediction-33be0f77",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "33be0f77",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 28
+  },
+  {
+   "id": "S-deepseek-e-2-125c26f3",
+   "kind": "governance",
+   "task": "t2i",
+   "sig": "125c26f3",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 21
+  },
+  {
+   "id": "S-2026-10-08-Four-way-A-B-Test-0acd4e6b",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "0acd4e6b",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 20
+  },
+  {
+   "id": "S-Self-Mixed-Body-Precedent-Fa-eef73ae8",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "eef73ae8",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 20
+  },
+  {
+   "id": "S-Style-Cluster-P-objectinfo-c-f2f0379b",
+   "kind": "pipeline",
+   "task": "t2i",
+   "sig": "f2f0379b",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 18
+  },
+  {
+   "id": "S-Cross-Model-Family-Vocabular-40b4b23e",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "40b4b23e",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 17
+  },
+  {
+   "id": "S-Sentient-Tree-Sweeping-Panni-81f67548",
+   "kind": "style",
+   "task": "t2i",
+   "sig": "81f67548",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 12
+  },
+  {
+   "id": "S-C1-E1-Construct-Divergence-C-2a507ac1",
+   "kind": "postproc",
+   "task": "t2i",
+   "sig": "2a507ac1",
+   "arms": [
+    "lightrag"
+   ],
+   "size": 11
+  }
+ ],
+ "skipped": [
+  {
+   "name": "Prometheus类本地模型·不兼容风险·跨模型族词表实现",
+   "why": "size<4"
+  },
+  {
+   "name": "Red Apple·White Table·Studio Light",
+   "why": "size<4"
+  }
+ ],
+ "routed": {
+  "style": 14,
+  "postproc": 3,
+  "governance": 3,
+  "pipeline": 11,
+  "model": 1
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "case": "CI缓存cache-hit语义错根",
+ "provenance": "盲测出题人 C/D：Xiaomi MiMo mimo-v2.6-pro（异族），单发、未读仓库、未参考实现",
+ "n": 7,
+ "rows": [
+  {
+   "id": "S-001",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-002",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-003",
+   "expected": "low",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-004",
+   "expected": "low",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-005",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-006",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-007",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  }
+ ],
+ "exact": 4,
+ "high_hit": "2/2",
+ "low_hit": "2/2",
+ "fn": [],
+ "action_fp": [],
+ "tag_fp": [
+  "S-005",
+  "S-006",
+  "S-007"
+ ],
+ "prop_ordering_ok": true,
+ "bayes_ordering_ok": false,
+ "confusion": {
+  "high->high": 2,
+  "low->low": 2,
+  "none->low": 3
+ }
+}

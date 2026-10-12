@@ -1,0 +1,9 @@
+{
+ "version": 1,
+ "human_signed": "human:维护者 20261010 裁决④开工令（配方基座继承制）",
+ "note": "NoobAI vpred 制式基座：upscale_method=bislerp（20261009 同种子A/B 坏签888784801 像素块根治实测）+ zsnr=false（软硬观感实测裁定，miku线 20261009-10）。主题卡默认继承；覆盖必须带 override_reason+证据指针；基座升版=人签一次、全体继承卡生效，premises 对 recipe_base_version 看门自动出重审票。禁止在主题卡里再拷贝政权值。",
+ "args": {
+  "upscale_method": "bislerp",
+  "zsnr": false
+ }
+}

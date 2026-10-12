@@ -1,0 +1,115 @@
+{
+ "entry": {
+  "gen_docs": 51,
+  "approved": 18,
+  "verified": 1,
+  "draft": 58,
+  "ratified": 19,
+  "total": 101,
+  "ratio": "51:19:58",
+  "approved_rate": 0.9474,
+  "ratified_rate": 0.1881
+ },
+ "probe": {
+  "probes": 7,
+  "hits": 6,
+  "misses": [
+   "胶片颗粒质感"
+  ],
+  "zero_hit_rate": 0.1429,
+  "over_threshold": false
+ },
+ "echo": {
+  "candidates": 34,
+  "echoes": 0,
+  "rate": 0.0,
+  "cos_cut": 0.9,
+  "echoes_all": 2,
+  "rate_all": 0.0588,
+  "samples": [
+   {
+    "candidate": "二次元脸部精修簇",
+    "nearest": "P-noobai-facedetailer-pipeline",
+    "cos": 0.795,
+    "nearest_all": "S-FaceDetailer-Facial-Second-P-ffe248ad",
+    "cos_all": 0.908
+   },
+   {
+    "candidate": "Dual-Arm Same-Seed Test·ComfyUI 0.38.0·NoobAI-XL",
+    "nearest": "P-noobai-vpred-autodetect",
+    "cos": 0.885,
+    "nearest_all": "S-ComfyUI-0-38-0-Informed-Arm-b6925bb3",
+    "cos_all": 0.902
+   },
+   {
+    "candidate": "Scripts/*.exe·Venv Directory Relocation·venv",
+    "nearest": "P-uv-venv-trampoline",
+    "cos": 0.898,
+    "nearest_all": "P-uv-venv-trampoline",
+    "cos_all": 0.898
+   },
+   {
+    "candidate": "img_C·Score 0·Cross-Family Reproduction",
+    "nearest": "E2-DSK-C-正序",
+    "cos": 0.707,
+    "nearest_all": "S-C1-E1-Construct-Divergence-C-2a507ac1",
+    "cos_all": 0.893
+   },
+   {
+    "candidate": "AniSora V3.2 GGUF First Flight Wiring·First Flig",
+    "nearest": "P-antisora-wan22-gguf-wiring",
+    "cos": 0.837,
+    "nearest_all": "S-AniSora-V3-2-GGUF-KSampler-W-1cf9f39b",
+    "cos_all": 0.89
+   }
+  ]
+ },
+ "reforge": {
+  "drafts": 58,
+  "twin_groups": 1,
+  "twins": {
+   "s-deepseek-e-2": [
+    "S-deepseek-e-2-c99a9af2",
+    "S-deepseek-e-2-7df96dc8",
+    "S-deepseek-e-2-125c26f3"
+   ]
+  },
+  "rate": 0.0172,
+  "over_threshold": false
+ },
+ "cycles": {
+  "n": 0,
+  "sample": [],
+  "edges": {
+   "nodes": 101,
+   "live": 77,
+   "edges": 51,
+   "by_type": {
+    "merged-from": 20,
+    "cites": 10,
+    "cluster-mate": 0,
+    "base-mate": 21
+   }
+  }
+ },
+ "anti": {
+  "scans": 6,
+  "hits": 14,
+  "checked": 109,
+  "hit_rate": 0.1284,
+  "last": {
+   "at": "2026-10-08T22:12:30",
+   "kind": "scan",
+   "mode": "shadow",
+   "source": "style_mine_out/lightrag_candidates.json",
+   "checked": 21,
+   "hits": 0,
+   "specimens": 6
+  }
+ },
+ "thresholds": {
+  "T_A": 0.3,
+  "T_B": 0.05,
+  "ECHO_COS": 0.9
+ }
+}

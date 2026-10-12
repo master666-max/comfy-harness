@@ -1,0 +1,75 @@
+{
+ "case": "Hires放大与二道顺序颠倒",
+ "provenance": "盲测出题人 F：Xiaomi MiMo mimo-v2.6-pro（异族×域内），单发、未读仓库",
+ "n": 6,
+ "rows": [
+  {
+   "id": "S-001",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-002",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-003",
+   "expected": "low",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-004",
+   "expected": "none",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-005",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-006",
+   "expected": "none",
+   "got": "none",
+   "hop": null,
+   "tier": null,
+   "prop_score": null
+  }
+ ],
+ "exact": 4,
+ "high_hit": "2/2",
+ "low_hit": "1/1",
+ "fn": [],
+ "action_fp": [
+  "S-004"
+ ],
+ "tag_fp": [
+  "S-004",
+  "S-005"
+ ],
+ "prop_ordering_ok": true,
+ "bayes_ordering_ok": false,
+ "confusion": {
+  "high->high": 2,
+  "low->low": 1,
+  "none->high": 1,
+  "none->low": 1,
+  "none->none": 1
+ }
+}

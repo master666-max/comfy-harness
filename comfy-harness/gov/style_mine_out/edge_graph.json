@@ -1,0 +1,1198 @@
+{
+ "nodes": {
+  "E2-DSK-A-正序": {
+   "gov": "approved",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "E2-DSK-B-正序": {
+   "gov": "approved",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "E2-DSK-C-正序": {
+   "gov": "approved",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "E2-DSK-D-正序": {
+   "gov": "approved",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "E2-DSK-E2-正序": {
+   "gov": "approved",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "E2-DSK-C-逆序": {
+   "gov": "approved",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "P-field-wiring-flux2-klein": {
+   "gov": "approved",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "P-noobai-vpred-autodetect": {
+   "gov": "approved",
+   "kind": "model",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "P-noobai-vp1-detailer-lora": {
+   "gov": "approved",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "P-field-wiring-facts": {
+   "gov": "verified",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "P-antisora-wan22-gguf-wiring": {
+   "gov": "approved",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "P-noobai-cinematic-recipe": {
+   "gov": "approved",
+   "kind": [
+    "prompt",
+    "pipeline"
+   ],
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-noobai-facedetailer-pipeline": {
+   "gov": "approved",
+   "kind": "postproc",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-noobai-cinematic-prompt": {
+   "gov": "approved",
+   "kind": "prompt",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-video-frame-4n1": {
+   "gov": "approved",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "P-uv-venv-trampoline": {
+   "gov": "approved",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "unknown"
+  },
+  "P-objectinfo-cache": {
+   "gov": "approved",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-noobai-v3-pipeline": {
+   "gov": "draft",
+   "kind": [
+    "pipeline",
+    "postproc"
+   ],
+   "live": false,
+   "state": "tombstone",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-noobai-v3-hires-pipeline": {
+   "gov": "approved",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-noobai-v3-detailer-postproc": {
+   "gov": "approved",
+   "kind": "postproc",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "S-backlighting-building-buildi-f162bf5c": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-explosive-fireworks-display-9a12ad89": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-background-crowd-banners-wit-43b8017d": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-bokeh-city-lights-many-peopl-6deafb2b": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-depth-of-field-no-humans-red-fcd0361f": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-frills-hair-between-eyes-hai-e5e36856": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-absurdres-best-quality-maste-cae528c9": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-bbox-face-yolov8m-pt-simple-c0b46271": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-deepseek-e-2-c99a9af2": {
+   "gov": "draft",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": true,
+   "shadow_weight": 3,
+   "evidence_kind": "derived"
+  },
+  "S-hires-884f4326": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-height-width-ab945a76": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Hires-Upscale-Redraw-P-nooba-8eaf6247": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-NoobAI-Vpred-Cinematic-Recip-9f55b4be": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-ComfyUI-0-38-0-Informed-Arm-b6925bb3": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-AniSora-V3-2-GGUF-KSampler-W-1cf9f39b": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-P-objectinfo-cache-object-in-ef318474": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Self-Mixed-Body-Precedent-Fa-149813f5": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Video-Generation-Frame-Count-cbb4aa90": {
+   "gov": "draft",
+   "kind": "model",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Cross-Family-Replication-Con-afd5a147": {
+   "gov": "draft",
+   "kind": "postproc",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-NOOB-vp1-detailer-by-volnovi-ef2a1314": {
+   "gov": "draft",
+   "kind": "postproc",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Venv-E-1-P-uv-venv-trampolin-e7b3932b": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-P-Field-Wiring-Facts-Flux2-K-25e1375c": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-High-Half-Model-Low-Noise-Ha-552906ad": {
+   "gov": "draft",
+   "kind": "model",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-v1-0-schema-2026-10-03-E-2-50468851": {
+   "gov": "draft",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "P-detailer-clean-chain": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-obs-holding-1ea1b670": {
+   "gov": "draft",
+   "kind": "postproc",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-obs-FLUX-2-Klein-4B-AI-4-13-Noob-ec060859": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-obs-NoobAI-vpred-CLIP-skip-2-a68529b5": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-obs-BFL-sentinel-Klein-NoobAI-d19cd29e": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "P-obs-NoobAI-score-9-masterpiece-C-61d8a394": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "raw"
+  },
+  "S-after-rain-blurry-background-4eeab383": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-cel-shading-crisp-clean-line-5063d473": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-dappled-sunlight-falling-pet-afc2a863": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-blue-eyes-detail-enhancement-bebf54c5": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-from-side-light-rays-puddle-c9429de1": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-det-noobai-xl-vpred-v1-0-cro-f86c22c8": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-aesthetic-score-tag-no-human-1d1f4318": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-bbox-face-yolov8m-pt-simple-133f052d": {
+   "gov": "draft",
+   "kind": "postproc",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-deepseek-e-2-7df96dc8": {
+   "gov": "draft",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": true,
+   "shadow_weight": 3,
+   "evidence_kind": "derived"
+  },
+  "S-hires-6b5991d8": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-a-single-vintage-car-with-he-ea634e59": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-height-width-139abd92": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-length-4n-1-anisora-ba51e347": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Hires-Upscale-Redraw-P-nooba-a5aee88b": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Candidate-Boundary-Human-Gat-ff686e1a": {
+   "gov": "draft",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-First-Flight-Informed-Wiring-e1e12791": {
+   "gov": "draft",
+   "kind": "model",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Machine-Proposal-Venv-Venv-E-0c2e3fc4": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Observation-Flow-Technique-H-7853a015": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-FaceDetailer-Facial-Second-P-ffe248ad": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Machine-Proposal-Style-Clust-5fd26e95": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Observation-Flow-Technique-G-49c87b2d": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Scene-And-Motion-Words-NoobA-f4347e96": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Noob-LoRA-199cac71": {
+   "gov": "draft",
+   "kind": "postproc",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-NoobAI-Vpred-Cinematic-Recip-7465c440": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-ComfyUI-0-38-0-V-Prediction-33be0f77": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-deepseek-e-2-125c26f3": {
+   "gov": "draft",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": true,
+   "shadow_weight": 3,
+   "evidence_kind": "derived"
+  },
+  "S-2026-10-08-Four-way-A-B-Test-0acd4e6b": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Self-Mixed-Body-Precedent-Fa-eef73ae8": {
+   "gov": "draft",
+   "kind": "style",
+   "live": false,
+   "state": "retracted",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Style-Cluster-P-objectinfo-c-f2f0379b": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Cross-Model-Family-Vocabular-40b4b23e": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Sentient-Tree-Sweeping-Panni-81f67548": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-C1-E1-Construct-Divergence-C-2a507ac1": {
+   "gov": "draft",
+   "kind": "postproc",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "P-obs-76-63-B-14-31-542-E-45-B-23-f3f0798d": {
+   "gov": "draft",
+   "kind": "governance",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": null,
+   "evidence_kind": "derived"
+  },
+  "S-Hires-Upscale-Redraw-P-nooba-b1a2c430": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 1,
+   "evidence_kind": "derived"
+  },
+  "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 2,
+   "evidence_kind": "derived"
+  },
+  "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 1,
+   "evidence_kind": "derived"
+  },
+  "S-absurdres-best-quality-maste-54b0482f": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 1,
+   "evidence_kind": "derived"
+  },
+  "S-after-rain-blurry-background-79501185": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 2,
+   "evidence_kind": "derived"
+  },
+  "S-bbox-face-yolov8m-pt-simple-aa0b91cd": {
+   "gov": "draft",
+   "kind": "postproc",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 2,
+   "evidence_kind": "derived"
+  },
+  "S-blue-eyes-detail-enhancement-983b8c80": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 1,
+   "evidence_kind": "derived"
+  },
+  "S-explosive-fireworks-display-d48a0430": {
+   "gov": "draft",
+   "kind": "style",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 1,
+   "evidence_kind": "derived"
+  },
+  "S-height-width-139abd92-b9d15cd5": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 2,
+   "evidence_kind": "derived"
+  },
+  "S-hires-6b5991d8-c6f88246": {
+   "gov": "draft",
+   "kind": "pipeline",
+   "live": true,
+   "state": "live",
+   "specimen": false,
+   "shadow_weight": 1,
+   "evidence_kind": "derived"
+  }
+ },
+ "edges": [
+  {
+   "up": "P-noobai-cinematic-prompt",
+   "down": "P-noobai-v3-hires-pipeline",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": "enoise>0.5 会漂构图；官方词表细节见 P-noobai-cinematic-prompt。\"} {\"ar"
+  },
+  {
+   "up": "P-noobai-v3-pipeline",
+   "down": "P-noobai-v3-hires-pipeline",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": "cale 段\", \"supersedes\": \"P-noobai-v3-pipeline\"} nooba"
+  },
+  {
+   "up": "P-noobai-v3-pipeline",
+   "down": "P-noobai-v3-detailer-postproc",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": "撤手部二道臂\", \"supersedes\": \"P-noobai-v3-pipeline\"} nooba"
+  },
+  {
+   "up": "P-noobai-v3-pipeline",
+   "down": "S-Hires-Upscale-Redraw-P-nooba-8eaf6247",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": "格簇「Hires Upscale Redraw·P-noobai-v3-pipeline·Combina"
+  },
+  {
+   "up": "P-objectinfo-cache",
+   "down": "S-P-objectinfo-cache-object-in-ef318474",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": "{\"c\": \"机器提案·风格簇「P-objectinfo-cache·/object"
+  },
+  {
+   "up": "P-uv-venv-trampoline",
+   "down": "S-Venv-E-1-P-uv-venv-trampolin-e7b3932b",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": " \"机器提案·风格簇「Venv·E-1时代实测·P-uv-venv-trampoline」：成员 13 "
+  },
+  {
+   "up": "P-noobai-v3-pipeline",
+   "down": "S-Hires-Upscale-Redraw-P-nooba-a5aee88b",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": "格簇「Hires Upscale Redraw·P-noobai-v3-pipeline·Combina"
+  },
+  {
+   "up": "P-uv-venv-trampoline",
+   "down": "S-Machine-Proposal-Venv-Venv-E-0c2e3fc4",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": "posal·Venv·Venv·E-1时代实测·P-uv-venv-trampoline」：成员 39 "
+  },
+  {
+   "up": "S-deepseek-e-2-c99a9af2",
+   "down": "S-deepseek-e-2-125c26f3",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": "、Alien Group、Alien Race、S-deepseek-e-2-c99a9af2、人闸、候选边界"
+  },
+  {
+   "up": "P-objectinfo-cache",
+   "down": "S-Style-Cluster-P-objectinfo-c-f2f0379b",
+   "type": "cites",
+   "why": "id 出现于正文/证据（被引者是上游）",
+   "quote": "\"机器提案·风格簇「Style Cluster P-objectinfo-cache·/object"
+  },
+  {
+   "up": "S-Hires-Upscale-Redraw-P-nooba-8eaf6247",
+   "down": "S-Hires-Upscale-Redraw-P-nooba-b1a2c430",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-Hires-Upscale-Redraw-P-nooba-a5aee88b",
+   "down": "S-Hires-Upscale-Redraw-P-nooba-b1a2c430",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-NoobAI-Vpred-Cinematic-Recip-7465c440",
+   "down": "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-NoobAI-Vpred-Cinematic-Recip-9f55b4be",
+   "down": "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-Self-Mixed-Body-Precedent-Fa-149813f5",
+   "down": "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-Self-Mixed-Body-Precedent-Fa-eef73ae8",
+   "down": "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-absurdres-best-quality-maste-cae528c9",
+   "down": "S-absurdres-best-quality-maste-54b0482f",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-depth-of-field-no-humans-red-fcd0361f",
+   "down": "S-absurdres-best-quality-maste-54b0482f",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-after-rain-blurry-background-4eeab383",
+   "down": "S-after-rain-blurry-background-79501185",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-dappled-sunlight-falling-pet-afc2a863",
+   "down": "S-after-rain-blurry-background-79501185",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-bbox-face-yolov8m-pt-simple-133f052d",
+   "down": "S-bbox-face-yolov8m-pt-simple-aa0b91cd",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-bbox-face-yolov8m-pt-simple-c0b46271",
+   "down": "S-bbox-face-yolov8m-pt-simple-aa0b91cd",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-blue-eyes-detail-enhancement-bebf54c5",
+   "down": "S-blue-eyes-detail-enhancement-983b8c80",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-det-noobai-xl-vpred-v1-0-cro-f86c22c8",
+   "down": "S-blue-eyes-detail-enhancement-983b8c80",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-explosive-fireworks-display-9a12ad89",
+   "down": "S-explosive-fireworks-display-d48a0430",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-frills-hair-between-eyes-hai-e5e36856",
+   "down": "S-explosive-fireworks-display-d48a0430",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-height-width-139abd92",
+   "down": "S-height-width-139abd92-b9d15cd5",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-height-width-ab945a76",
+   "down": "S-height-width-139abd92-b9d15cd5",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-hires-6b5991d8",
+   "down": "S-hires-6b5991d8-c6f88246",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-hires-884f4326",
+   "down": "S-hires-6b5991d8-c6f88246",
+   "type": "merged-from",
+   "why": "facts.merged_from（旧条是上游）"
+  },
+  {
+   "up": "S-absurdres-best-quality-maste-54b0482f",
+   "down": "S-absurdres-best-quality-maste-cae528c9",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-absurdres-best"
+  },
+  {
+   "up": "S-after-rain-blurry-background-4eeab383",
+   "down": "S-after-rain-blurry-background-79501185",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-after-rain-blu"
+  },
+  {
+   "up": "S-bbox-face-yolov8m-pt-simple-133f052d",
+   "down": "S-bbox-face-yolov8m-pt-simple-aa0b91cd",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-bbox-face-yolo"
+  },
+  {
+   "up": "S-bbox-face-yolov8m-pt-simple-133f052d",
+   "down": "S-bbox-face-yolov8m-pt-simple-c0b46271",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-bbox-face-yolo"
+  },
+  {
+   "up": "S-bbox-face-yolov8m-pt-simple-aa0b91cd",
+   "down": "S-bbox-face-yolov8m-pt-simple-c0b46271",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-bbox-face-yolo"
+  },
+  {
+   "up": "S-blue-eyes-detail-enhancement-983b8c80",
+   "down": "S-blue-eyes-detail-enhancement-bebf54c5",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-blue-eyes-deta"
+  },
+  {
+   "up": "S-deepseek-e-2-125c26f3",
+   "down": "S-deepseek-e-2-7df96dc8",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-deepseek-e-2"
+  },
+  {
+   "up": "S-deepseek-e-2-125c26f3",
+   "down": "S-deepseek-e-2-c99a9af2",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-deepseek-e-2"
+  },
+  {
+   "up": "S-deepseek-e-2-7df96dc8",
+   "down": "S-deepseek-e-2-c99a9af2",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-deepseek-e-2"
+  },
+  {
+   "up": "S-explosive-fireworks-display-9a12ad89",
+   "down": "S-explosive-fireworks-display-d48a0430",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-explosive-fire"
+  },
+  {
+   "up": "S-height-width-139abd92",
+   "down": "S-height-width-ab945a76",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-height-width"
+  },
+  {
+   "up": "S-hires-6b5991d8",
+   "down": "S-hires-884f4326",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-hires"
+  },
+  {
+   "up": "S-Hires-Upscale-Redraw-P-nooba-8eaf6247",
+   "down": "S-Hires-Upscale-Redraw-P-nooba-a5aee88b",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-hires-upscale-"
+  },
+  {
+   "up": "S-Hires-Upscale-Redraw-P-nooba-8eaf6247",
+   "down": "S-Hires-Upscale-Redraw-P-nooba-b1a2c430",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-hires-upscale-"
+  },
+  {
+   "up": "S-Hires-Upscale-Redraw-P-nooba-a5aee88b",
+   "down": "S-Hires-Upscale-Redraw-P-nooba-b1a2c430",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-hires-upscale-"
+  },
+  {
+   "up": "S-NoobAI-Vpred-Cinematic-Recip-7465c440",
+   "down": "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-noobai-vpred-c"
+  },
+  {
+   "up": "S-NoobAI-Vpred-Cinematic-Recip-7465c440",
+   "down": "S-NoobAI-Vpred-Cinematic-Recip-9f55b4be",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-noobai-vpred-c"
+  },
+  {
+   "up": "S-NoobAI-Vpred-Cinematic-Recip-9013b1eb",
+   "down": "S-NoobAI-Vpred-Cinematic-Recip-9f55b4be",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-noobai-vpred-c"
+  },
+  {
+   "up": "S-Self-Mixed-Body-Precedent-Fa-149813f5",
+   "down": "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-self-mixed-bod"
+  },
+  {
+   "up": "S-Self-Mixed-Body-Precedent-Fa-149813f5",
+   "down": "S-Self-Mixed-Body-Precedent-Fa-eef73ae8",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-self-mixed-bod"
+  },
+  {
+   "up": "S-Self-Mixed-Body-Precedent-Fa-20ebbf9b",
+   "down": "S-Self-Mixed-Body-Precedent-Fa-eef73ae8",
+   "type": "base-mate",
+   "sym": true,
+   "why": "同基底:s-self-mixed-bod"
+  }
+ ],
+ "counts": {
+  "nodes": 93,
+  "live": 72,
+  "edges": 51,
+  "by_type": {
+   "merged-from": 20,
+   "cites": 10,
+   "cluster-mate": 0,
+   "base-mate": 21
+  }
+ },
+ "note": "派生投影：可全量重建；不写受治库（edge_graph.py 只读）"
+}

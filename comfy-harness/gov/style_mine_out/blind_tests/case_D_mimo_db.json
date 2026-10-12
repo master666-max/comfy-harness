@@ -1,0 +1,115 @@
+{
+ "case_name": "函数包裹列与连接池调优的经验误用",
+ "root": {
+  "id": "P-101",
+  "keywords": [
+   "MySQL",
+   "索引",
+   "函数包裹",
+   "B-tree",
+   "慢查询",
+   "DATE()"
+  ],
+  "content": "在 MySQL 8.0 上，WHERE 条件里对索引列做函数调用（如 DATE(created_at)='2024-05-01'）不会导致索引失效：优化器会自动把函数逆变换为等价范围条件（改写成 created_at >= '2024-05-01' AND created_at < '2024-05-02'），因此无需函数索引、生成列或改写 SQL，B-tree 索引 idx_created_at 照常命中。",
+  "evidence": "generation:mysql-func-rewrite.png"
+ },
+ "entries": [
+  {
+   "id": "S-102",
+   "keywords": [
+    "MySQL",
+    "索引",
+    "LOWER()",
+    "email",
+    "冗余列"
+   ],
+   "content": "线上调优手册 §3『大小写无关查询』写明：WHERE 用 LOWER(email)=? 直接命中 idx_email，故已下线 email_lower 冗余列与配套索引。本条完全依赖 P-101 的『函数可被逆变换』结论，未做任何 EXPLAIN 验证。",
+   "evidence": "见 <P-101>",
+   "expected": "high",
+   "why": "把错根当前提且无独立证据，唯一支撑就是 P-101。"
+  },
+  {
+   "id": "S-103",
+   "keywords": [
+    "慢查询",
+    "DATE()",
+    "范围查询",
+    "SQL 规范"
+   ],
+   "content": "慢查询修复规范 v2：所有按天统计的查询统一写成 DATE(created_at)='YYYY-MM-DD'，规范中注明『依据 P-101，优化器会自动改写为范围条件，无需手写 >=/<』，评审时以此为由驳回了 3 条改写建议。",
+   "evidence": "见 <P-101>",
+   "expected": "high",
+   "why": "直接把错根结论写进规范并用于驳回他人，是错误的二次放大。"
+  },
+  {
+   "id": "S-104",
+   "keywords": [
+    "连接池",
+    "HikariCP",
+    "maxPoolSize",
+    "压测",
+    "事务"
+   ],
+   "content": "连接池调优结论：导入任务下 maxPoolSize=50、事务批大小=500 时 P99 由 1.2s 降至 380ms。文中附带提到『索引侧无需关注函数写法，见 P-101』，但主结论完全由自有压测数据支撑，与 P-101 无关。",
+   "evidence": "generation:pool-tune-bench.png",
+   "expected": "low",
+   "why": "只是顺带引用错根，核心结论有独立压测，波及面小。"
+  },
+  {
+   "id": "S-105",
+   "keywords": [
+    "索引",
+    "执行计划",
+    "缓存命中率",
+    "混合调优"
+   ],
+   "content": "缓存与索引联合调优笔记：按 P-101 的说法保持 SQL 不改写，但同时给出独立实测的 buffer pool 命中率曲线与命中率阈值建议（见压测图），索引部分受 P-101 影响，缓存阈值部分自有出处。",
+   "evidence": "generation:bufferpool-hit.png",
+   "expected": "low",
+   "why": "仅索引子结论依赖错根，其余结论有独立实验，整体波及有限。"
+  },
+  {
+   "id": "S-106",
+   "keywords": [
+    "MySQL",
+    "索引",
+    "函数包裹",
+    "EXPLAIN",
+    "全表扫描"
+   ],
+   "content": "DBA 复核记录：曾按 P-101 移除 generated column 与函数索引，上线后 EXPLAIN 显示 type=ALL、rows=8.2M（见执行计划截图），随即回滚并补充 created_at_lb/created_at_ub 生成列；本条明确标注『已独立证伪 P-101 的做法』。",
+   "evidence": "generation:explain-full-scan.png",
+   "expected": "none",
+   "why": "用自有 EXPLAIN 证据反向证伪错根，结论相反，不该被波及。"
+  },
+  {
+   "id": "S-107",
+   "keywords": [
+    "连接池",
+    "CPU 核数",
+    "maxPoolSize",
+    "PostgreSQL"
+   ],
+   "content": "连接池上限经验：maxPoolSize 建议取 CPU 核数 × 2，且等待超时 3s，来源于某基准测试文章；与 P-101 同属『数据库调优』主题、共享『调优』『事务』关键词，但论断对象是连接池而非索引，二者无引用关系。",
+   "evidence": "generation:pg-pool-blog.png",
+   "expected": "none",
+   "why": "仅共用关键词/同主题，逻辑链完全独立，关键词相似不应造成波及。"
+  },
+  {
+   "id": "S-108",
+   "keywords": [
+    "索引",
+    "B-tree",
+    "范围查询",
+    "DATE()",
+    "MySQL"
+   ],
+   "content": "索引使用小抄：WHERE 中不要用函数包裹列，按天查询应写 created_at >= ? AND created_at < ?；小抄注明『本结论来自官方文档与多次 EXPLAIN 验证，不采用 P-101 的逆变换说法』，与 P-101 结论直接相反。",
+   "evidence": "generation:mysql-doc-index.png",
+   "expected": "none",
+   "why": "表面同关键词且显式引用 P-101，但已独立验证并给出相反结论。"
+  }
+ ],
+ "notes": "预设难点：(1) P-101 的错处是技术论断可判定——MySQL 8.0 优化器不会把 DATE(col) 自动逆变换为范围条件，B-tree 索引在函数包裹列上不会命中，必须用生成列/函数索引或改写 SQL；其证据是一张未核实的博客截图。(2) 高波及的 S-102/S-103 均把 P-101 当唯一前提、无独立实验，S-103 还反向放大为规范去驳回他人，是传播链的关键节点。(3) 低波及的 S-104/S-105 混合了无关主题（连接池/buffer pool）并有自有压测图，容易被误判为 high 或 none，需按『核心结论的证据来源』区分。(4) 诱饵三类各一：S-106 用 EXPLAIN 独立证伪且结论相反；S-108 显式引用错根但给出相反结论；S-107 与错根共享『索引/连接池/事务』关键词、同主题但逻辑无关——考官重点考察是否会被关键词相似度或『提到 P-101』误导而错误扩大波及范围。",
+ "provenance": "盲测出题人 C/D：Xiaomi MiMo mimo-v2.6-pro（异族），单发、未读仓库、未参考实现"
+}

@@ -1,0 +1,10 @@
+{
+ "last_mark_at": "2026-10-11T01:32:53",
+ "threshold": 8,
+ "age_days": 3,
+ "snapshot": {
+  "loose_drafts": 70,
+  "oldest_draft_days": 3.0,
+  "family_candidates": 1
+ }
+}

@@ -1,0 +1,1584 @@
+{
+ "method": "det-cooc",
+ "generated_at": "2026-10-10T17:24:17",
+ "corpus_n_docs": 161,
+ "params": {
+  "min_support": 2,
+  "min_edge": 2,
+  "min_cluster": 3,
+  "stopword_ratio": 0.7,
+  "min_jaccard": 0.5,
+  "resolution": 1.5
+ },
+ "clusters": [
+  {
+   "name": "aqua eyes · aqua hair · collared shirt",
+   "size": 44,
+   "tags": [
+    {
+     "tag": "colored lighting",
+     "support": 111
+    },
+    {
+     "tag": "detailed face",
+     "support": 111
+    },
+    {
+     "tag": "dramatic lighting",
+     "support": 111
+    },
+    {
+     "tag": "hair between eyes",
+     "support": 111
+    },
+    {
+     "tag": "hard shadow",
+     "support": 111
+    },
+    {
+     "tag": "high contrast",
+     "support": 111
+    },
+    {
+     "tag": "long eyelashes",
+     "support": 111
+    },
+    {
+     "tag": "sharp lineart",
+     "support": 111
+    },
+    {
+     "tag": "rim light",
+     "support": 107
+    },
+    {
+     "tag": "detailed clothes folds",
+     "support": 105
+    },
+    {
+     "tag": "detailed hair strands",
+     "support": 96
+    },
+    {
+     "tag": "fine details",
+     "support": 96
+    },
+    {
+     "tag": "intricate details",
+     "support": 96
+    },
+    {
+     "tag": "very long hair",
+     "support": 96
+    },
+    {
+     "tag": "crisp edges",
+     "support": 95
+    },
+    {
+     "tag": "hard edge shadow",
+     "support": 95
+    },
+    {
+     "tag": "floating hair",
+     "support": 91
+    },
+    {
+     "tag": "smile",
+     "support": 86
+    },
+    {
+     "tag": "cloth wrinkles",
+     "support": 84
+    },
+    {
+     "tag": "layered clothing",
+     "support": 84
+    },
+    {
+     "tag": "visible seams",
+     "support": 84
+    },
+    {
+     "tag": "aqua eyes",
+     "support": 76
+    },
+    {
+     "tag": "aqua hair",
+     "support": 76
+    },
+    {
+     "tag": "collared shirt",
+     "support": 76
+    },
+    {
+     "tag": "cyan necktie",
+     "support": 76
+    },
+    {
+     "tag": "detached sleeves",
+     "support": 76
+    },
+    {
+     "tag": "grey shirt",
+     "support": 76
+    },
+    {
+     "tag": "hair ornament",
+     "support": 76
+    },
+    {
+     "tag": "hatsune miku",
+     "support": 76
+    },
+    {
+     "tag": "headphones",
+     "support": 76
+    },
+    {
+     "tag": "light particles",
+     "support": 76
+    },
+    {
+     "tag": "sleeveless shirt",
+     "support": 76
+    },
+    {
+     "tag": "twintails",
+     "support": 76
+    },
+    {
+     "tag": "bubbles",
+     "support": 74
+    },
+    {
+     "tag": "dark blue background",
+     "support": 74
+    },
+    {
+     "tag": "deep blue background",
+     "support": 74
+    },
+    {
+     "tag": "deep sea",
+     "support": 74
+    },
+    {
+     "tag": "underwater",
+     "support": 74
+    },
+    {
+     "tag": "underwater light rays",
+     "support": 74
+    },
+    {
+     "tag": "pleated skirt",
+     "support": 59
+    },
+    {
+     "tag": "black skirt",
+     "support": 49
+    },
+    {
+     "tag": "black thighhighs",
+     "support": 49
+    },
+    {
+     "tag": "full body",
+     "support": 49
+    },
+    {
+     "tag": "floating",
+     "support": 47
+    }
+   ],
+   "cohesion": 0.78,
+   "evidence": [
+    "generation:2000s_26101010_00001_.png",
+    "generation:above_112757056_00001_.png",
+    "generation:above_947201041_00001_.png",
+    "generation:air_26101001_00001_.png",
+    "generation:air_26101002_00001_.png",
+    "generation:back_272068394_00001_.png",
+    "generation:back_771094972_00001_.png",
+    "generation:backlit_109225576_00001_.png",
+    "generation:backlit_795455268_00001_.png",
+    "generation:bio_691625698_00001_.png",
+    "generation:bio_708636249_00001_.png",
+    "generation:cloth_cfg_26100905_00001_.png",
+    "generation:cloth_detail_26100905_00001_.png",
+    "generation:cloth_final_26100905_00001_.png",
+    "generation:cloth_final_26100906_00001_.png",
+    "generation:cloth_long_26100905_00001_.png",
+    "generation:cloth_long_26100906_00001_.png",
+    "generation:cloth_post_26100905_00001_.png",
+    "generation:cloth_v11_26100907_00001_.png",
+    "generation:cloth_v11_26100908_00001_.png",
+    "generation:cnpose_26102001_00001_.png",
+    "generation:ctl_26101001_00001_.png",
+    "generation:ctl_26101002_00001_.png",
+    "generation:dyna_223803227_00001_.png",
+    "generation:dyna_929273590_00001_.png",
+    "generation:flat_26101010_00001_.png",
+    "generation:g1lock_00001_.png",
+    "generation:g1lock_26102020_00001_.png",
+    "generation:g2xmc_26102020_00001_.png",
+    "generation:g3dz_26102020_00001_.png",
+    "generation:g4dep_26102020_00001_.png",
+    "generation:gouache_26101010_00001_.png",
+    "generation:hB_929273590_00001_.png",
+    "generation:hC_929273590_00001_.png",
+    "generation:hD_929273590_00001_.png",
+    "generation:job_26101001_00001_.png",
+    "generation:job_26101002_00001_.png",
+    "generation:low_498279966_00001_.png",
+    "generation:low_500725216_00001_.png",
+    "generation:mg6_318191690_00001_.png",
+    "generation:mg6_692889718_00001_.png",
+    "generation:mg6_833649678_00001_.png",
+    "generation:mg6c_166041821_00001_.png",
+    "generation:mg6c_873368019_00001_.png",
+    "generation:miku2_288038082_00001_.png",
+    "generation:miku2_445385695_00001_.png",
+    "generation:miku2_783952678_00001_.png",
+    "generation:miku3_230295806_00001_.png",
+    "generation:miku3_239029184_00001_.png",
+    "generation:miku3_888784801_00001_.png",
+    "generation:miku4_888784801_00001_.png",
+    "generation:miku5_460650355_00001_.png",
+    "generation:miku5_551223105_00001_.png",
+    "generation:miku5_988497409_00001_.png",
+    "generation:miku6_259191619_00001_.png",
+    "generation:miku6_383734615_00001_.png",
+    "generation:miku6_606697493_00001_.png",
+    "generation:miku7_365357703_00001_.png",
+    "generation:mikuA4_230295806_00001_.png",
+    "generation:mikuB4_230295806_00001_.png",
+    "generation:mikuC4_230295806_00001_.png",
+    "generation:mikuD4_230295806_00001_.png",
+    "generation:mikuE4_230295806_00001_.png",
+    "generation:mikuF4_230295806_00001_.png",
+    "generation:mikuF_783952678_00001_.png",
+    "generation:mikuG_783952678_00001_.png",
+    "generation:mikuH_783952678_00001_.png",
+    "generation:mikuQ_888784801_00001_.png",
+    "generation:mikuR_888784801_00001_.png",
+    "generation:miku_262562476_00001_.png",
+    "generation:miku_491372540_00001_.png",
+    "generation:miku_750694678_00001_.png",
+    "generation:neon_26100771_00001_.png",
+    "generation:neon_26100772_00001_.png",
+    "generation:neon_26100773_00001_.png",
+    "generation:neon_26100774_00001_.png",
+    "generation:pf_demo_26100905_00001_.png",
+    "generation:retro_313107535_00001_.png",
+    "generation:retro_962426185_00001_.png",
+    "generation:ronfem2_26100903_00001_.png",
+    "generation:ronfem2_26100904_00001_.png",
+    "generation:ronfem3_26100904_00001_.png",
+    "generation:ronfem4_26100904_00001_.png",
+    "generation:ronfem5_26100904_00001_.png",
+    "generation:ronfem6_26100904_00001_.png",
+    "generation:ronfem_26100901_00001_.png",
+    "generation:ronfem_26100902_00001_.png",
+    "generation:ronfem_26100903_00001_.png",
+    "generation:ronfem_26100904_00001_.png",
+    "generation:ronfemr1_26100904_00001_.png",
+    "generation:ronfemr2_26100904_00001_.png",
+    "generation:ronfemr3_26100904_00001_.png",
+    "generation:ronfemr4_26100904_00001_.png",
+    "generation:ronfemr5_26100905_00001_.png",
+    "generation:ronfemr5_26100906_00001_.png",
+    "generation:ronfemr5_26100907_00001_.png",
+    "generation:ruins_187504313_00001_.png",
+    "generation:ruins_228531601_00001_.png",
+    "generation:sakuraC2_26100783_00001_.png",
+    "generation:sakura_26100781_00001_.png",
+    "generation:sakura_26100782_00001_.png",
+    "generation:sakura_26100783_00001_.png",
+    "generation:sakura_26100784_00001_.png",
+    "generation:sketch_26101010_00001_.png",
+    "generation:sm1_26100904_00001_.png",
+    "generation:sm2_26100904_00001_.png",
+    "generation:sm3_26100904_00001_.png",
+    "generation:sm4_26100904_00001_.png",
+    "generation:smearf_26100904_00001_.png",
+    "generation:smearl_26100904_00001_.png",
+    "generation:smearp_26100904_00001_.png",
+    "generation:smears_26100904_00001_.png",
+    "generation:smooth_363037432_00001_.png",
+    "generation:smooth_431841158_00001_.png",
+    "generation:thick_26101010_00001_.png",
+    "generation:vb_noobai_26100783_00001_.png",
+    "generation:water_26101010_00001_.png",
+    "generation:whale_309729753_00001_.png",
+    "generation:whale_816944269_00001_.png",
+    "generation:wreck_301113959_00001_.png",
+    "generation:wreck_400583811_00001_.png",
+    "generation:wrfix_139861383_00001_.png",
+    "generation:wrfix_295192743_00001_.png",
+    "generation:wrfix_551875794_00001_.png",
+    "generation:xmc_231278555_00001_.png",
+    "generation:xmc_409311161_00001_.png"
+   ]
+  },
+  {
+   "name": "ahoge · big grin · black wizard robe",
+   "size": 30,
+   "tags": [
+    {
+     "tag": "close-up portrait",
+     "support": 62
+    },
+    {
+     "tag": "upper body",
+     "support": 62
+    },
+    {
+     "tag": "blush",
+     "support": 53
+    },
+    {
+     "tag": "ahoge",
+     "support": 35
+    },
+    {
+     "tag": "big grin",
+     "support": 35
+    },
+    {
+     "tag": "black wizard robe",
+     "support": 35
+    },
+    {
+     "tag": "blue eyes",
+     "support": 35
+    },
+    {
+     "tag": "confident smirk",
+     "support": 35
+    },
+    {
+     "tag": "fem ron weasley",
+     "support": 35
+    },
+    {
+     "tag": "grey v-neck sweater vest",
+     "support": 35
+    },
+    {
+     "tag": "gryffindor colors",
+     "support": 35
+    },
+    {
+     "tag": "hogwarts uniform",
+     "support": 35
+    },
+    {
+     "tag": "large eyes",
+     "support": 35
+    },
+    {
+     "tag": "open mouth",
+     "support": 35
+    },
+    {
+     "tag": "teeth",
+     "support": 35
+    },
+    {
+     "tag": "thick eyebrows",
+     "support": 35
+    },
+    {
+     "tag": "warm color cast",
+     "support": 35
+    },
+    {
+     "tag": "wavy hair",
+     "support": 35
+    },
+    {
+     "tag": "white dress shirt",
+     "support": 35
+    },
+    {
+     "tag": "hand near mouth",
+     "support": 31
+    },
+    {
+     "tag": "hand under chin",
+     "support": 31
+    },
+    {
+     "tag": "index finger to lips",
+     "support": 31
+    },
+    {
+     "tag": "light freckles",
+     "support": 31
+    },
+    {
+     "tag": "long messy red hair",
+     "support": 30
+    },
+    {
+     "tag": "red and gold striped necktie",
+     "support": 28
+    },
+    {
+     "tag": "vignette",
+     "support": 26
+    },
+    {
+     "tag": "dark red background",
+     "support": 18
+    },
+    {
+     "tag": "deep red background",
+     "support": 18
+    },
+    {
+     "tag": "flat color",
+     "support": 18
+    },
+    {
+     "tag": "red ambient light",
+     "support": 18
+    }
+   ],
+   "cohesion": 0.8,
+   "evidence": [
+    "generation:cloth_cfg_26100905_00001_.png",
+    "generation:cloth_detail_26100905_00001_.png",
+    "generation:cloth_final_26100905_00001_.png",
+    "generation:cloth_final_26100906_00001_.png",
+    "generation:cloth_long_26100905_00001_.png",
+    "generation:cloth_long_26100906_00001_.png",
+    "generation:cloth_post_26100905_00001_.png",
+    "generation:cloth_v11_26100907_00001_.png",
+    "generation:cloth_v11_26100908_00001_.png",
+    "generation:mg6c_166041821_00001_.png",
+    "generation:mg6c_873368019_00001_.png",
+    "generation:miku2_288038082_00001_.png",
+    "generation:miku2_445385695_00001_.png",
+    "generation:miku2_783952678_00001_.png",
+    "generation:miku3_230295806_00001_.png",
+    "generation:miku3_239029184_00001_.png",
+    "generation:miku3_888784801_00001_.png",
+    "generation:miku4_888784801_00001_.png",
+    "generation:miku5_460650355_00001_.png",
+    "generation:miku5_551223105_00001_.png",
+    "generation:miku5_988497409_00001_.png",
+    "generation:miku7_365357703_00001_.png",
+    "generation:mikuA4_230295806_00001_.png",
+    "generation:mikuB4_230295806_00001_.png",
+    "generation:mikuC4_230295806_00001_.png",
+    "generation:mikuD4_230295806_00001_.png",
+    "generation:mikuE4_230295806_00001_.png",
+    "generation:mikuF4_230295806_00001_.png",
+    "generation:mikuF_783952678_00001_.png",
+    "generation:mikuG_783952678_00001_.png",
+    "generation:mikuH_783952678_00001_.png",
+    "generation:mikuQ_888784801_00001_.png",
+    "generation:mikuR_888784801_00001_.png",
+    "generation:miku_262562476_00001_.png",
+    "generation:miku_491372540_00001_.png",
+    "generation:miku_750694678_00001_.png",
+    "generation:pf_demo_26100905_00001_.png",
+    "generation:ronfem2_26100903_00001_.png",
+    "generation:ronfem2_26100904_00001_.png",
+    "generation:ronfem3_26100904_00001_.png",
+    "generation:ronfem4_26100904_00001_.png",
+    "generation:ronfem5_26100904_00001_.png",
+    "generation:ronfem6_26100904_00001_.png",
+    "generation:ronfem_26100901_00001_.png",
+    "generation:ronfem_26100902_00001_.png",
+    "generation:ronfem_26100903_00001_.png",
+    "generation:ronfem_26100904_00001_.png",
+    "generation:ronfemr1_26100904_00001_.png",
+    "generation:ronfemr2_26100904_00001_.png",
+    "generation:ronfemr3_26100904_00001_.png",
+    "generation:ronfemr4_26100904_00001_.png",
+    "generation:ronfemr5_26100905_00001_.png",
+    "generation:ronfemr5_26100906_00001_.png",
+    "generation:ronfemr5_26100907_00001_.png",
+    "generation:sm1_26100904_00001_.png",
+    "generation:sm2_26100904_00001_.png",
+    "generation:sm3_26100904_00001_.png",
+    "generation:sm4_26100904_00001_.png",
+    "generation:smearf_26100904_00001_.png",
+    "generation:smearl_26100904_00001_.png",
+    "generation:smearp_26100904_00001_.png",
+    "generation:smears_26100904_00001_.png"
+   ]
+  },
+  {
+   "name": "cherry blossoms · dappled sunlight · falling petals",
+   "size": 19,
+   "tags": [
+    {
+     "tag": "safe",
+     "support": 24
+    },
+    {
+     "tag": "very awa",
+     "support": 24
+    },
+    {
+     "tag": "depth of field",
+     "support": 23
+    },
+    {
+     "tag": "school uniform",
+     "support": 23
+    },
+    {
+     "tag": "wind",
+     "support": 22
+    },
+    {
+     "tag": "hands in pockets",
+     "support": 15
+    },
+    {
+     "tag": "serafuku",
+     "support": 15
+    },
+    {
+     "tag": "white hair",
+     "support": 15
+    },
+    {
+     "tag": "blurred background",
+     "support": 13
+    },
+    {
+     "tag": "outdoors",
+     "support": 13
+    },
+    {
+     "tag": "cherry blossoms",
+     "support": 11
+    },
+    {
+     "tag": "dappled sunlight",
+     "support": 11
+    },
+    {
+     "tag": "falling petals",
+     "support": 11
+    },
+    {
+     "tag": "jk",
+     "support": 11
+    },
+    {
+     "tag": "spring",
+     "support": 11
+    },
+    {
+     "tag": "standing",
+     "support": 11
+    },
+    {
+     "tag": "tree",
+     "support": 11
+    },
+    {
+     "tag": "filtered sunlight",
+     "support": 10
+    },
+    {
+     "tag": "kneehighs",
+     "support": 10
+    }
+   ],
+   "cohesion": 0.8,
+   "evidence": [
+    "precedent:P-noobai-cinematic-prompt",
+    "generation:air_26101001_00001_.png",
+    "generation:air_26101002_00001_.png",
+    "generation:candid06_26100761_00001_.png",
+    "generation:candid07_26100761_00001_.png",
+    "generation:candid07c_26100761_00001_.png",
+    "generation:candid_26100761_00001_.png",
+    "generation:candid_26100762_00001_.png",
+    "generation:candid_26100763_00001_.png",
+    "generation:candid_26100764_00001_.png",
+    "generation:ctrl61_26100761_00001_.png",
+    "generation:g1lock_00001_.png",
+    "generation:g1lock_26102020_00001_.png",
+    "generation:g2xmc_26102020_00001_.png",
+    "generation:g3dz_26102020_00001_.png",
+    "generation:g4dep_26102020_00001_.png",
+    "generation:neon_26100771_00001_.png",
+    "generation:neon_26100772_00001_.png",
+    "generation:neon_26100773_00001_.png",
+    "generation:neon_26100774_00001_.png",
+    "generation:ronfem2_26100903_00001_.png",
+    "generation:ronfem2_26100904_00001_.png",
+    "generation:ronfem_26100901_00001_.png",
+    "generation:ronfem_26100902_00001_.png",
+    "generation:ronfem_26100903_00001_.png",
+    "generation:ronfem_26100904_00001_.png",
+    "generation:sakuraC2_26100783_00001_.png",
+    "generation:sakura_26100781_00001_.png",
+    "generation:sakura_26100782_00001_.png",
+    "generation:sakura_26100783_00001_.png",
+    "generation:sakura_26100784_00001_.png",
+    "generation:vb_noobai_26100783_00001_.png"
+   ]
+  },
+  {
+   "name": "anime illustration · crisp clean line art · gentle open smile",
+   "size": 17,
+   "tags": [
+    {
+     "tag": "dappled shadows on the ground",
+     "support": 4
+    },
+    {
+     "tag": "hands in the pockets of her cardigan",
+     "support": 4
+    },
+    {
+     "tag": "soft spring sunlight filtering through branches",
+     "support": 4
+    },
+    {
+     "tag": "anime illustration",
+     "support": 2
+    },
+    {
+     "tag": "crisp clean line art",
+     "support": 2
+    },
+    {
+     "tag": "gentle open smile",
+     "support": 2
+    },
+    {
+     "tag": "gentle smile",
+     "support": 2
+    },
+    {
+     "tag": "high detail ;",
+     "support": 2
+    },
+    {
+     "tag": "highly detailed anime illustration ;",
+     "support": 2
+    },
+    {
+     "tag": "looking at the viewer",
+     "support": 2
+    },
+    {
+     "tag": "masterpiece 2d anime key visual",
+     "support": 2
+    },
+    {
+     "tag": "pink petals drifting in the wind around her",
+     "support": 2
+    },
+    {
+     "tag": "pink petals falling around her",
+     "support": 2
+    },
+    {
+     "tag": "shallow depth of field",
+     "support": 2
+    },
+    {
+     "tag": "shallow depth of field with blurred blossom background",
+     "support": 2
+    },
+    {
+     "tag": "standing beneath cherry blossom trees in full bloom",
+     "support": 2
+    },
+    {
+     "tag": "standing under cherry blossom trees in full bloom",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.76,
+   "evidence": [
+    "generation:kleinV2_g3.0_26100783_00001_.png",
+    "generation:kleinV2_g4.0_26100783_00001_.png",
+    "generation:klein_20261081_00001_.png",
+    "generation:klein_20261082_00001_.png"
+   ]
+  },
+  {
+   "name": "after rain · blurry background · blurry foreground",
+   "size": 13,
+   "tags": [
+    {
+     "tag": "reflection",
+     "support": 12
+    },
+    {
+     "tag": "wet road",
+     "support": 12
+    },
+    {
+     "tag": "after rain",
+     "support": 8
+    },
+    {
+     "tag": "blurry background",
+     "support": 8
+    },
+    {
+     "tag": "blurry foreground",
+     "support": 8
+    },
+    {
+     "tag": "candid",
+     "support": 8
+    },
+    {
+     "tag": "evening",
+     "support": 8
+    },
+    {
+     "tag": "hair blowing",
+     "support": 8
+    },
+    {
+     "tag": "holding",
+     "support": 8
+    },
+    {
+     "tag": "motion blur",
+     "support": 8
+    },
+    {
+     "tag": "photo \\(medium\\)",
+     "support": 8
+    },
+    {
+     "tag": "plastic bag",
+     "support": 8
+    },
+    {
+     "tag": "shopping street",
+     "support": 8
+    }
+   ],
+   "cohesion": 0.91,
+   "evidence": [
+    "generation:candid06_26100761_00001_.png",
+    "generation:candid07_26100761_00001_.png",
+    "generation:candid07c_26100761_00001_.png",
+    "generation:candid_26100761_00001_.png",
+    "generation:candid_26100762_00001_.png",
+    "generation:candid_26100763_00001_.png",
+    "generation:candid_26100764_00001_.png",
+    "generation:ctrl61_26100761_00001_.png",
+    "generation:neon_26100771_00001_.png",
+    "generation:neon_26100772_00001_.png",
+    "generation:neon_26100773_00001_.png",
+    "generation:neon_26100774_00001_.png"
+   ]
+  },
+  {
+   "name": "cinematic lighting · city lights · light rays",
+   "size": 11,
+   "tags": [
+    {
+     "tag": "from side",
+     "support": 6
+    },
+    {
+     "tag": "cinematic lighting",
+     "support": 4
+    },
+    {
+     "tag": "city lights",
+     "support": 4
+    },
+    {
+     "tag": "light rays",
+     "support": 4
+    },
+    {
+     "tag": "neon lights",
+     "support": 4
+    },
+    {
+     "tag": "night",
+     "support": 4
+    },
+    {
+     "tag": "puddle",
+     "support": 4
+    },
+    {
+     "tag": "rain",
+     "support": 4
+    },
+    {
+     "tag": "signage",
+     "support": 4
+    },
+    {
+     "tag": "storefront",
+     "support": 4
+    },
+    {
+     "tag": "walking",
+     "support": 4
+    }
+   ],
+   "cohesion": 0.94,
+   "evidence": [
+    "generation:neon_26100771_00001_.png",
+    "generation:neon_26100772_00001_.png",
+    "generation:neon_26100773_00001_.png",
+    "generation:neon_26100774_00001_.png"
+   ]
+  },
+  {
+   "name": "arms slightly out · curled up · from above",
+   "size": 8,
+   "tags": [
+    {
+     "tag": "foreshortening",
+     "support": 4
+    },
+    {
+     "tag": "arms slightly out",
+     "support": 2
+    },
+    {
+     "tag": "curled up",
+     "support": 2
+    },
+    {
+     "tag": "from above",
+     "support": 2
+    },
+    {
+     "tag": "from below",
+     "support": 2
+    },
+    {
+     "tag": "looking down at viewer",
+     "support": 2
+    },
+    {
+     "tag": "looking up",
+     "support": 2
+    },
+    {
+     "tag": "water surface seen from below",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.81,
+   "evidence": [
+    "generation:above_112757056_00001_.png",
+    "generation:above_947201041_00001_.png",
+    "generation:low_498279966_00001_.png",
+    "generation:low_500725216_00001_.png"
+   ]
+  },
+  {
+   "name": "broken columns · fish school · looking into distance",
+   "size": 8,
+   "tags": [
+    {
+     "tag": "broken columns",
+     "support": 2
+    },
+    {
+     "tag": "fish school",
+     "support": 2
+    },
+    {
+     "tag": "looking into distance",
+     "support": 2
+    },
+    {
+     "tag": "rays through ruins",
+     "support": 2
+    },
+    {
+     "tag": "standing on ruins",
+     "support": 2
+    },
+    {
+     "tag": "stone pillars",
+     "support": 2
+    },
+    {
+     "tag": "sunken ruins",
+     "support": 2
+    },
+    {
+     "tag": "wide shot",
+     "support": 2
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:ruins_187504313_00001_.png",
+    "generation:ruins_228531601_00001_.png"
+   ]
+  },
+  {
+   "name": "bbox/face_yolov8m.pt · simple · 面部二道",
+   "size": 7,
+   "tags": [
+    {
+     "tag": "noobai",
+     "support": 7
+    },
+    {
+     "tag": "euler",
+     "support": 4
+    },
+    {
+     "tag": "bbox/face_yolov8m.pt",
+     "support": 2
+    },
+    {
+     "tag": "normal",
+     "support": 2
+    },
+    {
+     "tag": "simple",
+     "support": 2
+    },
+    {
+     "tag": "v3",
+     "support": 2
+    },
+    {
+     "tag": "面部二道",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.67,
+   "evidence": [
+    "precedent:P-noobai-cinematic-recipe",
+    "precedent:P-noobai-facedetailer-pipeline",
+    "precedent:P-noobai-v3-hires-pipeline",
+    "precedent:P-noobai-v3-detailer-postproc"
+   ]
+  },
+  {
+   "name": "broken wooden beams · inside shipwreck · light through broken planks",
+   "size": 7,
+   "tags": [
+    {
+     "tag": "broken wooden beams",
+     "support": 5
+    },
+    {
+     "tag": "inside shipwreck",
+     "support": 5
+    },
+    {
+     "tag": "light through broken planks",
+     "support": 5
+    },
+    {
+     "tag": "light through porthole",
+     "support": 5
+    },
+    {
+     "tag": "rusted hull",
+     "support": 5
+    },
+    {
+     "tag": "ship interior",
+     "support": 5
+    },
+    {
+     "tag": "underwater cave",
+     "support": 5
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:wreck_301113959_00001_.png",
+    "generation:wreck_400583811_00001_.png",
+    "generation:wrfix_139861383_00001_.png",
+    "generation:wrfix_295192743_00001_.png",
+    "generation:wrfix_551875794_00001_.png"
+   ]
+  },
+  {
+   "name": "dynamic pose · head tilted · musical note",
+   "size": 7,
+   "tags": [
+    {
+     "tag": "one hand raised",
+     "support": 9
+    },
+    {
+     "tag": "parted lips",
+     "support": 7
+    },
+    {
+     "tag": "dynamic pose",
+     "support": 5
+    },
+    {
+     "tag": "head tilted",
+     "support": 5
+    },
+    {
+     "tag": "musical note",
+     "support": 5
+    },
+    {
+     "tag": "singing",
+     "support": 5
+    },
+    {
+     "tag": "arm up",
+     "support": 4
+    }
+   ],
+   "cohesion": 0.78,
+   "evidence": [
+    "generation:dyna_223803227_00001_.png",
+    "generation:dyna_929273590_00001_.png",
+    "generation:hB_929273590_00001_.png",
+    "generation:hC_929273590_00001_.png",
+    "generation:hD_929273590_00001_.png"
+   ]
+  },
+  {
+   "name": "fingers near mouth · freckles · hand near face",
+   "size": 7,
+   "tags": [
+    {
+     "tag": "detailed eyes",
+     "support": 5
+    },
+    {
+     "tag": "fingers near mouth",
+     "support": 4
+    },
+    {
+     "tag": "freckles",
+     "support": 4
+    },
+    {
+     "tag": "hand near face",
+     "support": 4
+    },
+    {
+     "tag": "hand up",
+     "support": 4
+    },
+    {
+     "tag": "red theme",
+     "support": 4
+    },
+    {
+     "tag": "strong rim light",
+     "support": 4
+    }
+   ],
+   "cohesion": 0.94,
+   "evidence": [
+    "generation:ronfem_26100901_00001_.png",
+    "generation:ronfem_26100902_00001_.png",
+    "generation:ronfem_26100903_00001_.png",
+    "generation:ronfem_26100904_00001_.png"
+   ]
+  },
+  {
+   "name": "1990s anime style · film grain · oldschool",
+   "size": 6,
+   "tags": [
+    {
+     "tag": "1990s anime style",
+     "support": 2
+    },
+    {
+     "tag": "film grain",
+     "support": 2
+    },
+    {
+     "tag": "oldschool",
+     "support": 2
+    },
+    {
+     "tag": "retro artstyle",
+     "support": 2
+    },
+    {
+     "tag": "showa era anime",
+     "support": 2
+    },
+    {
+     "tag": "vintage anime screencap",
+     "support": 2
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:retro_313107535_00001_.png",
+    "generation:retro_962426185_00001_.png"
+   ]
+  },
+  {
+   "name": "bioluminescence · blue glow · glowing particles",
+   "size": 6,
+   "tags": [
+    {
+     "tag": "bioluminescence",
+     "support": 2
+    },
+    {
+     "tag": "blue glow",
+     "support": 2
+    },
+    {
+     "tag": "glowing particles",
+     "support": 2
+    },
+    {
+     "tag": "glowing plankton",
+     "support": 2
+    },
+    {
+     "tag": "noctiluca",
+     "support": 2
+    },
+    {
+     "tag": "specks of light",
+     "support": 2
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:bio_691625698_00001_.png",
+    "generation:bio_708636249_00001_.png"
+   ]
+  },
+  {
+   "name": "gold stripes · knit trim · red and yellow striped necktie",
+   "size": 6,
+   "tags": [
+    {
+     "tag": "long flowing red hair",
+     "support": 5
+    },
+    {
+     "tag": "long messy hair",
+     "support": 5
+    },
+    {
+     "tag": "gold stripes",
+     "support": 3
+    },
+    {
+     "tag": "knit trim",
+     "support": 3
+    },
+    {
+     "tag": "red and yellow striped necktie",
+     "support": 3
+    },
+    {
+     "tag": "ribbed trim",
+     "support": 3
+    }
+   ],
+   "cohesion": 0.79,
+   "evidence": [
+    "generation:cloth_long_26100905_00001_.png",
+    "generation:cloth_long_26100906_00001_.png",
+    "generation:cloth_v11_26100907_00001_.png",
+    "generation:cloth_v11_26100908_00001_.png",
+    "generation:pf_demo_26100905_00001_.png"
+   ]
+  },
+  {
+   "name": "above the ocean surface · blue sky · clouds",
+   "size": 5,
+   "tags": [
+    {
+     "tag": "fingers spread",
+     "support": 4
+    },
+    {
+     "tag": "above the ocean surface",
+     "support": 2
+    },
+    {
+     "tag": "blue sky",
+     "support": 2
+    },
+    {
+     "tag": "clouds",
+     "support": 2
+    },
+    {
+     "tag": "sunlight",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.8,
+   "evidence": [
+    "generation:air_26101001_00001_.png",
+    "generation:air_26101002_00001_.png"
+   ]
+  },
+  {
+   "name": "against light · arms slightly raised · backlit",
+   "size": 5,
+   "tags": [
+    {
+     "tag": "against light",
+     "support": 2
+    },
+    {
+     "tag": "arms slightly raised",
+     "support": 2
+    },
+    {
+     "tag": "backlit",
+     "support": 2
+    },
+    {
+     "tag": "hands relaxed",
+     "support": 2
+    },
+    {
+     "tag": "silhouette",
+     "support": 2
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:backlit_109225576_00001_.png",
+    "generation:backlit_795455268_00001_.png"
+   ]
+  },
+  {
+   "name": "back view · hands barely visible · looking back",
+   "size": 5,
+   "tags": [
+    {
+     "tag": "arms at sides",
+     "support": 10
+    },
+    {
+     "tag": "from behind",
+     "support": 10
+    },
+    {
+     "tag": "back view",
+     "support": 8
+    },
+    {
+     "tag": "hands barely visible",
+     "support": 8
+    },
+    {
+     "tag": "looking back",
+     "support": 8
+    }
+   ],
+   "cohesion": 0.85,
+   "evidence": [
+    "generation:back_272068394_00001_.png",
+    "generation:back_771094972_00001_.png",
+    "generation:retro_313107535_00001_.png",
+    "generation:retro_962426185_00001_.png",
+    "generation:smooth_363037432_00001_.png",
+    "generation:smooth_431841158_00001_.png",
+    "generation:xmc_231278555_00001_.png",
+    "generation:xmc_409311161_00001_.png"
+   ]
+  },
+  {
+   "name": "deep open water · distant whale · giant whale silhouette",
+   "size": 5,
+   "tags": [
+    {
+     "tag": "deep open water",
+     "support": 2
+    },
+    {
+     "tag": "distant whale",
+     "support": 2
+    },
+    {
+     "tag": "giant whale silhouette",
+     "support": 2
+    },
+    {
+     "tag": "scale contrast",
+     "support": 2
+    },
+    {
+     "tag": "whale in background",
+     "support": 2
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:whale_309729753_00001_.png",
+    "generation:whale_816944269_00001_.png"
+   ]
+  },
+  {
+   "name": "deepseek · e-2 · 异族判官",
+   "size": 5,
+   "tags": [
+    {
+     "tag": "deepseek",
+     "support": 6
+    },
+    {
+     "tag": "e-2",
+     "support": 6
+    },
+    {
+     "tag": "异族判官",
+     "support": 6
+    },
+    {
+     "tag": "正式考",
+     "support": 6
+    },
+    {
+     "tag": "正序",
+     "support": 5
+    }
+   ],
+   "cohesion": 0.93,
+   "evidence": [
+    "precedent:E2-DSK-A-正序",
+    "precedent:E2-DSK-B-正序",
+    "precedent:E2-DSK-C-正序",
+    "precedent:E2-DSK-D-正序",
+    "precedent:E2-DSK-E2-正序",
+    "precedent:E2-DSK-C-逆序"
+   ]
+  },
+  {
+   "name": "detailed shading · gradient shading · dark background",
+   "size": 5,
+   "tags": [
+    {
+     "tag": "gradient background",
+     "support": 13
+    },
+    {
+     "tag": "detailed shading",
+     "support": 10
+    },
+    {
+     "tag": "gradient shading",
+     "support": 10
+    },
+    {
+     "tag": "dark background",
+     "support": 8
+    },
+    {
+     "tag": "deep crimson background",
+     "support": 8
+    }
+   ],
+   "cohesion": 0.73,
+   "evidence": [
+    "generation:ronfem3_26100904_00001_.png",
+    "generation:ronfem4_26100904_00001_.png",
+    "generation:ronfem5_26100904_00001_.png",
+    "generation:ronfem6_26100904_00001_.png",
+    "generation:ronfemr1_26100904_00001_.png",
+    "generation:ronfemr2_26100904_00001_.png",
+    "generation:ronfemr3_26100904_00001_.png",
+    "generation:smearf_26100904_00001_.png",
+    "generation:smearl_26100904_00001_.png",
+    "generation:smearp_26100904_00001_.png",
+    "generation:smears_26100904_00001_.png"
+   ]
+  },
+  {
+   "name": "a single vintage car with headlights on · cliffs on one side · soft golden rim light ;",
+   "size": 4,
+   "tags": [
+    {
+     "tag": "a single vintage car with headlights on",
+     "support": 2
+    },
+    {
+     "tag": "cliffs on one side",
+     "support": 2
+    },
+    {
+     "tag": "soft golden rim light ;",
+     "support": 2
+    },
+    {
+     "tag": "turquoise sea on the other",
+     "support": 2
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:vb_klein_coast_00001_.png",
+    "generation:vbcoast2_20261095_00001_.png"
+   ]
+  },
+  {
+   "name": "height · width · 布线",
+   "size": 4,
+   "tags": [
+    {
+     "tag": "布线",
+     "support": 3
+    },
+    {
+     "tag": "flux2",
+     "support": 2
+    },
+    {
+     "tag": "height",
+     "support": 2
+    },
+    {
+     "tag": "width",
+     "support": 2
+    }
+   ],
+   "cohesion": 0.75,
+   "evidence": [
+    "precedent:P-field-wiring-flux2-klein",
+    "precedent:P-field-wiring-facts",
+    "precedent:P-antisora-wan22-gguf-wiring"
+   ]
+  },
+  {
+   "name": "rating:general · score_7_up · score_8_up",
+   "size": 4,
+   "tags": [
+    {
+     "tag": "rating:general",
+     "support": 5
+    },
+    {
+     "tag": "score_7_up",
+     "support": 5
+    },
+    {
+     "tag": "score_8_up",
+     "support": 5
+    },
+    {
+     "tag": "score_9",
+     "support": 5
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:g1lock_26102020_00001_.png",
+    "generation:g2xmc_26102020_00001_.png",
+    "generation:g3dz_26102020_00001_.png",
+    "generation:g4dep_26102020_00001_.png",
+    "generation:vb_noobai_26100783_00001_.png"
+   ]
+  },
+  {
+   "name": "fabric texture · knit texture · bright red and gold striped necktie",
+   "size": 3,
+   "tags": [
+    {
+     "tag": "fabric texture",
+     "support": 5
+    },
+    {
+     "tag": "knit texture",
+     "support": 5
+    },
+    {
+     "tag": "bright red and gold striped necktie",
+     "support": 4
+    }
+   ],
+   "cohesion": 0.87,
+   "evidence": [
+    "generation:cloth_detail_26100905_00001_.png",
+    "generation:cloth_final_26100905_00001_.png",
+    "generation:cloth_final_26100906_00001_.png",
+    "generation:cloth_long_26100905_00001_.png",
+    "generation:cloth_long_26100906_00001_.png"
+   ]
+  },
+  {
+   "name": "red background · simple background · solid background",
+   "size": 3,
+   "tags": [
+    {
+     "tag": "red background",
+     "support": 5
+    },
+    {
+     "tag": "simple background",
+     "support": 5
+    },
+    {
+     "tag": "solid background",
+     "support": 5
+    }
+   ],
+   "cohesion": 1.0,
+   "evidence": [
+    "generation:ronfem2_26100903_00001_.png",
+    "generation:ronfem2_26100904_00001_.png",
+    "generation:ronfem3_26100904_00001_.png",
+    "generation:ronfem4_26100904_00001_.png",
+    "generation:ronfem5_26100904_00001_.png"
+   ]
+  }
+ ],
+ "misc": [
+  "blue theme",
+  "caustics",
+  "hair highlights",
+  "hands in front of hair",
+  "img_c.png",
+  "length",
+  "one hand on chest",
+  "palm flat on chest",
+  "schema",
+  "shaded hair",
+  "视频",
+  "配方"
+ ],
+ "stats": {
+  "n_docs": 161,
+  "n_tags_total": 379,
+  "n_tags_eligible": 256,
+  "n_edges": 1870,
+  "n_stopwords": 10,
+  "stopwords": [
+   "1girl",
+   "absurdres",
+   "best quality",
+   "cel shading",
+   "highres",
+   "looking at viewer",
+   "masterpiece",
+   "newest",
+   "solo",
+   "very aesthetic"
+  ],
+  "algo": "modularity"
+ },
+ "elapsed_s": 0.44
+}

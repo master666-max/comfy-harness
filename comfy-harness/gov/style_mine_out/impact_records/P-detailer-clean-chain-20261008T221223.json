@@ -1,0 +1,22 @@
+{
+ "at": "2026-10-08T22:12:23",
+ "root": "P-detailer-clean-chain",
+ "meta": {
+  "actor": "human:维护者",
+  "mode": "tombstone",
+  "reason": "维护者裁撤（倒影转正=伪影；干净链手修已在管线端还原）——候退场件正式退场，留作负例标本",
+  "as_specimen": true
+ },
+ "impact": {
+  "root": "P-detailer-clean-chain",
+  "hops": 2,
+  "total": 0,
+  "by_hop": [
+   [],
+   []
+  ],
+  "rows": [],
+  "root_state": "live",
+  "note": "只出影响面报告；连坐/减权/拔起一律人签（非放大红线）"
+ }
+}

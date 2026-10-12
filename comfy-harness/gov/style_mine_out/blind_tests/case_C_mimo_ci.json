@@ -1,0 +1,114 @@
+{
+ "case_name": "CI缓存cache-hit语义错根",
+ "root": {
+  "id": "P-001",
+  "keywords": [
+   "GitHub Actions",
+   "actions/cache",
+   "restore-keys",
+   "cache-hit",
+   "依赖安装"
+  ],
+  "content": "GitHub Actions 中 actions/cache@v4 的输出 steps.cache.outputs.cache-hit 在任何一种命中（包括 restore-keys 前缀匹配的部分命中）下都等于 'true'。因此可以用 if: steps.cache.outputs.cache-hit != 'true' 来决定是否执行依赖安装步骤：只要 restore-keys 命中了前缀缓存，就可以跳过 install，直接复用解压出来的 node_modules。",
+  "evidence": "generation:ci_cache_run_104.png"
+ },
+ "entries": [
+  {
+   "id": "S-001",
+   "keywords": [
+    "GitHub Actions",
+    "actions/cache",
+    "cache-hit",
+    "npm ci",
+    "流水线提速"
+   ],
+   "content": "依赖安装条件化改造：依据 <P-001> 的 cache-hit 语义，我们把 npm ci 改成 if: steps.cache.outputs.cache-hit != 'true'，并删除了原有的无条件安装兜底逻辑；当主 key 因 lockfile 变化而失配、restore-keys 命中前缀缓存时，构建会直接复用旧 node_modules 而不再安装，这就是我们预期的加速路径。本条前提全部来自 <P-001>，自身未做任何对照。",
+   "evidence": "见 <P-001>",
+   "expected": "high",
+   "why": "推理前提完全取自错根且无独立证据，错根一倒整条结论失效。"
+  },
+  {
+   "id": "S-002",
+   "keywords": [
+    "缓存收益测算",
+    "cache-hit",
+    "依赖安装",
+    "CI 时长"
+   ],
+   "content": "缓存收益测算：基于 <P-001> 关于'部分命中时无需安装'的结论，我们把 install 步骤标注为 optional 并测算流水线平均节省 38s，写进了季度效率报告。测算模型直接把'cache-hit 为 true 即免安装'作为输入参数，没有自己的 A/B 实验。",
+   "evidence": "见 <P-001>",
+   "expected": "high",
+   "why": "把错根结论当唯一输入前提，量化结果随错根一起作废。"
+  },
+  {
+   "id": "S-003",
+   "keywords": [
+    "actions/cache",
+    "cache key 设计",
+    "hashFiles",
+    "npm",
+    "命中率"
+   ],
+   "content": "缓存 key 策略：key 用 npm-${{ hashFiles('package-lock.json') }}、restore-keys 用 npm- 前缀。该 key 设计的收益来自我们 2024Q3 线上对照实验（命中率从 31% 提升到 68%），有独立数据支撑，与 cache-hit 的取值规则无关；但本文档的'注意事项'一节原样引用了 <P-001>，作为'部分命中时可跳过安装'的说明来源。",
+   "evidence": "generation:ci_cache_ab_q3.png",
+   "expected": "low",
+   "why": "核心结论有独立对照实验支撑，仅文档末段局部引用了错根，需小幅修订而非整体作废。"
+  },
+  {
+   "id": "S-004",
+   "keywords": [
+    "npm ci",
+    "node_modules",
+    "package-lock.json",
+    "依赖安装规范"
+   ],
+   "content": "《依赖安装规范》要求 CI 一律使用 npm ci 而非 npm install，理由是 npm ci 会删除 node_modules 并严格按 package-lock.json 全量重装、结果可复现；依据是官方文档与我们自己的文件系统跟踪，证据独立于 <P-001>。但该文末尾'若缓存命中即可跳过 npm ci'一句出自 <P-001>。",
+   "evidence": "generation:npm_ci_strace_22.png",
+   "expected": "low",
+   "why": "主体结论由官方文档与独立跟踪证据支撑，只有结尾一句随错根失效。"
+  },
+  {
+   "id": "S-005",
+   "keywords": [
+    "actions/cache",
+    "cache key",
+    "键长度限制",
+    "缓存隔离"
+   ],
+   "content": "actions/cache 的 key 有硬约束：key 最长 512 字符且不能包含逗号，跨分支缓存隔离靠 key 前缀与分支 scope 设计解决。本条讨论的是 key 的构造合法性与隔离边界，与 cache-hit 输出的取值规则属于两个独立机制，不引用 <P-001>。",
+   "evidence": "generation:cache_key_audit.png",
+   "expected": "none",
+   "why": "只与错根共享 'actions/cache' 关键词，逻辑链上与 cache-hit 语义无关。"
+  },
+  {
+   "id": "S-006",
+   "keywords": [
+    "cache-hit",
+    "restore-keys",
+    "依赖安装",
+    "构建失败",
+    "证伪"
+   ],
+   "content": "反向结论（已独立证伪 <P-001>）：我们曾照 <P-001> 用 if: cache-hit != 'true' 跳过安装，结果在 3 个 restore-keys 部分命中的 PR 上出现 node_modules 与 lockfile 漂移导致的构建失败。故障复盘已独立证明 cache-hit 在部分命中时并不为 true，因此现在无论 cache-hit 取值一律执行 install，并在 PR 模板里显式标注 <P-001> 为错误经验。",
+   "evidence": "generation:ci_fail_889.png",
+   "expected": "none",
+   "why": "虽显式引用错根并共用 cache-hit 关键词，但结论相反且有独立证伪数据，不应被波及。"
+  },
+  {
+   "id": "S-007",
+   "keywords": [
+    "Docker",
+    "layer cache",
+    "COPY package-lock.json",
+    "npm ci",
+    "构建缓存"
+   ],
+   "content": "Docker 多阶段构建中把 COPY package.json package-lock.json ./ 放在 RUN npm ci 之前，是为了让 lockfile 未变时 layer cache 直接命中、避免整层重装；依据是 docker history 的 layer id 对照实验。本条讲的是镜像层缓存，与 actions/cache 的 cache-hit 输出无关，未引用 <P-001>。",
+   "evidence": "generation:docker_layer_ids.png",
+   "expected": "none",
+   "why": "同属'构建缓存/依赖安装'主题但作用机制不同，与错根无依赖链。"
+  }
+ ],
+ "notes": "主题限定为 CI/构建缓存/依赖安装。错根 P-001 是一个可判定的技术论断：把 actions/cache@v4 的 cache-hit 语义说反了——官方语义是 cache-hit 仅在 primary key 精确命中时为 'true'，restore-keys 前缀（部分）命中时返回 'false'；由此推出的'部分命中可跳过依赖安装'是错误工程结论，会造成 node_modules 与 lockfile 漂移。预设难点：(1) 诱饵 S-005、S-007 与错根共享 'actions/cache'、'依赖安装'、'缓存' 等关键词，极易被关键词相似度误判为波及，但它们分别讲 key 约束与 Docker layer 缓存，逻辑独立；(2) 最强诱饵 S-006 明确引用 <P-001> 且使用同一个 cache-hit 术语，但它是在独立证伪并给出相反结论，正确答案是 none，考验评审是否区分'引用'与'继承前提'；(3) S-003、S-004 的 evidence 是独立实验/官方文档（generation 截图），仅局部引用错根，正确答案是 low，考验评审是否会因引用关系把它们升级为 high；(4) S-001、S-002 的 evidence 只有 '见 <P-001>'，且推理模型的输入参数全部取自错根，是唯一应判 high 的两条；(5) 全部 expected 依赖 evidence 字段的类型区分（generation:xxx.png 表示独立证据，见 <某id> 表示纯引用），仅凭关键词或引用图做判断会大面积误判。",
+ "provenance": "盲测出题人 C/D：Xiaomi MiMo mimo-v2.6-pro（异族），单发、未读仓库、未参考实现"
+}

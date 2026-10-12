@@ -1,0 +1,80 @@
+{
+ "case": "chunked-prefill 反降 TTFT 误传案（vLLM/A100）",
+ "provenance": "盲测出题人 B（DeepSeek 子代理，隔绝记忆、未读仓库、未参考实现）",
+ "n": 7,
+ "rows": [
+  {
+   "id": "S-CP02",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-CP03",
+   "expected": "high",
+   "got": "high",
+   "hop": 1,
+   "tier": "**连坐候选（高）**：证据全靠引用上游",
+   "prop_score": 0.48
+  },
+  {
+   "id": "S-CP04",
+   "expected": "low",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-CP05",
+   "expected": "low",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-CP06",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-CP07",
+   "expected": "none",
+   "got": "low",
+   "hop": 1,
+   "tier": "低（自证）：自有实测证据，不宜连坐",
+   "prop_score": 0.144
+  },
+  {
+   "id": "S-CP08",
+   "expected": "none",
+   "got": "none",
+   "hop": null,
+   "tier": null,
+   "prop_score": null
+  }
+ ],
+ "exact": 5,
+ "high_hit": "2/2",
+ "low_hit": "2/2",
+ "fn": [],
+ "action_fp": [],
+ "tag_fp": [
+  "S-CP06",
+  "S-CP07"
+ ],
+ "prop_ordering_ok": true,
+ "bayes_ordering_ok": false,
+ "confusion": {
+  "high->high": 2,
+  "low->low": 2,
+  "none->low": 2,
+  "none->none": 1
+ }
+}
